@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "hikari.im",
   "private": true,
   "scripts": {
     "start": "app start",
