@@ -1,0 +1,22 @@
+# npm
+
+/node_modules/
+
+# Yarn
+
+/.yarn/*
+!/.yarn/releases/
+!/.yarn/plugins/
+
+/.pnp.*
+
+# dotenv
+
+/.env.local
+/.env.*.local
+
+# Artifacts
+
+/tsconfig.tsbuildinfo
+/lib/
+/build/
