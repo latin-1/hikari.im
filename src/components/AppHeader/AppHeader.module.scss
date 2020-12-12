@@ -1,21 +1,7 @@
 @use "../../theme";
 
 .header {
-  padding: 3rem 0;
-
-  &:not(.primary) {
-    padding: 1.5rem 0;
-  }
-}
-
-.name {
-  margin: 0;
-  font-size: 3rem;
-  font-weight: 600;
-
-  .header:not(.primary) & {
-    display: none;
-  }
+  padding: 1.5rem 0;
 }
 
 .nav {

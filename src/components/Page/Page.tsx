@@ -15,7 +15,7 @@ const Page = ({
 
   return (
     <article className={styles.page}>
-      {title && <h1 className={styles.title}>{title}</h1>}
+      <h1 className={styles.title}>{title || "Hikari Hayashi"}</h1>
       <div className={styles.content}>{children}</div>
     </article>
   );
