@@ -8,7 +8,6 @@
 
 .item {
   display: flex;
-  align-items: center;
 }
 
 .avatar {
@@ -20,6 +19,8 @@
   width: 3rem;
   height: 3rem;
   object-fit: cover;
+  border-radius: theme.$size-border-radius;
+  box-shadow: 0 0 0 theme.$size-border theme.$color-border;
 }
 
 .avatarPlaceholder {

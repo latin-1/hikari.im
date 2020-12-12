@@ -2,6 +2,9 @@
 
 $font-ui: "Roboto Slab", serif;
 
+$size-border: 2px;
+$size-border-radius: 2px;
+
 $color-text-primary: color.change(#fff, $alpha: 0.96);
 $color-text-secondary: color.change(#fff, $alpha: 0.72);
 $color-text-tertiary: color.change(#fff, $alpha: 0.48);
@@ -11,3 +14,6 @@ $color-icon-secondary: color.change(#fff, $alpha: 0.48);
 $color-icon-tertiary: color.change(#fff, $alpha: 0.24);
 
 $color-background: #141019;
+
+$color-border: color.change(#fff, $alpha: 0.08);
+$color-selection: color.change(#fff, $alpha: 0.16);
