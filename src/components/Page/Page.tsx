@@ -28,7 +28,7 @@ const Page = ({
   }, [location.pathname]);
 
   return (
-    <article ref={page} className={styles.page}>
+    <article ref={page} className={styles.page} tabIndex={-1}>
       <h1 className={styles.title}>{title || "Hikari Hayashi"}</h1>
       <div className={styles.content}>{children}</div>
     </article>
