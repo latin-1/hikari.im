@@ -10,7 +10,7 @@
 
 .navItem {
   & + &::before {
-    content: "/";
+    content: "·";
     margin: 0 0.75rem;
     color: theme.$color-text-tertiary;
   }
