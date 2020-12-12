@@ -33,6 +33,14 @@ const friends: Friend[] = [
       github: "Artoria2e5",
     },
   },
+  {
+    id: "wwyqianqian",
+    name: "Qian Qian",
+    homepage: "https://wwyqianqian.github.io/",
+    socials: {
+      github: "wwyqianqian",
+    },
+  },
 ];
 
 export { friends };
