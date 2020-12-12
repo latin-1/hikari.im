@@ -20,15 +20,13 @@ const FriendItem = ({ data }: { data: Friend }): ReactElement => {
     >
       <div className={styles.item}>
         <div className={styles.avatar}>
-          {avatar ? (
+          {avatar && (
             <img
               className={styles.avatarImage}
               src={avatar}
               alt=""
               loading="lazy"
             />
-          ) : (
-            <div className={styles.avatarPlaceholder}></div>
           )}
         </div>
         <div className={styles.content}>
