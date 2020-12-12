@@ -1,0 +1,13 @@
+@use "sass:color";
+
+$font-ui: "Roboto Slab", serif;
+
+$color-text-primary: color.change(#fff, $alpha: 0.96);
+$color-text-secondary: color.change(#fff, $alpha: 0.72);
+$color-text-tertiary: color.change(#fff, $alpha: 0.48);
+
+$color-icon-primary: color.change(#fff, $alpha: 0.72);
+$color-icon-secondary: color.change(#fff, $alpha: 0.48);
+$color-icon-tertiary: color.change(#fff, $alpha: 0.24);
+
+$color-background: #141019;

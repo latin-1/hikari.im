@@ -1,18 +1,15 @@
+@use "./theme";
+
 html {
   overflow: hidden scroll;
-  font-family: "Source Serif Pro", serif;
+  font-family: theme.$font-ui;
   font-size: 16px;
   line-height: 1.5;
   overflow-wrap: break-word;
-  color: #000;
-  background-color: #fff;
+  color: theme.$color-text-primary;
+  background-color: theme.$color-background;
 }
 
 body {
   margin: 0;
-}
-
-::selection {
-  color: #fff;
-  background-color: #000;
 }

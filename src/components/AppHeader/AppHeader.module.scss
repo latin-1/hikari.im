@@ -1,0 +1,40 @@
+@use "../../theme";
+
+.header {
+  padding: 3rem 0;
+}
+
+.name {
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+}
+
+.navItem {
+  & + &::before {
+    content: "/";
+    margin: 0 0.75rem;
+    color: theme.$color-text-tertiary;
+  }
+}
+
+.navLink {
+  text-decoration: none;
+  color: theme.$color-text-secondary;
+
+  @media (hover: hover) {
+    &:hover {
+      text-decoration: underline;
+      color: theme.$color-text-primary;
+    }
+  }
+
+  &:active {
+    text-decoration: underline;
+    color: theme.$color-text-primary;
+  }
+}

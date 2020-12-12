@@ -1,11 +1,15 @@
 import type { ReactElement } from "react";
 
 import styles from "./App.module.scss";
+import { AppFooter } from "./components/AppFooter";
+import { AppHeader } from "./components/AppHeader";
 
 const App = (): ReactElement => {
   return (
     <div className={styles.app}>
-      <p className={styles.placeholder}>This page intentionally left blank.</p>
+      <AppHeader />
+      <div className={styles.content}></div>
+      <AppFooter />
     </div>
   );
 };
