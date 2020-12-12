@@ -1,11 +1,19 @@
-import { Link } from "@buncho/router";
+import { Link, useLocation } from "@buncho/router";
+import classNames from "classnames";
 import type { ReactElement } from "react";
 
 import styles from "./AppHeader.module.scss";
 
 const AppHeader = (): ReactElement => {
+  const location = useLocation();
+
   return (
-    <header className={styles.header}>
+    <header
+      className={classNames(
+        styles.header,
+        location.pathname === "/" && styles.primary,
+      )}
+    >
       <h1 className={styles.name}>Hikari Hayashi</h1>
       <nav className={styles.nav}>
         <div className={styles.navItem}>
