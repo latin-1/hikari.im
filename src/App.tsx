@@ -1,5 +1,5 @@
-import { Route, Routes } from "@buncho/router";
-import type { ReactElement } from "react";
+import { Route, Routes, useAction, useLocation } from "@buncho/router";
+import { ReactElement, useLayoutEffect } from "react";
 
 import styles from "./App.module.scss";
 import { AppFooter } from "./components/AppFooter";
@@ -9,6 +9,15 @@ import { FriendsPage } from "./pages/FriendsPage";
 import { HomePage } from "./pages/HomePage";
 
 const App = (): ReactElement => {
+  const location = useLocation();
+  const action = useAction();
+
+  useLayoutEffect(() => {
+    if (action === "PUSH") {
+      window.scrollTo(0, 0);
+    }
+  }, [location.pathname]); // eslint-disable-line react-hooks/exhaustive-deps
+
   return (
     <div className={styles.app}>
       <AppHeader />
