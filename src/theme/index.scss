@@ -22,5 +22,6 @@ $color-background: hsl(270, 24%, 8%);
 $color-background-surface: hsl(270, 24%, 6%);
 
 $color-border: color.change($color-base, $alpha: 0.08);
+$color-focus: $color-primary;
 $color-selection: color.change($color-base, $alpha: 0.16);
 $color-tap-highligt: color.change($color-base, $alpha: 0.16);

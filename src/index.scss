@@ -19,6 +19,15 @@ body {
   margin: 0;
 }
 
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: theme.$size-border solid theme.$color-focus;
+  outline-offset: theme.$size-border;
+}
+
 ::selection {
   background-color: theme.$color-selection;
 }
