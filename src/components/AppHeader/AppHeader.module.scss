@@ -14,7 +14,8 @@
   & + &::before {
     content: "·";
     display: block;
-    margin: 0 0.75rem;
+    width: 1.5rem;
+    text-align: center;
     color: theme.$color-text-tertiary;
   }
 }
