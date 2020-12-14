@@ -5,13 +5,17 @@ $font-ui: "Roboto Slab", sans-serif;
 $size-border: 2px;
 $size-border-radius: 2px;
 
-$color-text-primary: color.change(#fff, $alpha: 0.96);
-$color-text-secondary: color.change(#fff, $alpha: 0.72);
-$color-text-tertiary: color.change(#fff, $alpha: 0.48);
+$color-primary: #b895da;
 
-$color-icon-primary: color.change(#fff, $alpha: 0.72);
-$color-icon-secondary: color.change(#fff, $alpha: 0.48);
-$color-icon-tertiary: color.change(#fff, $alpha: 0.24);
+$color-text-base: #f5f0fa;
+$color-text-primary: color.change($color-text-base, $alpha: 0.96);
+$color-text-secondary: color.change($color-text-base, $alpha: 0.72);
+$color-text-tertiary: color.change($color-text-base, $alpha: 0.48);
+
+$color-icon-base: #f5f0fa;
+$color-icon-primary: color.change($color-icon-base, $alpha: 0.72);
+$color-icon-secondary: color.change($color-icon-base, $alpha: 0.48);
+$color-icon-tertiary: color.change($color-icon-base, $alpha: 0.24);
 
 $color-background: #141019;
 $color-background-surface: #000;
