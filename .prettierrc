@@ -1,4 +1,6 @@
 {
   "trailingComma": "all",
-  "proseWrap": "always"
+  "proseWrap": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "xmlWhitespaceSensitivity": "ignore"
 }

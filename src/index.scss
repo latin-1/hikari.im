@@ -8,6 +8,10 @@ html {
   overflow-wrap: break-word;
   color: theme.$color-text-primary;
   background-color: theme.$color-background;
+  background-image: url(./assets/background-pattern.svg);
+  background-position: center;
+  background-size: 12rem 12rem;
+  background-attachment: fixed;
   -webkit-tap-highlight-color: theme.$color-tap-highligt;
 }
 
