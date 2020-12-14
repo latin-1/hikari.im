@@ -9,14 +9,18 @@
 }
 
 .navItem {
+  display: flex;
+
   & + &::before {
     content: "·";
+    display: block;
     margin: 0 0.75rem;
     color: theme.$color-text-tertiary;
   }
 }
 
 .navLink {
+  display: block;
   text-decoration: none;
   color: theme.$color-text-secondary;
 

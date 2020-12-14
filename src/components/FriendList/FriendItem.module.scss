@@ -35,6 +35,7 @@
 
 .name {
   overflow: hidden;
+  font-weight: 500;
   white-space: nowrap;
   text-overflow: ellipsis;
   color: theme.$color-text-secondary;
