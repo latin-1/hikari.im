@@ -1,0 +1,1 @@
+export { TwentyTwentyPage } from "./TwentyTwentyPage";
