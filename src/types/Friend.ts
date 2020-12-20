@@ -3,7 +3,7 @@ type Friend = {
   name: string;
   homepage: string;
   socials: {
-    github: string | null;
+    github: string;
   };
 };
 

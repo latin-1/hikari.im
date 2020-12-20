@@ -4,7 +4,7 @@ import type { Friend } from "../../types/Friend";
 import { FriendItem } from "./FriendItem";
 import styles from "./FriendList.module.scss";
 
-const FriendList = ({ data }: { data: Friend[] }): ReactElement => {
+const FriendList = ({ data }: { data: readonly Friend[] }): ReactElement => {
   return (
     <div className={styles.list}>
       {data.map((item) => (

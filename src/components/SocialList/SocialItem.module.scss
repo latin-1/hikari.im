@@ -10,25 +10,31 @@
   display: flex;
 }
 
-.avatar {
+.icon {
   flex-shrink: 0;
-  border-radius: theme.$size-border-radius;
-  background-color: theme.$color-background-surface;
-  box-shadow: 0 0 0 theme.$size-border theme.$color-border;
 }
 
-.avatarImage {
+.iconImage {
   display: block;
-  width: 3rem;
-  height: 3rem;
-  object-fit: cover;
-  border-radius: theme.$size-border-radius;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: theme.$color-icon-secondary;
+
+  @media (hover: hover) {
+    .link:hover & {
+      fill: theme.$color-icon-primary;
+    }
+  }
+
+  .link:active & {
+    fill: theme.$color-icon-primary;
+  }
 }
 
 .content {
   overflow: hidden;
   flex: 1;
-  padding: 0 0.75rem;
+  padding: 0 0.5rem;
 }
 
 .name {
@@ -49,12 +55,4 @@
     text-decoration: underline;
     color: theme.$color-text-primary;
   }
-}
-
-.id {
-  overflow: hidden;
-  font-size: 0.75rem;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  color: theme.$color-text-tertiary;
 }

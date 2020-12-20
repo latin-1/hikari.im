@@ -6,11 +6,6 @@ import styles from "./FriendItem.module.scss";
 const AVATAR_SIZE = 48 * window.devicePixelRatio;
 
 const FriendItem = ({ data }: { data: Friend }): ReactElement => {
-  let avatar: string | null = null;
-  if (data.socials.github) {
-    avatar = `https://avatars.githubusercontent.com/${data.socials.github}?s=${AVATAR_SIZE}`;
-  }
-
   return (
     <a
       className={styles.link}
@@ -20,14 +15,12 @@ const FriendItem = ({ data }: { data: Friend }): ReactElement => {
     >
       <div className={styles.item}>
         <div className={styles.avatar}>
-          {avatar && (
-            <img
-              className={styles.avatarImage}
-              src={avatar}
-              alt=""
-              loading="lazy"
-            />
-          )}
+          <img
+            className={styles.avatarImage}
+            src={`https://avatars.githubusercontent.com/${data.socials.github}?s=${AVATAR_SIZE}`}
+            alt=""
+            loading="lazy"
+          />
         </div>
         <div className={styles.content}>
           <div className={styles.name}>{data.name}</div>

@@ -1,6 +1,6 @@
 import type { Friend } from "../types/Friend";
 
-const friends: Friend[] = [
+const friends: readonly Friend[] = [
   {
     id: "imbushuo",
     name: "Bingxing Wang",
