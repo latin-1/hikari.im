@@ -1,9 +1,7 @@
-import type { ComponentType } from "react";
-
 type Social = {
   id: string;
   name: string;
-  icon: ComponentType<{ className?: string }>;
+  value: string;
   link: string;
 };
 

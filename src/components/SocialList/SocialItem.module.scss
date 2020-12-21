@@ -7,34 +7,7 @@
 }
 
 .item {
-  display: flex;
-}
-
-.icon {
-  flex-shrink: 0;
-}
-
-.iconImage {
-  display: block;
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: theme.$color-icon-secondary;
-
-  @media (hover: hover) {
-    .link:hover & {
-      fill: theme.$color-icon-primary;
-    }
-  }
-
-  .link:active & {
-    fill: theme.$color-icon-primary;
-  }
-}
-
-.content {
-  overflow: hidden;
-  flex: 1;
-  padding: 0 0.5rem;
+  height: 3rem;
 }
 
 .name {
@@ -55,4 +28,12 @@
     text-decoration: underline;
     color: theme.$color-text-primary;
   }
+}
+
+.value {
+  overflow: hidden;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: theme.$color-text-tertiary;
 }

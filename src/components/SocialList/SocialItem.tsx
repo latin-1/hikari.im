@@ -12,12 +12,8 @@ const SocialItem = ({ data }: { data: Social }): ReactElement => {
       rel="noopener noreferrer"
     >
       <div className={styles.item}>
-        <div className={styles.icon}>
-          <data.icon className={styles.iconImage} />
-        </div>
-        <div className={styles.content}>
-          <div className={styles.name}>{data.name}</div>
-        </div>
+        <div className={styles.name}>{data.name}</div>
+        <div className={styles.value}>{data.value}</div>
       </div>
     </a>
   );
