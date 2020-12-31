@@ -1,0 +1,10 @@
+.typography {
+  > :first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin-top: 1rem;
+    margin-bottom: 0;
+  }
+}
