@@ -1,0 +1,23 @@
+.container {
+  padding: 1.5rem 0;
+}
+
+.poster {
+  position: relative;
+  max-width: 30rem;
+  margin: 0 auto;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: (100% / (2 / 3));
+  }
+}
+
+.posterImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
