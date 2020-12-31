@@ -19,7 +19,7 @@ $color-icon-secondary: color.change($color-icon-base, $alpha: 0.48);
 $color-icon-tertiary: color.change($color-icon-base, $alpha: 0.24);
 
 $color-background: hsl(270, 24%, 8%);
-$color-background-surface: hsl(270, 24%, 6%);
+$color-background-surface: hsl(270, 24%, 4%);
 
 $color-border: color.change($color-base, $alpha: 0.08);
 $color-focus: $color-primary;
