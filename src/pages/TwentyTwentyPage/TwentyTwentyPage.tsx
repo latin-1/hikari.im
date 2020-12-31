@@ -42,7 +42,11 @@ const TwentyTwentyPage = (): ReactElement => {
           <br />
           希望所有人都能被世界以温柔相待。
         </p>
-        <p>二零二一年元月一日，写于北京。</p>
+        <p>
+          ——
+          <br />
+          二零二一年元月一日，写于北京。
+        </p>
       </Typography>
     </Page>
   );
