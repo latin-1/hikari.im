@@ -1424,9 +1424,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/eslint-config@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@buncho/eslint-config@npm:0.7.0"
+"@buncho/eslint-config@npm:^0.7.1":
+  version: 0.7.1
+  resolution: "@buncho/eslint-config@npm:0.7.1"
   dependencies:
     "@babel/core": ^7.12.10
     "@babel/eslint-parser": ^7.12.1
@@ -1440,7 +1440,7 @@ __metadata:
   peerDependencies:
     eslint: "*"
     typescript: "*"
-  checksum: 7855a58b6e568f096003df5e1d0079b8de6aa4903a42de969228cdf798eaf3041f56a5fd077a24277144f0043c06291d7dbbc43bc92cd7a998f3b2fc2b04cd89
+  checksum: 41708d81aabd9102d474b0aeb00798e9f8096466e253aad3199710026f60aecea71b716e3e96489c1e64b442b49585c049c9aa7c5723b12dd23846f24e9586b9
   languageName: node
   linkType: hard
 
@@ -5555,7 +5555,7 @@ __metadata:
   resolution: "hikari.im@workspace:."
   dependencies:
     "@buncho/builder": ^0.10.0
-    "@buncho/eslint-config": ^0.7.0
+    "@buncho/eslint-config": ^0.7.1
     "@buncho/router": ^0.3.0
     "@buncho/tsconfig": ^0.2.0
     "@prettier/plugin-xml": ^0.12.0

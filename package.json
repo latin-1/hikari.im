@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@buncho/builder": "^0.10.0",
-    "@buncho/eslint-config": "^0.7.0",
+    "@buncho/eslint-config": "^0.7.1",
     "@buncho/tsconfig": "^0.2.0",
     "@prettier/plugin-xml": "^0.12.0",
     "eslint": "^7.16.0",
