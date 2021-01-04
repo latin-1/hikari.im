@@ -17,5 +17,5 @@ jobs:
 
       - run: yarn --immutable
 
-      - run: yarn build
       - run: yarn lint
+      - run: yarn build
