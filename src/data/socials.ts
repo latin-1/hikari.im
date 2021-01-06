@@ -16,8 +16,8 @@ const socials: readonly Social[] = [
   {
     id: "github",
     name: "GitHub",
-    value: "@rehikari",
-    link: "https://github.com/rehikari",
+    value: "@latin-1",
+    link: "https://github.com/latin-1",
   },
   {
     id: "email",
