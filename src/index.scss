@@ -2,6 +2,7 @@
 
 html {
   overflow: hidden scroll;
+  scroll-behavior: smooth;
   font-family: theme.$font-ui;
   font-size: 16px;
   line-height: 1.5;
