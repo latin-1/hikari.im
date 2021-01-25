@@ -8,6 +8,12 @@ const socials: readonly Social[] = [
     link: "https://twitter.com/rev__hikari",
   },
   {
+    id: "instagram",
+    name: "Instagram",
+    value: "@rev_hikari",
+    link: "https://www.instagram.com/rev_hikari/",
+  },
+  {
     id: "telegram",
     name: "Telegram",
     value: "@rev_hikari",
