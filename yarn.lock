@@ -1259,9 +1259,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/register@npm:^7.12.1":
-  version: 7.12.1
-  resolution: "@babel/register@npm:7.12.1"
+"@babel/register@npm:^7.12.10":
+  version: 7.12.10
+  resolution: "@babel/register@npm:7.12.10"
   dependencies:
     find-cache-dir: ^2.0.0
     lodash: ^4.17.19
@@ -1270,7 +1270,7 @@ __metadata:
     source-map-support: ^0.5.16
   peerDependencies:
     "@babel/core": ^7.0.0-0
-  checksum: e52b50e9018788826ff2193daca05eacd54bc0b4299674b68befc3d73ab7118d76070cf75240a4e1f362b393e68e7601fcb7bfc21ae20510d270e4bfcaf7ae34
+  checksum: 871f5f2155b37dc01bde9f6af80c50c11f8c8ea2cd5bc37e6bc1818062277a37756ad81bf7c7c7b281749a92dad5aaa0f7f12856c5e297e98d76184856d2b049
   languageName: node
   linkType: hard
 
@@ -1346,18 +1346,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^0.11.4":
-  version: 0.11.4
-  resolution: "@buncho/builder@npm:0.11.4"
+"@buncho/builder@npm:^0.13.2":
+  version: 0.13.2
+  resolution: "@buncho/builder@npm:0.13.2"
   dependencies:
     "@babel/cli": ^7.12.10
     "@babel/core": ^7.12.10
     "@buncho/babel-preset": 0.3.0
     "@buncho/dotenv": 0.4.0
-    "@buncho/register": 0.3.0
-    "@buncho/utils": 0.3.0
-    "@buncho/webpack-config": 0.8.4
-    "@buncho/webpack-env": 0.4.0
+    "@buncho/register": 0.4.2
+    "@buncho/utils": 0.4.2
+    "@buncho/webpack-config": 0.10.2
+    "@buncho/webpack-env": 0.5.0
     "@types/babel__core": ^7.1.12
     "@types/webpack-dev-server": ^3.11.1
     cosmiconfig: ^7.0.0
@@ -1378,7 +1378,7 @@ __metadata:
   bin:
     app: ./bin/app.js
     lib: ./bin/lib.js
-  checksum: 30ebf50a0f2956cf7cb881e0766223e0da30f1252c09a5229b872d3e12a08e758133fb218f33ef0050dfb64cd25e5e5ec902c0be117263ed92c08bd0ee5dbff9
+  checksum: d5eb78d38c6e2a329390fcdc28eb7a8abf2fa7327714fd7ef4bf8dd4659bc02df91722852f8ce5e19ea8e0a097550c5295170929d19329088f99ce34991ef09f
   languageName: node
   linkType: hard
 
@@ -1413,11 +1413,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/register@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@buncho/register@npm:0.3.0"
+"@buncho/register@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@buncho/register@npm:0.4.2"
   dependencies:
-    "@babel/register": ^7.12.1
+    "@babel/register": ^7.12.10
+    "@buncho/utils": 0.4.2
     tsconfig-paths: ^3.9.0
   peerDependencies:
     "@babel/core": "*"
@@ -1425,7 +1426,7 @@ __metadata:
   peerDependenciesMeta:
     "@buncho/babel-preset":
       optional: true
-  checksum: 609e575fac7166d7aabc6e10a86c5c23aecf71c2b618604078eaa8c3414a167e437b2dfc6c7bc7bf69e5218cff25f7f234f09cfd8718b5a27df84bef627eb1e6
+  checksum: 6500e38ace93a55e936e434da48e33f75548b39fb5f79230f6f24e2231443553f09efec3f11919d48dd7ac940878cc412c39577545c3d46e1ae1f90effdedacf
   languageName: node
   linkType: hard
 
@@ -1458,26 +1459,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/utils@npm:0.3.0":
-  version: 0.3.0
-  resolution: "@buncho/utils@npm:0.3.0"
+"@buncho/utils@npm:0.4.2":
+  version: 0.4.2
+  resolution: "@buncho/utils@npm:0.4.2"
   peerDependencies:
     "@babel/core": "*"
     tsconfig-paths: "*"
+    typescript: "*"
   peerDependenciesMeta:
     "@babel/core":
       optional: true
     tsconfig-paths:
       optional: true
-  checksum: 758615715fadaa68b43569663c2fffa6493c09a0e4ed41048e64eace798b77bbc05752cd31903d2117d15f548bc0a6a3221691036ec123334cfc74e4c114dd49
+    typescript:
+      optional: true
+  checksum: 3b278af2d3e10ab5a76e35b2db6b35c25457afcbb792a05cf234190cfd8ad613f8db2277047f0eab3ebdfc048a9a9003d8bfd771bcb13f9e71cd392587283a14
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:0.8.4":
-  version: 0.8.4
-  resolution: "@buncho/webpack-config@npm:0.8.4"
+"@buncho/webpack-config@npm:0.10.2":
+  version: 0.10.2
+  resolution: "@buncho/webpack-config@npm:0.10.2"
   dependencies:
-    "@buncho/utils": 0.3.0
+    "@buncho/utils": 0.4.2
     "@pmmmwh/react-refresh-webpack-plugin": ^0.4.3
     "@svgr/webpack": ^5.5.0
     "@types/copy-webpack-plugin": ^6.4.0
@@ -1524,13 +1528,13 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: ae58277af3548465aa06ccaf7a4eb04c2836417323a8222d912a89f2a5883d11d0715d453b58359a1944b27dbea69c1314843239ae0445e8b90c5a5343a63b58
+  checksum: 21741543b96a79f5b8a0eb017a2f53eba0a0760258e3ff4ca74b303e8fee0780e3dfd51e911a12c918c359eec0d69f36d4a69447fcdcb165691833d67027ee5e
   languageName: node
   linkType: hard
 
-"@buncho/webpack-env@npm:0.4.0":
-  version: 0.4.0
-  resolution: "@buncho/webpack-env@npm:0.4.0"
+"@buncho/webpack-env@npm:0.5.0":
+  version: 0.5.0
+  resolution: "@buncho/webpack-env@npm:0.5.0"
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1539,7 +1543,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: ac19b3c68ceab9964f3c1747368bba4c83125fe0a16a7bfc5fa3b7f7d21720859ec99ec6d49da6f61ad463aff9b62c9b319d9d2ce8026fb4785b9570efe23276
+  checksum: 21a25337bc819e72015a4b57aee2080dcc5e62c91c0aa38f080bd50928213d03ebe1c695a4fd9dd86a8445a374f3faf6564263da1073853b11b32cd8e7b15ca9
   languageName: node
   linkType: hard
 
@@ -5550,7 +5554,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hikari.im@workspace:."
   dependencies:
-    "@buncho/builder": ^0.11.4
+    "@buncho/builder": ^0.13.2
     "@buncho/eslint-config": ^0.7.1
     "@buncho/router": ^0.4.0
     "@buncho/tsconfig": ^0.2.0
