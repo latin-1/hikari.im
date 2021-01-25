@@ -1659,13 +1659,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^0.12.0":
-  version: 0.12.0
-  resolution: "@prettier/plugin-xml@npm:0.12.0"
+"@prettier/plugin-xml@npm:^0.13.0":
+  version: 0.13.0
+  resolution: "@prettier/plugin-xml@npm:0.13.0"
   dependencies:
     "@xml-tools/parser": ^1.0.2
     prettier: ">=1.10"
-  checksum: c011095d3d4b8e6a98cb17ab4b9e81a36ff1d9b9ed2dd126c8018028491c96b20e77070f2dc5420460493c16d48a03679ebd899a5c995af902a7abdd2f570ec3
+  checksum: fe762735863fc9c7822c54b825355a8a2faed86ec77c4e85efa73a91b141e0ab0c851a7b7e0a8453da5942345dfa762885b2644e631340685021c98e28d4235d
   languageName: node
   linkType: hard
 
@@ -5554,7 +5554,7 @@ __metadata:
     "@buncho/eslint-config": ^0.7.1
     "@buncho/router": ^0.4.0
     "@buncho/tsconfig": ^0.2.0
-    "@prettier/plugin-xml": ^0.12.0
+    "@prettier/plugin-xml": ^0.13.0
     "@types/classnames": ^2.2.11
     "@types/react": ^17.0.0
     "@types/react-dom": ^17.0.0
