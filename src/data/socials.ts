@@ -26,6 +26,12 @@ const socials: readonly Social[] = [
     link: "https://github.com/latin-1",
   },
   {
+    id: "steam",
+    name: "Steam",
+    value: "@rev_hikari",
+    link: "https://steamcommunity.com/id/rev_hikari/",
+  },
+  {
     id: "email",
     name: "Email",
     value: "rev.hikari@gmail.com",
