@@ -11,7 +11,7 @@ const friends: readonly Friend[] = [
     id: "quanbrew",
     name: "Quan Brew",
     homepage: "https://ioover.net/",
-    socials: { github: "quanbrew" },
+    socials: { github: "uonr" },
   },
   {
     id: "sumimakito",
