@@ -3414,10 +3414,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/classnames@npm:^2.2.11":
-  version: 2.2.11
-  resolution: "@types/classnames@npm:2.2.11"
-  checksum: 5bbd4fd0f803a46424152ecc89cfb88464af4d655634de8a98ec54977b0b6d9da107e799c24a2b66f0133438e84bac51b2275134cf028edea749fb018f731e89
+"@types/classnames@npm:^2.3.0":
+  version: 2.3.0
+  resolution: "@types/classnames@npm:2.3.0"
+  dependencies:
+    classnames: "*"
+  checksum: e0e96a5f7c7198edb3be39404e1a88873bea191eb5e77e3c23b51777a3006dd497565fa5939c7980ad6a6e0330962fe5f3ca4b5f56c34b4dcc13853932609b7b
   languageName: node
   linkType: hard
 
@@ -5942,7 +5944,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"classnames@npm:^2.2.5, classnames@npm:^2.3.1":
+"classnames@npm:*, classnames@npm:^2.2.5, classnames@npm:^2.3.1":
   version: 2.3.1
   resolution: "classnames@npm:2.3.1"
   checksum: 57d536edede609f81425d24b062d8d720a466565faf1e38d32c881e883920baa71519ac70c7b565e9cd39201fb1c1ff9bdf8aabf8e26544bac481e7924867c83
@@ -9247,7 +9249,7 @@ __metadata:
     "@buncho/router": ^0.4.0
     "@buncho/tsconfig": ^0.4.0
     "@prettier/plugin-xml": ^0.13.1
-    "@types/classnames": ^2.2.11
+    "@types/classnames": ^2.3.0
     "@types/react": ^17.0.3
     "@types/react-dom": ^17.0.3
     classnames: ^2.3.1
