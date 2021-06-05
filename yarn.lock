@@ -9296,7 +9296,7 @@ __metadata:
     react: ^17.0.2
     react-dom: ^17.0.2
     typescript: ^4.3.2
-    typescript-plugin-css-modules: ^3.3.0
+    typescript-plugin-css-modules: ^3.4.0
   languageName: unknown
   linkType: soft
 
@@ -16117,9 +16117,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-plugin-css-modules@npm:^3.3.0":
-  version: 3.3.0
-  resolution: "typescript-plugin-css-modules@npm:3.3.0"
+"typescript-plugin-css-modules@npm:^3.4.0":
+  version: 3.4.0
+  resolution: "typescript-plugin-css-modules@npm:3.4.0"
   dependencies:
     dotenv: ^10.0.0
     icss-utils: ^5.1.0
@@ -16136,7 +16136,7 @@ __metadata:
     tsconfig-paths: ^3.9.0
   peerDependencies:
     typescript: ">=3.0.0"
-  checksum: 75112e2cbc9d8a734af2a4177883e28a8785ca57de3375b36a1068d1a5da87f9a93a849f7d4c2810e5acf4572ac0948756a6f2653a7476264bddeee28529bbee
+  checksum: dc28ce51a856a72553eb994c915e43f5183e7a867fa2fafd221188a0f95ba36a80022c10ad48d1ca294a556b5c8a5468a6e0382d916c721524d391130d17f7a4
   languageName: node
   linkType: hard
 
