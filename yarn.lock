@@ -3798,12 +3798,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^17.0.6":
-  version: 17.0.6
-  resolution: "@types/react-dom@npm:17.0.6"
+"@types/react-dom@npm:^17.0.8":
+  version: 17.0.8
+  resolution: "@types/react-dom@npm:17.0.8"
   dependencies:
     "@types/react": "*"
-  checksum: baf0e2ea405768ccfe30399c1d2d5bc35d48023c6d67394b0c9a8179e51ff3d5e0363e7166114195ea275f97611aae9d8d0163a2813c7a3f1e95ef99f8070390
+  checksum: 3859a6e06ec4545319c159ea71814beb3822801f0d4c41219855258557722cbcec8b5fba84551489169ec228b8817b4c05a8ef0dc87eb2bafb4d1431d1af9608
   languageName: node
   linkType: hard
 
@@ -9248,7 +9248,7 @@ __metadata:
     "@prettier/plugin-xml": ^0.13.1
     "@types/classnames": ^2.3.0
     "@types/react": ^17.0.11
-    "@types/react-dom": ^17.0.6
+    "@types/react-dom": ^17.0.8
     classnames: ^2.3.1
     eslint: ^7.28.0
     history: ^5.0.0
