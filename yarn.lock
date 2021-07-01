@@ -9434,7 +9434,7 @@ __metadata:
     prettier: ^2.3.2
     react: ^17.0.2
     react-dom: ^17.0.2
-    typescript: ^4.3.4
+    typescript: ^4.3.5
     typescript-plugin-css-modules: ^3.4.0
   languageName: unknown
   linkType: soft
@@ -16225,13 +16225,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "typescript@npm:4.3.4"
+"typescript@npm:^4.3.5":
+  version: 4.3.5
+  resolution: "typescript@npm:4.3.5"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 9791c5fe98db6cb70ec0efad8d3d2eb957b9643ee600b90bff49267de69768d0d5f59c41a8fd731cfd63df1ccfb2cb25505a2015d7b39ac10ea51f605a058e16
+  checksum: d9a8e78d72dd19896e6bfa73ab2a0fcea6eca2700d1d6e7c33f67a970af54a3e0fed8f715a8c4e6a0ff7fc0995067b394b2003518ab0aa84cd396377e54b760c
   languageName: node
   linkType: hard
 
