@@ -2231,13 +2231,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^0.13.1":
-  version: 0.13.1
-  resolution: "@prettier/plugin-xml@npm:0.13.1"
+"@prettier/plugin-xml@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@prettier/plugin-xml@npm:1.0.1"
   dependencies:
-    "@xml-tools/parser": ^1.0.2
-    prettier: ">=1.10"
-  checksum: ace6ff40b14e5e9a2518681013f59a2d3fb559d6aa6d00af84c483e4a2a722eb44e1a5da14b4939c5ba094641a7406fc37a3ac836caee177724045f567b1b8b3
+    "@xml-tools/parser": ^1.0.11
+    prettier: ">=2.3"
+  checksum: d040bc901543ddea216862af170aea5df5e5238ba561e3ccebb79ba245771e9c43ccec3300a4382ff361e9c0bdb0cb1e3b7cec515bea7a13dfff125eca2d0e11
   languageName: node
   linkType: hard
 
@@ -4647,12 +4647,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xml-tools/parser@npm:^1.0.2":
-  version: 1.0.7
-  resolution: "@xml-tools/parser@npm:1.0.7"
+"@xml-tools/parser@npm:^1.0.11":
+  version: 1.0.11
+  resolution: "@xml-tools/parser@npm:1.0.11"
   dependencies:
-    chevrotain: 7.0.1
-  checksum: 2cfa310c25737d08bbeaf6ae1ce533ecd5bfccca1a6bc1d3763687318c84f744d7bc81454bf7130fdeb0273f429758ba9d0fc52d5d023e5842fddb21452228c4
+    chevrotain: 7.1.1
+  checksum: 374a43489c9c61520830ee1fae737375594801f1da0d4d1b17bef13ef8e1b688842d98bba2b4222622c175f4365ae24deab83ba460e719fd240de700b7f488bb
   languageName: node
   linkType: hard
 
@@ -6035,12 +6035,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chevrotain@npm:7.0.1":
-  version: 7.0.1
-  resolution: "chevrotain@npm:7.0.1"
+"chevrotain@npm:7.1.1":
+  version: 7.1.1
+  resolution: "chevrotain@npm:7.1.1"
   dependencies:
     regexp-to-ast: 0.5.0
-  checksum: 6dbe4194af7bbc0e8b76d578f0ec93fddbe438783398e7847d0cf81983727f6ea36ff4d2be4c9bececc25399c01e8cf8361572dd434d668269b1defa44f99277
+  checksum: b942de3ed9d02d51e84ced5d873c1477e58acf46214aab2b86d1eeee81d9406ee4d87de9dc30240e3390543d7f978fe4f2befbd3ad3de993be291256137d1aee
   languageName: node
   linkType: hard
 
@@ -9453,7 +9453,7 @@ __metadata:
     "@buncho/eslint-config": ^0.8.1
     "@buncho/router": ^0.4.0
     "@buncho/tsconfig": ^0.4.0
-    "@prettier/plugin-xml": ^0.13.1
+    "@prettier/plugin-xml": ^1.0.1
     "@types/classnames": ^2.3.0
     "@types/react": ^17.0.14
     "@types/react-dom": ^17.0.9
@@ -13328,7 +13328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:>=1.10, prettier@npm:^2.3.2":
+"prettier@npm:>=2.3, prettier@npm:^2.3.2":
   version: 2.3.2
   resolution: "prettier@npm:2.3.2"
   bin:
