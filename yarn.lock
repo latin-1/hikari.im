@@ -1514,9 +1514,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^0.18.8":
-  version: 0.18.8
-  resolution: "@buncho/builder@npm:0.18.8"
+"@buncho/builder@npm:^0.18.9":
+  version: 0.18.9
+  resolution: "@buncho/builder@npm:0.18.9"
   dependencies:
     "@babel/cli": ^7.14.5
     "@babel/core": ^7.14.6
@@ -1524,7 +1524,7 @@ __metadata:
     "@buncho/dotenv": 0.5.0
     "@buncho/register": 0.5.1
     "@buncho/utils": 0.5.0
-    "@buncho/webpack-config": 0.14.8
+    "@buncho/webpack-config": 0.14.9
     "@buncho/webpack-env": 0.5.0
     "@storybook/addon-essentials": ~6.3.4
     "@storybook/builder-webpack5": ~6.3.4
@@ -1533,7 +1533,7 @@ __metadata:
     "@types/babel__core": ^7.1.15
     "@types/webpack-dev-server": ^3.11.5
     cosmiconfig: ^7.0.0
-    webpack: ^5.44.0
+    webpack: ^5.45.1
     webpack-cli: ^4.7.2
     webpack-dev-server: 4.0.0-beta.3
   peerDependencies:
@@ -1555,7 +1555,7 @@ __metadata:
     app: ./bin/app.js
     lib: ./bin/lib.js
     storybook: ./bin/storybook.js
-  checksum: b129104cb68e3328e48247f5ec2bb96cea1981b9d6f93c50c6a829bb44f075b5889e0a4e1a3c0b5f6facc22f31264a5baf43f6c22a2f98ffd9a79a1741b5cdb4
+  checksum: f9ba61cc1eb6bf31799b209ad213ee4dc82605727980e7d5c30ddf9f6a63a371bc4b72d7cb75350a93b2857dcf8d39444b37baf6703be1e7be4d5a10a32dc13d
   languageName: node
   linkType: hard
 
@@ -1655,9 +1655,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:0.14.8":
-  version: 0.14.8
-  resolution: "@buncho/webpack-config@npm:0.14.8"
+"@buncho/webpack-config@npm:0.14.9":
+  version: 0.14.9
+  resolution: "@buncho/webpack-config@npm:0.14.9"
   dependencies:
     "@buncho/utils": 0.5.0
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.0-rc.2
@@ -1670,7 +1670,7 @@ __metadata:
     autoprefixer: ^10.3.1
     babel-loader: ^8.2.2
     copy-webpack-plugin: ^9.0.1
-    css-loader: ^6.0.0
+    css-loader: ^6.1.0
     css-minimizer-webpack-plugin: ^3.0.2
     fork-ts-checker-webpack-plugin: ^6.2.12
     html-webpack-plugin: ^5.3.2
@@ -1708,7 +1708,7 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: ff22b5b74ca1d2a8267be34d863f96db884b8ece58906b53f59b275e298d8e4cf1c690dfe372191b6dc1435187c5911bf70a4564dffc278a907288e0501c8ed7
+  checksum: 874e1a10fc36d5f45a08e5ac8db4b3bc7ac128f4001a96150b199ce4424db6d950084b7c4da68d44262d6ae62ff8673839089d1d1a273b9670c1764093c89384
   languageName: node
   linkType: hard
 
@@ -3851,7 +3851,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.4, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.6, @types/json-schema@npm:^7.0.7":
+"@types/json-schema@npm:*, @types/json-schema@npm:^7.0.4, @types/json-schema@npm:^7.0.5, @types/json-schema@npm:^7.0.7":
   version: 7.0.7
   resolution: "@types/json-schema@npm:7.0.7"
   checksum: b9d2c509fa4e0b82f58e73f5e6ab76c60ff1884ba41bb82f37fb1cece226d4a3e5a62fedf78a43da0005373a6713d9abe61c1e592906402c41c08ad6ab26d52b
@@ -6777,9 +6777,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-loader@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "css-loader@npm:6.0.0"
+"css-loader@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "css-loader@npm:6.1.0"
   dependencies:
     icss-utils: ^5.1.0
     postcss: ^8.2.15
@@ -6791,7 +6791,7 @@ __metadata:
     semver: ^7.3.5
   peerDependencies:
     webpack: ^5.0.0
-  checksum: 2936560c06a332b3fdb4701b26c930b3a030af73e5a39c2876d9d074f0d458139300e1c593d8118dbe24437a64f41cad6d98d6a358a08f317a241515d2034050
+  checksum: 2b9bac2045ded58c2545d2019c8fd5b6fe1a057386ee39bb6d2e8e41ea893f4caeeb82620b03aa341dc054c0d791c5eebb6669fd7203301c928ce6a8ecc11a65
   languageName: node
   linkType: hard
 
@@ -9460,7 +9460,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hikari.im@workspace:."
   dependencies:
-    "@buncho/builder": ^0.18.8
+    "@buncho/builder": ^0.18.9
     "@buncho/eslint-config": ^0.8.1
     "@buncho/router": ^0.4.0
     "@buncho/tsconfig": ^0.4.0
@@ -14675,14 +14675,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"schema-utils@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "schema-utils@npm:3.0.0"
+"schema-utils@npm:^3.0.0, schema-utils@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "schema-utils@npm:3.1.0"
   dependencies:
-    "@types/json-schema": ^7.0.6
+    "@types/json-schema": ^7.0.7
     ajv: ^6.12.5
     ajv-keywords: ^3.5.2
-  checksum: a084f593f222560c412a4d8f40c92386c01c1c709f27c0672c2f02927a4d4d475f57f8b8e91198d0defb452add160476a03f07a05b26200a64b5124fa874e158
+  checksum: 804b78a4d212eff70e072263ef241a5ef5b26684a1a9d2611879bb3fa8497637f3a0e8212053b4bf6e9d7ab8b12a1c98ad0fe8db23497e6a057579db8ded8313
   languageName: node
   linkType: hard
 
@@ -17046,9 +17046,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.44.0, webpack@npm:^5.9.0":
-  version: 5.44.0
-  resolution: "webpack@npm:5.44.0"
+"webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.45.1, webpack@npm:^5.9.0":
+  version: 5.45.1
+  resolution: "webpack@npm:5.45.1"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -17068,7 +17068,7 @@ __metadata:
     loader-runner: ^4.2.0
     mime-types: ^2.1.27
     neo-async: ^2.6.2
-    schema-utils: ^3.0.0
+    schema-utils: ^3.1.0
     tapable: ^2.1.1
     terser-webpack-plugin: ^5.1.3
     watchpack: ^2.2.0
@@ -17078,7 +17078,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: 541ee0607b143ccaf319cce5de1dd0faf527c0f432e6a95f992d73ae8c1b1187474c1e8ced43472525e2c7037cba19be96d75d7b1804644671501d0f2096bf28
+  checksum: f25a1c1db231d5a0773af2d8fa312e8915c9592ddae708c058be9abaa483d21051955fab69859671bd104ac49d3c21b74086cd258b4057477b5d017cd697cf87
   languageName: node
   linkType: hard
 
