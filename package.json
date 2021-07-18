@@ -23,7 +23,7 @@
     "@buncho/eslint-config": "^0.8.1",
     "@buncho/tsconfig": "^0.4.0",
     "@prettier/plugin-xml": "^1.0.2",
-    "eslint": "^7.30.0",
+    "eslint": "^7.31.0",
     "prettier": "^2.3.2",
     "typescript": "^4.3.5",
     "typescript-plugin-css-modules": "^3.4.0"
