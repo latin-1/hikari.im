@@ -1717,12 +1717,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/tsconfig@npm:^0.4.0":
-  version: 0.4.0
-  resolution: "@buncho/tsconfig@npm:0.4.0"
+"@buncho/tsconfig@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@buncho/tsconfig@npm:1.0.0"
   peerDependencies:
     typescript: "*"
-  checksum: 90e2c33dcd7272a852eaca997ace266a74095e6c73e08c09f41b75e4e6d080098bb5ce1dde28b18465ecd46b6a5173f7140113316d02944a698d0e0ac71ffd9b
+  checksum: 019b811c1be2cf12a251efa145ae480b5d3bbee49bc7a352a32a0dd741faad4ab836352a6e635d66eb05acd1c928df20785557f5e1e37f7c5269a6d5ec0b00cd
   languageName: node
   linkType: hard
 
@@ -9563,7 +9563,7 @@ __metadata:
     "@buncho/builder": ^1.0.0
     "@buncho/eslint-config": ^1.0.0
     "@buncho/router": ^1.0.0
-    "@buncho/tsconfig": ^0.4.0
+    "@buncho/tsconfig": ^1.0.0
     "@prettier/plugin-xml": ^1.0.2
     "@types/classnames": ^2.3.0
     "@types/react": ^17.0.19
