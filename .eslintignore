@@ -1,0 +1,15 @@
+# npm
+
+/node_modules/
+
+# Yarn
+
+/.yarn/
+
+/.pnp.*
+
+# Artifacts
+
+/tsconfig.tsbuildinfo
+/lib/
+/build/
