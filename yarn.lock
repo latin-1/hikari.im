@@ -1697,11 +1697,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/router@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@buncho/router@npm:1.1.0"
+"@buncho/router@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@buncho/router@npm:2.0.0"
   dependencies:
-    react-router-dom: 6.0.0-beta.2
+    react-router-dom: 6.0.0-beta.3
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -1713,7 +1713,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 0571b09b770a4efdd26c479db41b3642074dfebcce7efd9505482b819d6342edf7be69bfa58e076d8dcf2c8db312e3c5b4d87603b580713c4b97b7f7b3a0d8f1
+  checksum: aea8470bb1b8492a39def88f736648b3e7a623520dc5950f4acec207ce7e5da340b31fc026a813c2f113122b253eea997f403ee6539bb2f560d91bd2b0f5bac5
   languageName: node
   linkType: hard
 
@@ -9562,7 +9562,7 @@ __metadata:
   dependencies:
     "@buncho/builder": ^1.0.0
     "@buncho/eslint-config": ^1.0.0
-    "@buncho/router": ^1.1.0
+    "@buncho/router": ^2.0.0
     "@buncho/tsconfig": ^1.0.0
     "@prettier/plugin-xml": ^1.0.2
     "@types/classnames": ^2.3.0
@@ -14040,26 +14040,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:6.0.0-beta.2":
-  version: 6.0.0-beta.2
-  resolution: "react-router-dom@npm:6.0.0-beta.2"
+"react-router-dom@npm:6.0.0-beta.3":
+  version: 6.0.0-beta.3
+  resolution: "react-router-dom@npm:6.0.0-beta.3"
   dependencies:
-    react-router: 6.0.0-beta.2
+    react-router: 6.0.0-beta.3
   peerDependencies:
     history: ">=5"
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 7de414d8b874f854983f38e5d197eca7d18ec719575c60fbfd731a308457e0c21e90de776d62f0234777b2edfc647211f892ac6047ccc1041abca4537812209e
+  checksum: 363907864675e3a9183171aa5109197813d0c85df243e4fbf1dce4d00f3d20d2598c018ab4b76c2857172fcb972f17b0d99e5e69b7e6c5f2fdedf8fec3726984
   languageName: node
   linkType: hard
 
-"react-router@npm:6.0.0-beta.2":
-  version: 6.0.0-beta.2
-  resolution: "react-router@npm:6.0.0-beta.2"
+"react-router@npm:6.0.0-beta.3":
+  version: 6.0.0-beta.3
+  resolution: "react-router@npm:6.0.0-beta.3"
   peerDependencies:
     history: ">=5"
     react: ">=16.8"
-  checksum: 52af1fa963a2c93cb2cb4ac6c969e331280a4212741f6e78ab207069ef6c6765b1750ccd388f1439e6a7ebc35d55714f5d66effc739aa5d23ac623763cf38276
+  checksum: 84102317745b0d4352f59c56b394c4141dd6519682e56a20e5fdb056549ee622e11f9af387985c3565a9e7c035686f27c03d90a958fc845e2a3c273753536fdc
   languageName: node
   linkType: hard
 
