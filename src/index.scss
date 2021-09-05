@@ -1,0 +1,31 @@
+@use "./styles/index.scss" as *;
+
+html {
+  scroll-padding-top: $app-header-height;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  color: $color-text-primary;
+  background-color: $color-background;
+  background-image: url(./assets/pattern.svg);
+  background-position: top;
+  background-size: 7.5rem 7.5rem;
+}
+
+body {
+  margin: 0;
+}
+
+::selection {
+  background-color: $color-selection;
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: $focus-ring solid $color-primary;
+  outline-offset: $focus-ring-offset;
+}

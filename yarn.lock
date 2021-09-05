@@ -1704,6 +1704,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@buncho/router@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@buncho/router@npm:2.0.0"
+  dependencies:
+    react-router-dom: 6.0.0-beta.3
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    history: "*"
+    react: "*"
+    react-dom: "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 10eacdc8877fff3f16d6f02c65b8a2298e64a97dff4e3f611a0da6c0b5ce1ce08376e45e50735a19923fde989e05c44e6fe44bbde4f7548fef14f8f3d1ea7eb9
+  languageName: node
+  linkType: hard
+
 "@buncho/tsconfig@npm:^1.0.0":
   version: 1.0.0
   resolution: "@buncho/tsconfig@npm:1.0.0"
@@ -4044,14 +4064,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^17.0.19":
-  version: 17.0.19
-  resolution: "@types/react@npm:17.0.19"
+"@types/react@npm:*, @types/react@npm:^17.0.20":
+  version: 17.0.20
+  resolution: "@types/react@npm:17.0.20"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: d5af52623dd863e5a9f64eb72979f19c21e03012e25ee93adc93f664ed7976e81b654128dc653b225ad5ba2aaae24e0febe37face272bb051d6289e23ed7177d
+  checksum: e342bfaa4fe052fc3a445ea49f746f3fd82cfc9c8028eae139a3e0763ead1871f353bd40da2a472f23d2b52544d2781d40e3159c0703e7e2ff08c13f067a3b9c
   languageName: node
   linkType: hard
 
@@ -9450,11 +9470,13 @@ __metadata:
   dependencies:
     "@buncho/builder": ^1.0.0
     "@buncho/eslint-config": ^1.0.0
+    "@buncho/router": ^2.0.0
     "@buncho/tsconfig": ^1.0.0
     "@prettier/plugin-xml": ^1.0.2
-    "@types/react": ^17.0.19
+    "@types/react": ^17.0.20
     "@types/react-dom": ^17.0.9
     eslint: ^7.32.0
+    history: ^5.0.1
     prettier: ^2.3.2
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -9462,6 +9484,15 @@ __metadata:
     typescript-plugin-css-modules: ^3.4.0
   languageName: unknown
   linkType: soft
+
+"history@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "history@npm:5.0.1"
+  dependencies:
+    "@babel/runtime": ^7.7.6
+  checksum: ec14960f422cc53eaea47f0a07c0b666241687386c0947178579c707c4d813b35d5ff3a06e2bb3f8d40193541811f366d990ac654aaf7a43d334abf63a2b4b63
+  languageName: node
+  linkType: hard
 
 "hmac-drbg@npm:^1.0.1":
   version: 1.0.1
@@ -13977,6 +14008,29 @@ __metadata:
   version: 0.8.3
   resolution: "react-refresh@npm:0.8.3"
   checksum: 3cffe5a9cbac1c5d59bf74bf9fff43c987d87ef32098b9092ea94b6637377d86c08565b9374d9397f446b3fbcd95de986ec77220a16f979687cb39b7b89e2f91
+  languageName: node
+  linkType: hard
+
+"react-router-dom@npm:6.0.0-beta.3":
+  version: 6.0.0-beta.3
+  resolution: "react-router-dom@npm:6.0.0-beta.3"
+  dependencies:
+    react-router: 6.0.0-beta.3
+  peerDependencies:
+    history: ">=5"
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 03a8ecc8ca76d650e52313193a6384d763bd18aeaa86604d85721650634a72b993b899278a470a6a14c6740658de6c5bdc2aded8fd1d0b20d6925b2abab5dfed
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.0.0-beta.3":
+  version: 6.0.0-beta.3
+  resolution: "react-router@npm:6.0.0-beta.3"
+  peerDependencies:
+    history: ">=5"
+    react: ">=16.8"
+  checksum: e82b0b350bce22a1de584aa2dc2c25cd049936c7c23e65458744595682b91dac61d5349d454e90f2ebae9a34a8233ddbf2ff7ed5a2af95f3ac8bf775acaaabbf
   languageName: node
   linkType: hard
 

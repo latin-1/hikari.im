@@ -1,0 +1,45 @@
+@use "sass:color";
+
+@use "../../styles/index.scss" as *;
+
+.header {
+  position: sticky;
+  z-index: 100;
+  top: 0;
+
+  &[data-sticky] {
+    background-color: $color-surface;
+    backdrop-filter: blur($blur-radius);
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  max-width: $app-width;
+  height: $app-header-height;
+  margin: 0 auto;
+  padding: 0 $app-padding;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  margin: 0 -0.75rem;
+}
+
+.navLink {
+  padding: 0.25rem 0.75rem;
+  border-radius: $border-radius;
+  font-weight: 500;
+  text-decoration: none;
+  color: $color-primary-text;
+  user-select: none;
+
+  @media (hover: hover) {
+    &:hover {
+      color: $color-text-on-primary;
+      background-color: $color-primary;
+    }
+  }
+}

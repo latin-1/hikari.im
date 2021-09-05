@@ -1,0 +1,25 @@
+@use "../../styles/index.scss" as *;
+
+.page {
+  max-width: $app-width;
+  margin: 0 auto;
+  padding: 0 $app-padding;
+}
+
+.header {
+  margin-bottom: 0.75rem;
+}
+
+.title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  color: $color-text-primary;
+}
+
+.subtitle {
+  margin: 0;
+  font-weight: 500;
+  color: $color-text-secondary;
+}
