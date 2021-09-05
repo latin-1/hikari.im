@@ -11,7 +11,7 @@
   "dependencies": {
     "@buncho/router": "^1.1.0",
     "@types/classnames": "^2.3.0",
-    "@types/react": "^17.0.19",
+    "@types/react": "^17.0.20",
     "@types/react-dom": "^17.0.9",
     "classnames": "^2.3.1",
     "history": "^5.0.1",
