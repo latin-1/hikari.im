@@ -18,7 +18,11 @@ const FriendListItem = ({ data }: FriendListItemProps): ReactElement => {
       rel="noopener"
     >
       <div className={styles.item}>
-        <img className={styles.avatar} src={avatarUrl} alt="" />
+        <img
+          className={styles.avatar}
+          src={avatarUrl}
+          alt={`${data.name} Avatar`}
+        />
         <div className={styles.name}>{data.name}</div>
       </div>
     </a>
