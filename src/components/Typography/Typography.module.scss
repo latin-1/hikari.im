@@ -1,0 +1,21 @@
+.typography {
+  font-size: 0.9375rem;
+
+  > p {
+    margin: 0.5em 0;
+  }
+
+  > hr {
+    height: 1.5rem;
+    margin: 1.25rem 0;
+    border: none;
+    background-image: url(../../assets/thematic-break.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  > figure {
+    margin: 0.75rem 0;
+  }
+}
