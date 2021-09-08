@@ -2,7 +2,11 @@
   font-size: 0.9375rem;
 
   > p {
-    margin: 0.5em 0;
+    margin: 0.75em 0;
+  }
+
+  > figure {
+    margin: 0.75rem 0;
   }
 
   > hr {
@@ -13,9 +17,5 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-  }
-
-  > figure {
-    margin: 0.75rem 0;
   }
 }
