@@ -11,6 +11,8 @@ const AboutPage = (): ReactElement => {
   return (
     <Page title="About">
       <Typography>
+        <p>Arch Linux user, front-end developer, UX designer.</p>
+        <hr />
         <figure>
           <DeviceList data={devices} />
         </figure>
