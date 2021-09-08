@@ -14,8 +14,19 @@ const devices: readonly Device[] = [
     icon: new URL("../assets/icons/phone.svg", import.meta.url).toString(),
   },
   {
+    name: "Kindle Oasis",
+    icon: new URL("../assets/icons/phone.svg", import.meta.url).toString(),
+  },
+  {
     name: "WH-1000XM4",
     icon: new URL("../assets/icons/headphones.svg", import.meta.url).toString(),
+  },
+  {
+    name: "Nintendo Switch",
+    icon: new URL(
+      "../assets/icons/game-console.svg",
+      import.meta.url,
+    ).toString(),
   },
 ];
 
