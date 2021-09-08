@@ -2,6 +2,11 @@ import type { Friend } from "../types/Friend";
 
 const friends: readonly Friend[] = [
   {
+    name: "Alendia",
+    homepage: "https://alendia.dev/",
+    socials: { github: "Alendia" },
+  },
+  {
     name: "Bingxing Wang",
     homepage: "https://imbushuo.net/",
     socials: { github: "imbushuo" },
@@ -30,6 +35,11 @@ const friends: readonly Friend[] = [
     name: "Yeechan Lu",
     homepage: "https://orzfly.com/",
     socials: { github: "orzFly" },
+  },
+  {
+    name: "Yuzuriha Asano",
+    homepage: "https://github.com/TundraWork",
+    socials: { github: "TundraWork" },
   },
 ];
 
