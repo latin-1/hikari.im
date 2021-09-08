@@ -23,14 +23,14 @@
   padding: 0.25rem;
 }
 
-.avatar {
+.icon {
   width: 1.5rem;
   height: 1.5rem;
   border-radius: $border-radius;
   background-color: $color-surface;
 }
 
-.name {
+.content {
   flex: 1;
   overflow: hidden;
   padding: 0 0.5rem;

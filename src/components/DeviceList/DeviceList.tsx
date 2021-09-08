@@ -1,8 +1,7 @@
 import type { ReactElement } from "react";
 
 import type { Device } from "../../types/Device";
-import styles from "./DeviceList.module.scss";
-import { DeviceListItem } from "./DeviceListItem";
+import { List, ListItem } from "../List";
 
 type DeviceListProps = {
   data: readonly Device[];
@@ -10,11 +9,13 @@ type DeviceListProps = {
 
 const DeviceList = ({ data }: DeviceListProps): ReactElement => {
   return (
-    <div className={styles.list}>
-      {data.map((data) => (
-        <DeviceListItem key={data.name} data={data} />
+    <List>
+      {data.map((item) => (
+        <ListItem key={item.name} icon={item.icon}>
+          {item.name}
+        </ListItem>
       ))}
-    </div>
+    </List>
   );
 };
 

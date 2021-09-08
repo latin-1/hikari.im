@@ -1,8 +1,7 @@
 import type { ReactElement } from "react";
 
 import type { Social } from "../../types/Social";
-import styles from "./SocialList.module.scss";
-import { SocialListItem } from "./SocialListItem";
+import { List, ListItem } from "../List";
 
 type SocialListProps = {
   data: readonly Social[];
@@ -10,11 +9,13 @@ type SocialListProps = {
 
 const SocialList = ({ data }: SocialListProps): ReactElement => {
   return (
-    <div className={styles.list}>
-      {data.map((data) => (
-        <SocialListItem key={data.name} data={data} />
+    <List>
+      {data.map((item) => (
+        <ListItem key={item.name} href={item.link} icon={item.icon}>
+          {item.name}
+        </ListItem>
       ))}
-    </div>
+    </List>
   );
 };
 

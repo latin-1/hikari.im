@@ -1,8 +1,7 @@
 import type { ReactElement } from "react";
 
 import type { Friend } from "../../types/Friend";
-import styles from "./FriendList.module.scss";
-import { FriendListItem } from "./FriendListItem";
+import { List, ListItem } from "../List";
 
 type FriendListProps = {
   data: readonly Friend[];
@@ -10,11 +9,17 @@ type FriendListProps = {
 
 const FriendList = ({ data }: FriendListProps): ReactElement => {
   return (
-    <div className={styles.list}>
-      {data.map((data) => (
-        <FriendListItem key={data.name} data={data} />
+    <List>
+      {data.map((item) => (
+        <ListItem
+          key={item.name}
+          href={item.homepage}
+          icon={`https://avatars.githubusercontent.com/${item.socials.github}?s=48`}
+        >
+          {item.name}
+        </ListItem>
       ))}
-    </div>
+    </List>
   );
 };
 
