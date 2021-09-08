@@ -1,0 +1,24 @@
+@use "../../styles/index.scss" as *;
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: $border-radius;
+  background-color: $color-surface;
+}
+
+.name {
+  flex: 1;
+  overflow: hidden;
+  padding: 0 0.5rem;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
