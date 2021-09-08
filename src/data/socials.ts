@@ -23,7 +23,7 @@ const socials: readonly Social[] = [
   },
   {
     name: "Steam",
-    link: "https://steamcommunity.com/id/rev_hikari/",
+    link: "https://steamcommunity.com/id/latin-1/",
     icon: new URL("../assets/icons/steam.svg", import.meta.url).toString(),
   },
   {
