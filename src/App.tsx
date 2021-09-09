@@ -7,6 +7,7 @@ import {
 import type { ReactElement } from "react";
 
 import styles from "./App.module.scss";
+import { AppFooter } from "./components/AppFooter";
 import { AppHeader } from "./components/AppHeader";
 import { AboutPage } from "./pages/AboutPage";
 import { FriendsPage } from "./pages/FriendsPage";
@@ -19,11 +20,14 @@ const App = (): ReactElement => {
   return (
     <div className={styles.app}>
       <AppHeader />
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/friends" element={<FriendsPage />} />
-        <Route path="/about" element={<AboutPage />} />
-      </Routes>
+      <main className={styles.content}>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/friends" element={<FriendsPage />} />
+          <Route path="/about" element={<AboutPage />} />
+        </Routes>
+      </main>
+      <AppFooter />
     </div>
   );
 };

@@ -4,11 +4,8 @@
   position: sticky;
   z-index: 100;
   top: 0;
-
-  &[data-sticky] {
-    background-color: $color-surface;
-    backdrop-filter: blur($blur-radius);
-  }
+  margin-bottom: 0.75rem;
+  background-color: $color-background;
 }
 
 .content {

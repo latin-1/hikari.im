@@ -1,0 +1,22 @@
+@use "../../styles/index.scss" as *;
+
+.footer {
+  margin-top: 1.25rem;
+}
+
+.content {
+  max-width: $app-width;
+  margin: 0 auto;
+  padding: 0.75rem $app-padding;
+}
+
+.copyright {
+  margin: 0;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: $color-text-secondary;
+
+  del {
+    color: $color-text-tertiary;
+  }
+}
