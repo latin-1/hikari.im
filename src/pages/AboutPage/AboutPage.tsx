@@ -11,7 +11,10 @@ const AboutPage = (): ReactElement => {
   return (
     <Page title="About">
       <Typography>
-        <p>Arch Linux user, front-end developer, UX designer.</p>
+        <p>
+          Arch Linux user, front-end developer, UX designer. Non-binary,
+          pansexual, they/them.
+        </p>
         <hr />
         <figure>
           <DeviceList data={devices} />

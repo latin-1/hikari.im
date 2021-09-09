@@ -9,6 +9,10 @@ const FriendsPage = (): ReactElement => {
   return (
     <Page title="Friends">
       <Typography>
+        <blockquote>
+          <p>“I cannot play with you,” the fox said. “I am not tamed.”</p>
+        </blockquote>
+        <hr />
         <figure>
           <FriendList data={friends} />
         </figure>

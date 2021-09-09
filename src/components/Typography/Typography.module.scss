@@ -5,6 +5,37 @@
     margin: 0.75em 0;
   }
 
+  > blockquote {
+    margin: 0.75em 0;
+    padding: 0 0.75em;
+
+    > p {
+      margin: 0.75em 0;
+    }
+
+    > p:first-child::before,
+    > p:last-child::after {
+      content: "\200B";
+      display: inline-block;
+      width: 0.75em;
+      height: 1em;
+      line-height: 1;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+
+    > p:first-child::before {
+      margin-left: -0.75em;
+      background-image: url(../../assets/open-quote.svg);
+    }
+
+    > p:last-child::after {
+      margin-right: -0.75em;
+      background-image: url(../../assets/close-quote.svg);
+    }
+  }
+
   > figure {
     margin: 0.75rem 0;
   }
