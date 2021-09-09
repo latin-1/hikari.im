@@ -1,0 +1,16 @@
+@use "sass:list";
+
+@use "./variables.scss" as *;
+
+@mixin drop-shadow {
+  box-shadow: 0 2px 4px $color-drop-shadow-primary,
+    0 4px 16px $color-drop-shadow-secondary;
+}
+
+@mixin transition($properties...) {
+  $value: ();
+  @each $property in $properties {
+    $value: list.append($value, $property $duration $easing-function, comma);
+  }
+  transition: $value;
+}

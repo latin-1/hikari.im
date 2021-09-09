@@ -3,9 +3,15 @@
 .header {
   position: sticky;
   z-index: 100;
-  top: 0;
-  margin-bottom: 0.75rem;
+  top: -0.75rem;
+  padding-top: 0.75rem;
   background-color: $color-background;
+
+  @include transition(box-shadow);
+
+  &[data-sticky] {
+    @include drop-shadow;
+  }
 }
 
 .content {
@@ -30,6 +36,8 @@
   font-weight: 500;
   text-decoration: none;
   color: $color-primary-text;
+
+  @include transition(color, background-color);
 
   @media (hover: hover) {
     &:hover {

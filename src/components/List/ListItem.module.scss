@@ -8,6 +8,8 @@
   text-decoration: none;
   color: $color-primary-text;
 
+  @include transition(color, background-color);
+
   @media (hover: hover) {
     &:hover {
       color: $color-text-on-primary;
