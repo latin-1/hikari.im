@@ -17,7 +17,7 @@ $color-surface: color.change(#fff, $alpha: 0.48);
 $color-background: #e7f2f9 /* lch(95, 5, 240) */;
 $color-selection: color.change(#006a96 /* lch(40, 40, 240) */, $alpha: 0.24);
 
-$color-drop-shadow-base: #003649;
+$color-drop-shadow-base: #003649 /* lch(20, 20, 240) */;
 $color-drop-shadow-primary: //
   color.change($color-drop-shadow-base, $alpha: 0.08);
 $color-drop-shadow-secondary: //
