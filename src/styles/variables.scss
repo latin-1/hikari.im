@@ -11,7 +11,7 @@ $color-text-on-primary: #fbedee /* lch(95, 5, 15) */;
 $color-text-base: #003649 /* lch(20, 20, 240) */;
 $color-text-primary: color.change($color-text-base, $alpha: 0.96);
 $color-text-secondary: color.change($color-text-base, $alpha: 0.72);
-$color-text-tertiary: color.change($color-text-base, $alpha: 0.48);
+$color-text-tertiary: color.change($color-text-base, $alpha: 0.56);
 
 $color-surface: color.change(#fff, $alpha: 0.48);
 $color-background: #e7f2f9 /* lch(95, 5, 240) */;
