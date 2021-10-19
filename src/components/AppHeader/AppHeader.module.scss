@@ -1,5 +1,10 @@
 @use "../../styles/index.scss" as *;
 
+.ref {
+  position: relative;
+  top: 0.75rem;
+}
+
 .header {
   position: sticky;
   z-index: 100;

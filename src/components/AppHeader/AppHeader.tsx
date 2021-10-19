@@ -22,7 +22,7 @@ const AppHeader = (): ReactElement => {
 
   return (
     <>
-      <div ref={ref} />
+      <div ref={ref} className={styles.ref} />
       <header className={styles.header} data-sticky={isSticky ? "" : null}>
         <div className={styles.content}>
           <nav className={styles.nav}>
