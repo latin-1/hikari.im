@@ -2,7 +2,7 @@ import type { Device } from "../types/Device";
 
 const devices: readonly Device[] = [
   {
-    name: "Yoga Slim 7",
+    name: "Yoga Slim 7 Pro",
     icon: new URL("../assets/icons/laptop.svg", import.meta.url).toString(),
   },
   {
