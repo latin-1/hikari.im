@@ -4,20 +4,20 @@ $app-width: 60rem;
 $app-padding: 1.25rem;
 $app-header-height: 3rem;
 
-$color-primary: #77001d /* lch(20, 60, 15) */;
-$color-primary-text: #77001d /* lch(20, 60, 15) */;
+$color-primary: #8b0018 /* lch(20, 80, 15) */;
+$color-primary-text: #8b0018 /* lch(20, 80, 15) */;
 $color-text-on-primary: #fbedee /* lch(95, 5, 15) */;
 
-$color-text-base: #000;
+$color-text-base: #452a17 /* lch(20, 20, 60) */;
 $color-text-primary: color.change($color-text-base, $alpha: 0.96);
 $color-text-secondary: color.change($color-text-base, $alpha: 0.72);
 $color-text-tertiary: color.change($color-text-base, $alpha: 0.56);
 
 $color-surface: color.change(#fff, $alpha: 0.48);
 $color-background: #fffdf7 /* lch(100, 5, 60) */;
-$color-selection: color.change(#006a96 /* lch(40, 40, 240) */, $alpha: 0.24);
+$color-selection: color.change(#895025 /* lch(40, 40, 60) */, $alpha: 0.24);
 
-$color-drop-shadow-base: #000;
+$color-drop-shadow-base: #452a17 /* lch(20, 20, 60) */;
 $color-drop-shadow-primary: //
   color.change($color-drop-shadow-base, $alpha: 0.08);
 $color-drop-shadow-secondary: //
