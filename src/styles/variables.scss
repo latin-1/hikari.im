@@ -4,9 +4,9 @@ $app-width: 60rem;
 $app-padding: 1.25rem;
 $app-header-height: 3rem;
 
-$color-primary: #8b0018 /* lch(20, 80, 15) */;
-$color-primary-text: #8b0018 /* lch(20, 80, 15) */;
-$color-text-on-primary: #fbedee /* lch(95, 5, 15) */;
+$color-primary: #006a96 /* lch(40, 40, 240) */;
+$color-primary-text: #006a96 /* lch(40, 40, 240) */;
+$color-text-on-primary: #e7f2f9 /* lch(95, 5, 240) */;
 
 $color-text-base: #452a17 /* lch(20, 20, 60) */;
 $color-text-primary: color.change($color-text-base, $alpha: 0.96);
@@ -15,7 +15,7 @@ $color-text-tertiary: color.change($color-text-base, $alpha: 0.56);
 
 $color-surface: color.change(#fff, $alpha: 0.48);
 $color-background: #fffdf7 /* lch(100, 5, 60) */;
-$color-selection: color.change(#895025 /* lch(40, 40, 60) */, $alpha: 0.24);
+$color-selection: color.change(#feb787 /* lch(80, 40, 60) */, $alpha: 0.48);
 
 $color-drop-shadow-base: #452a17 /* lch(20, 20, 60) */;
 $color-drop-shadow-primary: //
