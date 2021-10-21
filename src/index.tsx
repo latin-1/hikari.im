@@ -1,6 +1,6 @@
 import "./index.scss";
 
-import { BrowserRouter } from "@buncho/router";
+import { BrowserRouter } from "@neetly/router";
 import { StrictMode } from "react";
 import { render } from "react-dom";
 

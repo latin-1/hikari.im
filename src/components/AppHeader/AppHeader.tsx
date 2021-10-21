@@ -1,4 +1,4 @@
-import { Link } from "@buncho/router";
+import { Link } from "@neetly/router";
 import { ReactElement, useLayoutEffect, useRef, useState } from "react";
 
 import styles from "./AppHeader.module.scss";

@@ -3,7 +3,7 @@ import {
   Routes,
   useLocation,
   useScrollRestoration,
-} from "@buncho/router";
+} from "@neetly/router";
 import type { ReactElement } from "react";
 
 import styles from "./App.module.scss";
