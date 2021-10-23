@@ -9,7 +9,7 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@neetly/router": "^0.1.0",
+    "@neetly/router": "^0.1.1",
     "@types/react": "^17.0.31",
     "@types/react-dom": "^17.0.10",
     "history": "^5.0.1",
