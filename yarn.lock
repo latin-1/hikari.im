@@ -1601,9 +1601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^2.1.0":
-  version: 2.1.0
-  resolution: "@buncho/builder@npm:2.1.0"
+"@buncho/builder@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "@buncho/builder@npm:2.2.0"
   dependencies:
     "@babel/cli": ^7.15.7
     "@babel/core": ^7.15.8
@@ -1643,7 +1643,7 @@ __metadata:
     app: ./bin/app.js
     lib: ./bin/lib.js
     storybook: ./bin/storybook.js
-  checksum: 350d519745a4bb0ddaef2ed5bc8a9c7af7e5b243291324b8b87d111714d03b95ed1dc0f16bec5c7a85557e04dbe254b27ca30308deb52b08962739334f7e1475
+  checksum: ef59c654adf6894d1c64e900effbbf1c8c0f3867e77f53f9ef4f5ae2a0d3c840d1a8837e61022ae492504edea15e8c8900bac5ac58aae0028f05c2999518a243
   languageName: node
   linkType: hard
 
@@ -9556,7 +9556,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hikari.im@workspace:."
   dependencies:
-    "@buncho/builder": ^2.1.0
+    "@buncho/builder": ^2.2.0
     "@buncho/eslint-config": ^2.1.0
     "@buncho/tsconfig": ^1.0.0
     "@neetly/router": ^0.1.1
