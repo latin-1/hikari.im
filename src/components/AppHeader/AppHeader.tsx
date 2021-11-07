@@ -1,5 +1,6 @@
 import { Link } from "@neetly/router";
-import { ReactElement, useLayoutEffect, useRef, useState } from "react";
+import type { ReactElement } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 
 import styles from "./AppHeader.module.scss";
 

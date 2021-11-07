@@ -1,4 +1,5 @@
-import { ReactElement, ReactNode, useLayoutEffect } from "react";
+import type { ReactElement, ReactNode } from "react";
+import { useLayoutEffect } from "react";
 
 import { APP_NAME } from "../../env";
 import styles from "./Page.module.scss";
