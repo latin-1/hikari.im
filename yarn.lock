@@ -1658,9 +1658,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/eslint-config@npm:^3.0.0":
-  version: 3.0.0
-  resolution: "@buncho/eslint-config@npm:3.0.0"
+"@buncho/eslint-config@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@buncho/eslint-config@npm:3.1.0"
   dependencies:
     "@babel/core": ^7.16.0
     "@babel/eslint-parser": ^7.16.0
@@ -1668,14 +1668,14 @@ __metadata:
     eslint-config-prettier: ^8.3.0
     eslint-plugin-jsx-a11y: ^6.4.1
     eslint-plugin-react: ^7.26.1
-    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-react-hooks: 4.2.1-alpha-ee069065d-20211105
     eslint-plugin-simple-import-sort: ^7.0.0
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
     "@typescript-eslint/parser": "*"
     eslint: "*"
     typescript: "*"
-  checksum: 65ec06e63033c74b18da059545e4772dbc32a0b757d60dc3f61fbc353ec0fed6754228d3c563c77624c39ef967b3eea14516c518fb78947a66b4b0a4491482c4
+  checksum: 486e6df7fae63905918411bfa609744b192702df60c5e6d7caee62764a3dbbffcd4a38a64605c6ef7f39c84dcd38a0c840014a53c3ab08208a7b51007de177c1
   languageName: node
   linkType: hard
 
@@ -8087,12 +8087,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:^4.2.0":
-  version: 4.2.0
-  resolution: "eslint-plugin-react-hooks@npm:4.2.0"
+"eslint-plugin-react-hooks@npm:4.2.1-alpha-ee069065d-20211105":
+  version: 4.2.1-alpha-ee069065d-20211105
+  resolution: "eslint-plugin-react-hooks@npm:4.2.1-alpha-ee069065d-20211105"
   peerDependencies:
-    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0
-  checksum: ead5c5be3ded82a0cf295b064376adb1998a43e2262b605eecc0efc88283dec4e159ca39307fafb3d8e661dd08e5a4c8cdfed97eea78f923954f72bad6e20397
+    eslint: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0-0
+  checksum: ab20cea7f6804490a22d38eb78f2bff526a047ce469f7847e808b10f8fabfb94224506bd48edc9ef4ff20503e5e999aee1721d5ad5dafabd12da3cd2bedfd798
   languageName: node
   linkType: hard
 
@@ -9557,7 +9557,7 @@ __metadata:
   resolution: "hikari.im@workspace:."
   dependencies:
     "@buncho/builder": ^2.2.0
-    "@buncho/eslint-config": ^3.0.0
+    "@buncho/eslint-config": ^3.1.0
     "@buncho/tsconfig": ^1.0.0
     "@neetly/router": ^1.0.0
     "@prettier/plugin-xml": ^1.1.0
