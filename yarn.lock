@@ -1601,9 +1601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^2.3.0":
-  version: 2.3.0
-  resolution: "@buncho/builder@npm:2.3.0"
+"@buncho/builder@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@buncho/builder@npm:2.4.0"
   dependencies:
     "@babel/cli": ^7.16.0
     "@babel/core": ^7.16.0
@@ -1611,7 +1611,7 @@ __metadata:
     "@buncho/dotenv": 1.0.0
     "@buncho/register": 1.0.0
     "@buncho/utils": 1.0.0
-    "@buncho/webpack-config": 2.2.0
+    "@buncho/webpack-config": 2.3.0
     "@buncho/webpack-env": 1.0.0
     "@storybook/addon-essentials": ~6.3.12
     "@storybook/builder-webpack5": ~6.3.12
@@ -1643,7 +1643,7 @@ __metadata:
     app: ./bin/app.js
     lib: ./bin/lib.js
     storybook: ./bin/storybook.js
-  checksum: 456f43806049c045bb32bbe17e68b2b2474c699399d2e9293ad3b3ac8648d11db9891b2976643936e14edbb3cb6af51a4e2d35f6da88a9a0dffdc52aa3785e15
+  checksum: 8384745a7505382c1b3582ecbbcb6e07a6f82d1dbf648f1325b73e53d59bb32787c1cb8af19b109ddf71cf1de313c365b77a4a5052fc114d852a44841c5b8ae1
   languageName: node
   linkType: hard
 
@@ -1720,9 +1720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:2.2.0":
-  version: 2.2.0
-  resolution: "@buncho/webpack-config@npm:2.2.0"
+"@buncho/webpack-config@npm:2.3.0":
+  version: 2.3.0
+  resolution: "@buncho/webpack-config@npm:2.3.0"
   dependencies:
     "@buncho/utils": 1.0.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.1
@@ -1737,7 +1737,7 @@ __metadata:
     babel-loader: ^8.2.3
     copy-webpack-plugin: ^9.0.1
     css-loader: ^6.5.1
-    css-minimizer-webpack-plugin: ^3.1.1
+    css-minimizer-webpack-plugin: ^3.1.2
     fork-ts-checker-webpack-plugin: ^6.4.0
     html-webpack-plugin: ^5.5.0
     mime-types: ^2.1.33
@@ -1751,7 +1751,7 @@ __metadata:
     sass-loader: ^12.3.0
     style-loader: ^3.3.1
     svgo-loader: ^3.0.0
-    terser-webpack-plugin: ^5.2.4
+    terser-webpack-plugin: ^5.2.5
     type-fest: ^2.5.2
     webpack-merge: ^5.8.0
     workbox-webpack-plugin: ^6.3.0
@@ -1774,7 +1774,7 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: 5674d3553c488d9d645f692a8ff7e9474f1feac45c2cdcfa51667be699ebc8c2f421d182f5a02bf8fa424bca7b27e137f66ef68fcaecc0d3b3dfb028433c0ae2
+  checksum: 065c47b4ee63604e28f2f8ed8a12bcafd9c938b53fba2e1b43590c890a5d0b64a51bf49c0367a56c08040ce62643cd65f5193806eedaf0d40a16c9d38c013357
   languageName: node
   linkType: hard
 
@@ -6964,13 +6964,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"css-minimizer-webpack-plugin@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "css-minimizer-webpack-plugin@npm:3.1.1"
+"css-minimizer-webpack-plugin@npm:^3.1.2":
+  version: 3.1.2
+  resolution: "css-minimizer-webpack-plugin@npm:3.1.2"
   dependencies:
     cssnano: ^5.0.6
     jest-worker: ^27.0.2
-    p-limit: ^3.0.2
     postcss: ^8.3.5
     schema-utils: ^3.1.0
     serialize-javascript: ^6.0.0
@@ -6984,7 +6983,7 @@ __metadata:
       optional: true
     esbuild:
       optional: true
-  checksum: 9f0c7ec9367c13dc1fa22847949d33237bcf50f55941727608871af0ccae8ed5e281c2e99622d4dc4fedb696def40af03cb8be9be2d44bf15eb521dee938ef92
+  checksum: 4a72fe764da2fbec23ccff281e59c44e11bdea214cec75120facd6882d26b976ee15284c80f1b8507a8164d0e5c4cbd0b0a858e6cb58a09b7e3bead400cbcce8
   languageName: node
   linkType: hard
 
@@ -9565,7 +9564,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hikari.im@workspace:."
   dependencies:
-    "@buncho/builder": ^2.3.0
+    "@buncho/builder": ^2.4.0
     "@buncho/eslint-config": ^3.1.0
     "@buncho/tsconfig": ^1.0.0
     "@neetly/router": ^1.0.0
@@ -16032,12 +16031,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"terser-webpack-plugin@npm:*, terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.2.4":
-  version: 5.2.4
-  resolution: "terser-webpack-plugin@npm:5.2.4"
+"terser-webpack-plugin@npm:*, terser-webpack-plugin@npm:^5.0.3, terser-webpack-plugin@npm:^5.1.3, terser-webpack-plugin@npm:^5.2.5":
+  version: 5.2.5
+  resolution: "terser-webpack-plugin@npm:5.2.5"
   dependencies:
     jest-worker: ^27.0.6
-    p-limit: ^3.1.0
     schema-utils: ^3.1.1
     serialize-javascript: ^6.0.0
     source-map: ^0.6.1
@@ -16051,7 +16049,7 @@ __metadata:
       optional: true
     uglify-js:
       optional: true
-  checksum: ddbcdd28f9620ecacc9b50ff31776485ad012c7f1cbef53825e4fc334a78d82e2344346e5595751916494951bc64717004c07b03ad88deeb3df4a5f76c559cc9
+  checksum: 2a9616466becf2e968bfc0f585678581b5c83a9dd96723c49329b11a8ccc1aaa41701877fbad2b0ce570364fde58c558fb6e7e053171512624e644b99b2f83af
   languageName: node
   linkType: hard
 
