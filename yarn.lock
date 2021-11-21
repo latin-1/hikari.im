@@ -1601,9 +1601,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/builder@npm:^2.5.0":
-  version: 2.5.0
-  resolution: "@buncho/builder@npm:2.5.0"
+"@buncho/builder@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "@buncho/builder@npm:2.6.0"
   dependencies:
     "@babel/cli": ^7.16.0
     "@babel/core": ^7.16.0
@@ -1611,7 +1611,7 @@ __metadata:
     "@buncho/dotenv": 1.0.0
     "@buncho/register": 1.0.0
     "@buncho/utils": 1.0.0
-    "@buncho/webpack-config": 2.4.0
+    "@buncho/webpack-config": 2.5.0
     "@buncho/webpack-env": 1.0.0
     "@storybook/addon-essentials": ~6.3.12
     "@storybook/builder-webpack5": ~6.3.12
@@ -1621,7 +1621,7 @@ __metadata:
     "@types/webpack-dev-server": ^4.5.0
     clipanion: ^3.1.0
     cosmiconfig: ^7.0.1
-    webpack: ^5.64.1
+    webpack: ^5.64.2
     webpack-cli: ^4.9.1
     webpack-dev-server: ^4.5.0
   peerDependencies:
@@ -1643,7 +1643,7 @@ __metadata:
     app: ./bin/app.js
     lib: ./bin/lib.js
     storybook: ./bin/storybook.js
-  checksum: 276c592ce07ea152cecdee118b1ad9e1db1b6032b4ade4ff56b61333fb1759ca2c700a141bc1aa231981f304a46ca04191c67cc8844ca99b638e455325f3c2ca
+  checksum: 534fd696bd84c5641a98ecf3eed35a1970f08da0336cfb748682bb905684ebfb6b4607118b01eda543f47e9cbea833360930714bb073cb3a2b9522419a836125
   languageName: node
   linkType: hard
 
@@ -1720,9 +1720,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/webpack-config@npm:2.4.0":
-  version: 2.4.0
-  resolution: "@buncho/webpack-config@npm:2.4.0"
+"@buncho/webpack-config@npm:2.5.0":
+  version: 2.5.0
+  resolution: "@buncho/webpack-config@npm:2.5.0"
   dependencies:
     "@buncho/utils": 1.0.0
     "@pmmmwh/react-refresh-webpack-plugin": ^0.5.2
@@ -1774,7 +1774,7 @@ __metadata:
       optional: true
     webpack-dev-server:
       optional: true
-  checksum: 8898a1cdddf4b7ebc1ba14d83c30475c5b3cf143db3f73a65521c4ae26fcd0f19d67dfcadb9dea499bd9a7e87d50326a76d7588e4307522adfbacbd69adde068
+  checksum: a2d553484f113f43dc4197177d0cb14b25ccd6313e135447af94f116b0c134f898f7b32503ecb6c9a9515c3f4ed5cdd46609283ac1ddfe65ebeaace1f38850cc
   languageName: node
   linkType: hard
 
@@ -9633,7 +9633,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hikari.im@workspace:."
   dependencies:
-    "@buncho/builder": ^2.5.0
+    "@buncho/builder": ^2.6.0
     "@buncho/eslint-config": ^3.1.0
     "@buncho/tsconfig": ^1.0.0
     "@neetly/router": ^1.0.0
@@ -17330,9 +17330,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.64.1, webpack@npm:^5.9.0":
-  version: 5.64.1
-  resolution: "webpack@npm:5.64.1"
+"webpack@npm:*, webpack@npm:^5, webpack@npm:^5.1.0, webpack@npm:^5.37.0, webpack@npm:^5.38.1, webpack@npm:^5.64.2, webpack@npm:^5.9.0":
+  version: 5.64.2
+  resolution: "webpack@npm:5.64.2"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -17363,7 +17363,7 @@ __metadata:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: d2a1baddaed03f2ce70c13501b89935d4bb4af30b4accb0d2dfbd00ec6f491eaf46272346cedcf013b477e131c8cc202ee0b2d2c51ece1cfb713fd2d98b80a52
+  checksum: e02fcd3bfdc7e3322291b476af60f46dc4a31ec4349af4d1d47018b8e449820968d4ab8f1e8b313dd5cfcf1b47c7f976fe39fde73411d03c173a692c3dae428e
   languageName: node
   linkType: hard
 
