@@ -4,7 +4,6 @@ import {
   useLocation,
   useScrollRestoration,
 } from "@neetly/router";
-import type { ReactElement } from "react";
 
 import styles from "./App.module.scss";
 import { AppFooter } from "./components/AppFooter";
@@ -13,7 +12,7 @@ import { AboutPage } from "./pages/AboutPage";
 import { FriendsPage } from "./pages/FriendsPage";
 import { HomePage } from "./pages/HomePage";
 
-const App = (): ReactElement => {
+const App = () => {
   const location = useLocation();
   useScrollRestoration(location.pathname);
 

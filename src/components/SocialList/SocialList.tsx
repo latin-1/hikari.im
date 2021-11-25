@@ -1,5 +1,3 @@
-import type { ReactElement } from "react";
-
 import type { Social } from "../../types/Social";
 import { List, ListItem } from "../List";
 
@@ -7,7 +5,7 @@ type SocialListProps = {
   data: readonly Social[];
 };
 
-const SocialList = ({ data }: SocialListProps): ReactElement => {
+const SocialList = ({ data }: SocialListProps) => {
   return (
     <List>
       {data.map((item) => (

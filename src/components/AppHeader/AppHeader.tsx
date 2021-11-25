@@ -1,10 +1,9 @@
 import { Link } from "@neetly/router";
-import type { ReactElement } from "react";
 import { useLayoutEffect, useRef, useState } from "react";
 
 import styles from "./AppHeader.module.scss";
 
-const AppHeader = (): ReactElement => {
+const AppHeader = () => {
   const ref = useRef<HTMLDivElement>(null);
   const [isSticky, setSticky] = useState(false);
 

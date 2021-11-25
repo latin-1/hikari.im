@@ -1,8 +1,6 @@
-import type { ReactElement } from "react";
-
 import styles from "./AppFooter.module.scss";
 
-const AppFooter = (): ReactElement => {
+const AppFooter = () => {
   return (
     <footer className={styles.footer}>
       <div className={styles.content}>

@@ -1,5 +1,3 @@
-import type { ReactElement } from "react";
-
 import type { Device } from "../../types/Device";
 import { List, ListItem } from "../List";
 
@@ -7,7 +5,7 @@ type DeviceListProps = {
   data: readonly Device[];
 };
 
-const DeviceList = ({ data }: DeviceListProps): ReactElement => {
+const DeviceList = ({ data }: DeviceListProps) => {
   return (
     <List>
       {data.map((item) => (

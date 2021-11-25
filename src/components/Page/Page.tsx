@@ -1,4 +1,4 @@
-import type { ReactElement, ReactNode } from "react";
+import type { ReactNode } from "react";
 import { useLayoutEffect } from "react";
 
 import { APP_NAME } from "../../env";
@@ -10,7 +10,7 @@ type PageProps = {
   children?: ReactNode;
 };
 
-const Page = ({ title, subtitle, children }: PageProps): ReactElement => {
+const Page = ({ title, subtitle, children }: PageProps) => {
   useLayoutEffect(() => {
     document.title = title ? `${title} - ${APP_NAME}` : APP_NAME;
   }, [title]);

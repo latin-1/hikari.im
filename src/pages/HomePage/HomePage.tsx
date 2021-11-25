@@ -1,9 +1,7 @@
-import type { ReactElement } from "react";
-
 import { Page } from "../../components/Page";
 import { Typography } from "../../components/Typography";
 
-const HomePage = (): ReactElement => {
+const HomePage = () => {
   return (
     <Page>
       <Typography>

@@ -1,4 +1,4 @@
-import type { ReactElement, ReactNode } from "react";
+import type { ReactNode } from "react";
 
 import styles from "./ListItem.module.scss";
 
@@ -8,7 +8,7 @@ type ListItemProps = {
   children: ReactNode;
 };
 
-const ListItem = ({ href, icon, children }: ListItemProps): ReactElement => {
+const ListItem = ({ href, icon, children }: ListItemProps) => {
   const item = (
     <div className={styles.item}>
       <img className={styles.icon} src={icon} alt="" />

@@ -1,5 +1,3 @@
-import type { ReactElement } from "react";
-
 import type { Friend } from "../../types/Friend";
 import { List, ListItem } from "../List";
 
@@ -7,7 +5,7 @@ type FriendListProps = {
   data: readonly Friend[];
 };
 
-const FriendList = ({ data }: FriendListProps): ReactElement => {
+const FriendList = ({ data }: FriendListProps) => {
   return (
     <List>
       {data.map((item) => (
