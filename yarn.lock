@@ -1658,9 +1658,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@buncho/eslint-config@npm:^3.2.0":
-  version: 3.2.0
-  resolution: "@buncho/eslint-config@npm:3.2.0"
+"@buncho/eslint-config@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "@buncho/eslint-config@npm:4.0.0"
   dependencies:
     "@babel/core": ^7.16.0
     "@babel/eslint-parser": ^7.16.3
@@ -1670,12 +1670,13 @@ __metadata:
     eslint-plugin-react: ^7.27.1
     eslint-plugin-react-hooks: ^4.3.0
     eslint-plugin-simple-import-sort: ^7.0.0
+    eslint-plugin-storybook: ^0.5.3
   peerDependencies:
     "@typescript-eslint/eslint-plugin": "*"
     "@typescript-eslint/parser": "*"
     eslint: "*"
     typescript: "*"
-  checksum: 13ee09411df05248fde1925aacb62bc0e69b8006d419d8a253f2afb1854ccca9420cbd4cad4dadb9662d78b926aac18b4738f7a78f0787c64fe13fcc086f6e57
+  checksum: 849312165ef9a267db17467d2e75d93ebe76f9ce38d897bbc745a55440e1057b22ac8ed554010cf243f2916a7f6bee59c0b6c3b671a33c092e99f6a8a0885690
   languageName: node
   linkType: hard
 
@@ -4279,7 +4280,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/experimental-utils@npm:5.5.0":
+"@typescript-eslint/experimental-utils@npm:5.5.0, @typescript-eslint/experimental-utils@npm:^5.3.0":
   version: 5.5.0
   resolution: "@typescript-eslint/experimental-utils@npm:5.5.0"
   dependencies:
@@ -8183,6 +8184,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-storybook@npm:^0.5.3":
+  version: 0.5.3
+  resolution: "eslint-plugin-storybook@npm:0.5.3"
+  dependencies:
+    "@storybook/csf": ^0.0.1
+    "@typescript-eslint/experimental-utils": ^5.3.0
+    requireindex: ^1.1.0
+  peerDependencies:
+    eslint: ">=6"
+  checksum: 0a3095441d69d783aa29c234291886c50553b941575d61d751457fba0af57e62297014ca734b77395310c97dbc2d7d78911a73828da7b59483bab645efcce244
+  languageName: node
+  linkType: hard
+
 "eslint-scope@npm:5.1.1, eslint-scope@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-scope@npm:5.1.1"
@@ -9634,7 +9648,7 @@ __metadata:
   resolution: "hikari.im@workspace:."
   dependencies:
     "@buncho/builder": ^2.6.0
-    "@buncho/eslint-config": ^3.2.0
+    "@buncho/eslint-config": ^4.0.0
     "@buncho/tsconfig": ^1.0.0
     "@neetly/router": ^1.0.0
     "@prettier/plugin-xml": ^1.1.0
@@ -14656,6 +14670,13 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: a03ef6895445f33a4015300c426699bc66b2b044ba7b670aa238610381b56d3f07c686251740d575e22f4c87531ba662d06937508f0f3c0f1ddc04db3130560b
+  languageName: node
+  linkType: hard
+
+"requireindex@npm:^1.1.0":
+  version: 1.2.0
+  resolution: "requireindex@npm:1.2.0"
+  checksum: 50d8b10a1ff1fdf6aea7a1870bc7bd238b0fb1917d8d7ca17fd03afc38a65dcd7a8a4eddd031f89128b5f0065833d5c92c4fef67f2c04e8624057fe626c9cf94
   languageName: node
   linkType: hard
 
