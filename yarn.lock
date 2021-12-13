@@ -2118,15 +2118,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/router@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "@neetly/router@npm:1.0.0"
+"@neetly/router@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@neetly/router@npm:1.1.0"
   dependencies:
-    react-router-dom: ^6.0.0
+    react-router-dom: ^6.1.1
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
-    history: "*"
     react: "*"
     react-dom: "*"
   peerDependenciesMeta:
@@ -2134,7 +2133,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: b2afcb81a093a52fea91f1378c1bb54e124fdb1ca6fb6a0f655ff35eaec91d4bf0f739b854b2a00909a47fad8a5523693a4a72216f0dee16deec01d8010f345c
+  checksum: e8d0fe20a1543de3df0d21ac6726af0741ff9e854a8044d477b2d440325ea4019fa94c812f13dc62331fb6ca8b4e2f84c724f71c2bdf561ee4410cf30ea9bc75
   languageName: node
   linkType: hard
 
@@ -9606,14 +9605,13 @@ __metadata:
     "@buncho/builder": ^3.0.0
     "@buncho/eslint-config": ^4.0.0
     "@buncho/tsconfig": ^1.0.0
-    "@neetly/router": ^1.0.0
+    "@neetly/router": ^1.1.0
     "@prettier/plugin-xml": ^1.1.0
     "@types/react": ^17.0.37
     "@types/react-dom": ^17.0.11
     "@typescript-eslint/eslint-plugin": ^5.6.0
     "@typescript-eslint/parser": ^5.6.0
     eslint: ^8.4.1
-    history: ^5.1.0
     prettier: ^2.5.1
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -14132,6 +14130,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-router-dom@npm:^6.1.1":
+  version: 6.1.1
+  resolution: "react-router-dom@npm:6.1.1"
+  dependencies:
+    history: ^5.1.0
+    react-router: 6.1.1
+  peerDependencies:
+    react: ">=16.8"
+    react-dom: ">=16.8"
+  checksum: 211d9c4bb94037a7c8654506fcfd535bccfc11812204fd1743b1871d63da61cdaccd12d65a95a7ac4a53ad79b35e7d52f5d2a5925587d4ca1bc5f234805bab1c
+  languageName: node
+  linkType: hard
+
 "react-router@npm:6.0.0":
   version: 6.0.0
   resolution: "react-router@npm:6.0.0"
@@ -14140,6 +14151,17 @@ __metadata:
   peerDependencies:
     react: ">=16.8"
   checksum: c6ddc02366009e6ea2db28631d676026c1da3b51c0c179b1a1a92e5602f66cbf379e1d56418c7612009f8b049c159c40b4fd1eb8b261c991bf11206417930175
+  languageName: node
+  linkType: hard
+
+"react-router@npm:6.1.1":
+  version: 6.1.1
+  resolution: "react-router@npm:6.1.1"
+  dependencies:
+    history: ^5.1.0
+  peerDependencies:
+    react: ">=16.8"
+  checksum: d290d4646b894f8166797b65d298950c63b7c841ff954c8fe7dc1bd469714402611bff52da17c8c69c793c952e22c2123925615a594b57b474e7f52bf8c6a77b
   languageName: node
   linkType: hard
 
