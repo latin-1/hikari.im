@@ -19,7 +19,7 @@
     "@buncho/builder": "^3.2.2",
     "@buncho/eslint-config": "^4.0.0",
     "@buncho/tsconfig": "^1.0.0",
-    "@prettier/plugin-xml": "^1.1.0",
+    "@prettier/plugin-xml": "^1.2.0",
     "@typescript-eslint/eslint-plugin": "^5.8.0",
     "@typescript-eslint/parser": "^5.8.0",
     "eslint": "^8.5.0",
