@@ -16,7 +16,7 @@
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@buncho/builder": "^3.2.3",
+    "@buncho/builder": "^4.0.0",
     "@buncho/eslint-config": "^4.0.0",
     "@buncho/tsconfig": "^1.0.0",
     "@prettier/plugin-xml": "^1.2.0",
