@@ -2122,11 +2122,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/router@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@neetly/router@npm:1.1.0"
+"@neetly/router@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@neetly/router@npm:1.2.0"
   dependencies:
-    react-router-dom: ^6.1.1
+    react-router-dom: ^6.2.1
   peerDependencies:
     "@types/react": "*"
     "@types/react-dom": "*"
@@ -2137,7 +2137,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: e8d0fe20a1543de3df0d21ac6726af0741ff9e854a8044d477b2d440325ea4019fa94c812f13dc62331fb6ca8b4e2f84c724f71c2bdf561ee4410cf30ea9bc75
+  checksum: d8ad33615ee868143b30c6588f077b6c2e0012cfb9b4f53bb6067b9e5c775d6b70bac4f8df4691ddf0b494428494e87cc9ec59e00abc27f3c72ef0d47f732684
   languageName: node
   linkType: hard
 
@@ -9496,7 +9496,7 @@ __metadata:
     "@buncho/builder": ^4.0.0
     "@buncho/eslint-config": ^4.0.0
     "@buncho/tsconfig": ^1.0.0
-    "@neetly/router": ^1.1.0
+    "@neetly/router": ^1.2.0
     "@prettier/plugin-xml": ^1.2.0
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
@@ -13887,7 +13887,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.0.0, react-router-dom@npm:^6.1.1":
+"react-router-dom@npm:^6.0.0, react-router-dom@npm:^6.2.1":
   version: 6.2.1
   resolution: "react-router-dom@npm:6.2.1"
   dependencies:
