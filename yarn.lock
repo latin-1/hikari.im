@@ -2270,13 +2270,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^1.2.0":
-  version: 1.2.0
-  resolution: "@prettier/plugin-xml@npm:1.2.0"
+"@prettier/plugin-xml@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "@prettier/plugin-xml@npm:2.0.1"
   dependencies:
     "@xml-tools/parser": ^1.0.11
-    prettier: ">=2.3"
-  checksum: 2f9958d7f910c7ee83b5e2dd207564992952b40fdd28aea3bd5bd4c77351a72308b916f1b8fd0c6de958d67324658c655a8521c58d5dca24ef338f9307ffb0bf
+    prettier: ">=2.4.0"
+  checksum: 047779c43a2d74bce2fa5fda1a157be096cc9582e2287bdb993e7222a00f87e9c07caa5b42952ae758141204d1102da46dec777845020cadc8e9dc08b518108a
   languageName: node
   linkType: hard
 
@@ -9513,7 +9513,7 @@ __metadata:
     "@buncho/eslint-config": ^5.0.0
     "@buncho/tsconfig": ^2.0.0
     "@neetly/router": ^1.2.0
-    "@prettier/plugin-xml": ^1.2.0
+    "@prettier/plugin-xml": ^2.0.1
     "@types/react": ^17.0.40
     "@types/react-dom": ^17.0.13
     "@typescript-eslint/eslint-plugin": ^5.15.0
@@ -13397,7 +13397,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:>=2.3, prettier@npm:^2.6.1":
+"prettier@npm:>=2.4.0, prettier@npm:^2.6.1":
   version: 2.6.1
   resolution: "prettier@npm:2.6.1"
   bin:
