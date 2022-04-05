@@ -1,0 +1,6 @@
+{
+  "trailingComma": "all",
+  "proseWrap": "always",
+  "htmlWhitespaceSensitivity": "ignore",
+  "xmlWhitespaceSensitivity": "ignore"
+}
