@@ -2147,6 +2147,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@neetly/palette@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@neetly/palette@npm:1.1.0"
+  checksum: 8085e736a910d33384072d7a683f438a835aa0f6e1e3e63a9c56692024a88ea7c800e1416510ed2b36331bb933a20d82655779074063477d25140aa13ce4652d
+  languageName: node
+  linkType: hard
+
 "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3":
   version: 2.1.8-no-fsevents.3
   resolution: "@nicolo-ribaudo/chokidar-2@npm:2.1.8-no-fsevents.3"
@@ -9512,6 +9519,7 @@ __metadata:
     "@buncho/builder": ^5.0.1
     "@buncho/eslint-config": ^5.1.0
     "@buncho/tsconfig": ^2.0.0
+    "@neetly/palette": ^1.1.0
     "@prettier/plugin-xml": ^2.0.1
     "@types/react": ^17.0.43
     "@types/react-dom": ^17.0.14
