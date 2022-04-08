@@ -10,13 +10,16 @@
 }
 
 .item {
-  padding: 1.5rem 2rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  padding: 0.5rem;
   border-radius: 1.75rem;
   background-color: color.change(palette.$primary--600, $alpha: 0.05);
 
   @media (max-width: 40rem) {
     margin: 0 -1rem;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     border-radius: 0;
   }
 
@@ -25,16 +28,16 @@
   }
 }
 
+.avatar {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+
 .name {
-  margin: 0;
+  margin: 0 1rem;
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.2;
   color: palette.$primary--600;
-}
-
-.description {
-  margin: 0;
-  font-size: 0.875rem;
-  color: palette.$neutral-variant--600;
 }
