@@ -1,0 +1,13 @@
+@use "@neetly/palette";
+
+.header {
+  padding: 2rem 0;
+}
+
+.name {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: palette.$neutral--900;
+}
