@@ -3,13 +3,13 @@
 .header {
   max-width: 80rem;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 2rem 1rem 0;
 }
 
 .name {
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 2rem;
+  line-height: 1;
   color: palette.$neutral--900;
 }

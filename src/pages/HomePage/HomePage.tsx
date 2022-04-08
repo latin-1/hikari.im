@@ -1,5 +1,12 @@
+import { PageLayout } from "../../components/PageLayout";
+import { Typography } from "../../components/Typography";
+
 const HomePage = () => {
-  return null;
+  return (
+    <PageLayout>
+      <Typography></Typography>
+    </PageLayout>
+  );
 };
 
 export { HomePage };
