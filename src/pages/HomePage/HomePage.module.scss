@@ -1,0 +1,15 @@
+@use "@neetly/palette";
+
+.section {
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+.sectionTitle {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1;
+  color: palette.$neutral--900;
+}

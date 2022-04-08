@@ -1,0 +1,40 @@
+@use "sass:color";
+
+@use "@neetly/palette";
+
+.link {
+  all: unset;
+  display: block;
+  user-select: none;
+  cursor: pointer;
+}
+
+.item {
+  padding: 1.5rem 2rem;
+  border-radius: 1.5rem;
+  background-color: color.change(palette.$primary--600, $alpha: 0.05);
+
+  @media (max-width: 40rem) {
+    margin: 0 -1rem;
+    padding: 1rem;
+    border-radius: 0;
+  }
+
+  .link:focus-visible & {
+    outline: 2px solid palette.$primary--600;
+  }
+}
+
+.name {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: palette.$primary--600;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: palette.$neutral-variant--600;
+}
