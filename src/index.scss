@@ -7,6 +7,8 @@ html {
   overflow-wrap: break-word;
   color: palette.$neutral--800;
   background-color: palette.$neutral--10;
+  background-image: url(./assets/pattern.svg);
+  background-position: center top;
 }
 
 body {
