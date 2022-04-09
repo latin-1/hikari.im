@@ -1,11 +1,73 @@
 import { FriendItem, FriendList } from "../../components/FriendList";
 import { PageLayout } from "../../components/PageLayout";
 import { ProjectItem, ProjectList } from "../../components/ProjectList";
+import { SocialItem, SocialList } from "../../components/SocialList";
+import { Typography } from "../../components/Typography";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {
   return (
     <PageLayout>
+      <section className={styles.section}>
+        <Typography>
+          <p>
+            I'm a Web developer and also a UX designer. I use Arch Linux and
+            GNOME for daily use.
+          </p>
+        </Typography>
+      </section>
+      <section className={styles.section}>
+        <SocialList>
+          <SocialItem
+            name="Twitter"
+            iconUrl={new URL(
+              "../../assets/icons/twitter-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="https://twitter.com/rev__hikari"
+          />
+          <SocialItem
+            name="Instagram"
+            iconUrl={new URL(
+              "../../assets/icons/instagram-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="https://www.instagram.com/rev_hikari/"
+          />
+          <SocialItem
+            name="GitHub"
+            iconUrl={new URL(
+              "../../assets/icons/github-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="https://github.com/latin-1"
+          />
+          <SocialItem
+            name="Patreon"
+            iconUrl={new URL(
+              "../../assets/icons/patreon-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="https://patreon.com/tokenize"
+          />
+          <SocialItem
+            name="Steam"
+            iconUrl={new URL(
+              "../../assets/icons/steam-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="https://steamcommunity.com/id/latin-1/"
+          />
+          <SocialItem
+            name="Email"
+            iconUrl={new URL(
+              "../../assets/icons/gmail-icon.svg",
+              import.meta.url,
+            ).toString()}
+            link="mailto:rev.hikari@gmail.com"
+          />
+        </SocialList>
+      </section>
       <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Projects</h2>
         <ProjectList>

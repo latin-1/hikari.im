@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "@neetly/palette";
 
 html {
@@ -11,4 +13,8 @@ html {
 
 body {
   margin: 0;
+}
+
+::selection {
+  background-color: color.change(palette.$primary--300, $alpha: 0.5);
 }
