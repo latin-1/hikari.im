@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "@neetly/palette";
 
 .footer {
@@ -6,13 +8,14 @@
   flex-direction: column;
   justify-content: flex-end;
   max-width: 80rem;
-  min-height: 15rem;
+  min-height: 13.5rem;
   margin: 1rem auto;
   padding: 0 1rem;
 
   &::after {
     content: "";
     position: absolute;
+    z-index: -1;
     right: 0;
     bottom: -1rem;
     width: 12rem;
@@ -20,10 +23,15 @@
     background-image: url(../../assets/avatar.png);
     background-position: center;
     background-size: 15rem 15rem;
+    pointer-events: none;
   }
 }
 
 .copyright {
-  margin: 0;
+  width: fit-content;
+  margin: -0.5rem -1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 1.25rem;
   color: palette.$neutral-variant--600;
+  background-color: color.change(palette.$neutral--10, $alpha: 0.8);
 }
