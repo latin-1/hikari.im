@@ -13,11 +13,18 @@
   padding: 1.5rem 2rem;
   border-radius: 1.75rem;
   background-color: color.change(palette.$primary--600, $alpha: 0.05);
+  transition: background-color 150ms;
 
   @media (max-width: 40rem) {
     margin: 0 -1rem;
     padding: 1rem;
     border-radius: 0;
+  }
+
+  @media (hover: hover) {
+    .link:hover & {
+      background-color: color.change(palette.$primary--600, $alpha: 0.1);
+    }
   }
 
   .link:focus-visible & {
