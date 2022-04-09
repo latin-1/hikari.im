@@ -30,11 +30,6 @@ const HomePage = () => {
         <h2 className={styles.sectionTitle}>Friends</h2>
         <FriendList>
           <FriendItem
-            name="Alendia"
-            avatarUrl="https://avatars.githubusercontent.com/u/44888915?s=96"
-            link="https://alendia.dev/"
-          />
-          <FriendItem
             name="Bingxing Wang"
             avatarUrl="https://avatars.githubusercontent.com/u/6284353?s=96"
             link="https://imbushuo.net/"
@@ -45,19 +40,9 @@ const HomePage = () => {
             link="https://github.com/TundraWork"
           />
           <FriendItem
-            name="Makito"
-            avatarUrl="https://avatars.githubusercontent.com/u/5277268?s=96"
-            link="https://keep.moe/"
-          />
-          <FriendItem
             name="Mingye Wang"
             avatarUrl="https://avatars.githubusercontent.com/u/6459309?s=96"
             link="https://twitter.com/Artoria2e5"
-          />
-          <FriendItem
-            name="Qian"
-            avatarUrl="https://avatars.githubusercontent.com/u/22388300?s=96"
-            link="https://wwyqianqian.github.io/"
           />
           <FriendItem
             name="Tachibana Kiyomi"
@@ -68,6 +53,11 @@ const HomePage = () => {
             name="Yeechan Lu"
             avatarUrl="https://avatars.githubusercontent.com/u/158528?s=96"
             link="https://orzfly.com/"
+          />
+          <FriendItem
+            name={<span lang="zh-Hans">三三</span>}
+            avatarUrl="https://avatars.githubusercontent.com/u/905663?s=96"
+            link="https://best33.com/"
           />
         </FriendList>
       </section>
