@@ -1,0 +1,29 @@
+@use "@neetly/palette";
+
+.footer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: 80rem;
+  min-height: 15rem;
+  margin: 1rem auto;
+  padding: 0 1rem;
+
+  &::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -1rem;
+    width: 12rem;
+    height: 13.5rem;
+    background-image: url(../../assets/avatar.png);
+    background-position: center;
+    background-size: 15rem 15rem;
+  }
+}
+
+.copyright {
+  margin: 0;
+  color: palette.$neutral-variant--600;
+}
