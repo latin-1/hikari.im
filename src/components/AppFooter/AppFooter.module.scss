@@ -34,4 +34,5 @@
   border-radius: 1.25rem;
   color: palette.$neutral-variant--600;
   background-color: color.change(palette.$neutral--10, $alpha: 0.8);
+  backdrop-filter: blur(2px);
 }
