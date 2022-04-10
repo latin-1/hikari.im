@@ -13,3 +13,12 @@
   line-height: 1;
   color: palette.$neutral--900;
 }
+
+.term {
+  white-space: nowrap;
+}
+
+.separator {
+  margin: 0 0.5em;
+  color: palette.$neutral-variant--300;
+}

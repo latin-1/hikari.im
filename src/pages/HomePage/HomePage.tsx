@@ -69,6 +69,30 @@ const HomePage = () => {
         </SocialList>
       </section>
       <section className={styles.section}>
+        <Typography>
+          <dl>
+            <dt>Devices</dt>
+            <dd>
+              <span>💻&nbsp;Yoga Slim 7 Pro</span>
+              <span className={styles.separator}> / </span>
+              <span>📱&nbsp;Pixel 6</span>
+              <span className={styles.separator}> / </span>
+              <span>🎧&nbsp;WF-1000XM4</span>
+              <span className={styles.separator}> / </span>
+              <span>🎮&nbsp;Nintendo Switch</span>
+            </dd>
+            <dt>Tools</dt>
+            <dd>
+              <span>🌐&nbsp;Google Chrome</span>
+              <span className={styles.separator}> / </span>
+              <span>💻&nbsp;Visual Studio Code</span>
+              <span className={styles.separator}> / </span>
+              <span>🎨&nbsp;Figma</span>
+            </dd>
+          </dl>
+        </Typography>
+      </section>
+      <section className={styles.section}>
         <h2 className={styles.sectionTitle}>Projects</h2>
         <ProjectList>
           <ProjectItem

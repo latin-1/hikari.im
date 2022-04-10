@@ -1,7 +1,51 @@
+@use "@neetly/palette";
+
 .typography {
   font-size: 1.125rem;
+  color: palette.$neutral--800;
 
   p {
     margin: 0.75em 0;
+  }
+
+  dl {
+    display: grid;
+    grid-template-columns: 8em 1fr;
+    gap: 0 1em;
+    margin: 0.75em 0;
+
+    dt {
+      grid-column: 1;
+      font-weight: 600;
+    }
+
+    dt:not(:first-child) {
+      margin-top: 0.25em;
+    }
+
+    dd {
+      grid-column: 2;
+      margin-left: 0;
+    }
+
+    dt:not(:first-child) + dd {
+      margin-top: 0.25em;
+    }
+
+    @media (max-width: 40rem) {
+      grid-template-columns: 1fr;
+
+      dt:not(:first-child) {
+        margin-top: 0.75em;
+      }
+
+      dd {
+        grid-column: 1;
+      }
+
+      dt + dd {
+        margin-top: 0.25em;
+      }
+    }
   }
 }
