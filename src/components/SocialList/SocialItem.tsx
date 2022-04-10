@@ -12,7 +12,12 @@ const SocialItem = ({ name, iconUrl, link }: SocialItemProps) => {
   return (
     <a className={styles.link} href={link}>
       <section className={styles.item}>
-        <img className={styles.icon} src={iconUrl} />
+        <img
+          className={styles.icon}
+          src={iconUrl}
+          draggable={false}
+          aria-hidden
+        />
         <h3 className={styles.name}>{name}</h3>
       </section>
     </a>
