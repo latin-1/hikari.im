@@ -30,8 +30,13 @@
     }
   }
 
+  .link:active & {
+    background-color: color.change(palette.$primary--600, $alpha: 0.1);
+  }
+
   .link:focus-visible & {
     outline: 2px solid palette.$primary--600;
+    background-color: color.change(palette.$primary--600, $alpha: 0.1);
   }
 }
 

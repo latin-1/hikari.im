@@ -89,6 +89,16 @@ const HomePage = () => {
               <span className={styles.separator}> / </span>
               <span>🎨&nbsp;Figma</span>
             </dd>
+            <dt>GPG Key</dt>
+            <dd>
+              🔑&nbsp;
+              <a
+                href="https://pgp.mit.edu/pks/lookup?op=get&search=0x72211262451C419E"
+                target="_blank"
+              >
+                DAF3 49DF 61CB 5503 E755 8208 7221 1262 451C 419E
+              </a>
+            </dd>
           </dl>
         </Typography>
       </section>

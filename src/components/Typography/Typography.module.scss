@@ -48,4 +48,29 @@
       }
     }
   }
+
+  a {
+    all: unset;
+    color: palette.$secondary--600;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: color 150ms;
+
+    @media (hover: hover) {
+      &:hover {
+        color: palette.$secondary--800;
+      }
+    }
+
+    &:active {
+      color: palette.$secondary--800;
+    }
+
+    &:focus-visible {
+      border-radius: 2px;
+      outline: 2px solid palette.$secondary--800;
+      outline-offset: 2px;
+      color: palette.$secondary--800;
+    }
+  }
 }
