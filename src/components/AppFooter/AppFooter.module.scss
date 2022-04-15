@@ -32,6 +32,7 @@
   margin: -0.5rem -1rem;
   padding: 0.5rem 1rem;
   border-radius: 1.25rem;
+  font-weight: 600;
   color: palette.$neutral-variant--600;
   background-color: color.change(palette.$neutral--10, $alpha: 0.8);
   backdrop-filter: blur(2px);
