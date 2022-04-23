@@ -1,4 +1,4 @@
-@use "@neetly/palette";
+@use "@neetly/ui";
 
 .typography {
   font-size: 1.125rem;
@@ -50,26 +50,26 @@
 
   a {
     all: unset;
-    color: palette.$secondary--600;
+    color: ui.$color-secondary;
     text-decoration: underline;
     cursor: pointer;
     transition: color 150ms;
 
     @media (hover: hover) {
       &:hover {
-        color: palette.$secondary--800;
+        color: ui.$color-secondary-accent;
       }
     }
 
     &:active {
-      color: palette.$secondary--800;
+      color: ui.$color-secondary-accent;
     }
 
     &:focus-visible {
       border-radius: 2px;
-      outline: 2px solid palette.$secondary--800;
+      outline: 2px solid ui.$color-secondary-accent;
       outline-offset: 2px;
-      color: palette.$secondary--800;
+      color: ui.$color-secondary-accent;
     }
   }
 }

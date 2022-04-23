@@ -1,5 +1,6 @@
 @use "sass:color";
 
+@use "@neetly/ui";
 @use "@neetly/palette";
 
 .footer {
@@ -33,7 +34,11 @@
   padding: 0.5rem 1rem;
   border-radius: 1.25rem;
   font-weight: 600;
-  color: palette.$neutral-variant--600;
+  color: ui.$color-neutral-variant;
   background-color: color.change(palette.$neutral--10, $alpha: 0.8);
   backdrop-filter: blur(2px);
+
+  @media (prefers-color-scheme: dark) {
+    background-color: color.change(palette.$neutral--900, $alpha: 0.8);
+  }
 }

@@ -1968,6 +1968,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@floating-ui/core@npm:^0.6.2":
+  version: 0.6.2
+  resolution: "@floating-ui/core@npm:0.6.2"
+  checksum: b3e1844da852fe141cfa4163026a7c5ffb4399a96105340dffdd5b76dcafea72c6221a06b4674c2b500bc776adc9d9e4ed39dba55e7d844d9507d994c0af743a
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:0.4.5":
+  version: 0.4.5
+  resolution: "@floating-ui/dom@npm:0.4.5"
+  dependencies:
+    "@floating-ui/core": ^0.6.2
+  checksum: 3024aba55fe7ee78b429a6a5d61f5719a6bb2acc79c8a33304b9d30c443efba3a5288acaf9003402e31ee97a533eda97c30a0f2c97e9e54c697df9b80a23dad8
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -2144,7 +2160,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/palette@npm:^4.0.0":
+"@neetly/icons@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@neetly/icons@npm:0.1.0"
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: "*"
+    react-dom: "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 6b8374985682b233f8987e2a35b31631f67251cf405fd1921e632b09d30bb4a1d382e00f58dd778aadf150d6d23bafcb783b8ad23dc58fceba3a9f8c07e3b478
+  languageName: node
+  linkType: hard
+
+"@neetly/palette@npm:4.0.0, @neetly/palette@npm:^4.0.0":
   version: 4.0.0
   resolution: "@neetly/palette@npm:4.0.0"
   checksum: 0d9f26545a8bc12fe359a30e0363829f39965cec2dd7090dc384f94881230445ebc703c63d9cc6c68ad0a4a44e3d1c79ecf281a20def24b68d189151561a2aad
@@ -2167,6 +2200,36 @@ __metadata:
     "@types/react-dom":
       optional: true
   checksum: 6183a29d0f6cdc6c93343d6a72c6643fdff60f943918f1381c5abd2db5a48c65287845dba85058b40f8c357a74819a8f732d1530d64ab964c1869b5c201c5d5e
+  languageName: node
+  linkType: hard
+
+"@neetly/theme@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@neetly/theme@npm:0.1.0"
+  checksum: bade960cc421772b6d9d6f7cddbace673e539c1a4f595d93b1aea9d4e93846f066673231989ac5e9f225d03f27f2457811d0eefa5dea4991f958b1fb56c73593
+  languageName: node
+  linkType: hard
+
+"@neetly/ui@npm:^0.2.2":
+  version: 0.2.2
+  resolution: "@neetly/ui@npm:0.2.2"
+  dependencies:
+    "@neetly/icons": 0.1.0
+    "@neetly/palette": 4.0.0
+    "@neetly/theme": 0.1.0
+    ariakit: 2.0.0-next.23
+    classnames: ^2.3.1
+  peerDependencies:
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    react: "*"
+    react-dom: "*"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    "@types/react-dom":
+      optional: true
+  checksum: 75612ac37cc90b2a1ba94318a9b99a6d2f256479ff373d3e41b4e1122c58a2f943592f814da72735c975e58abcab6618696cc65feedd17f80a28853e17d01ec1
   languageName: node
   linkType: hard
 
@@ -5234,6 +5297,28 @@ __metadata:
   languageName: node
   linkType: hard
 
+"ariakit-utils@npm:0.17.0-next.16":
+  version: 0.17.0-next.16
+  resolution: "ariakit-utils@npm:0.17.0-next.16"
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+  checksum: 0c02ba56aa6574f749cb94174d80af062f90a934ae38f9bda49ed01b81184b41c52a1abe54509a00e608316c207c9aa6680c330151f04acc635ce594c5b60349
+  languageName: node
+  linkType: hard
+
+"ariakit@npm:2.0.0-next.23":
+  version: 2.0.0-next.23
+  resolution: "ariakit@npm:2.0.0-next.23"
+  dependencies:
+    "@floating-ui/dom": 0.4.5
+    ariakit-utils: 0.17.0-next.16
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 7660e5b395c035d47a6847c05736e6c2c0ff9380ea004f5aa3bc3bd1214f873ce42ea111fb4d1d0e12c805235b9950fc2cff31d05cfb89db7d4e1b331e310c92
+  languageName: node
+  linkType: hard
+
 "arr-diff@npm:^4.0.0":
   version: 4.0.0
   resolution: "arr-diff@npm:4.0.0"
@@ -6365,6 +6450,13 @@ __metadata:
     isobject: ^3.0.0
     static-extend: ^0.1.1
   checksum: be108900801e639e50f96a7e4bfa8867c753a7750a7603879f3981f8b0a89cba657497a2d5f40cd4ea557ff15d535a100818bb486baf6e26fe5d7872e75f1078
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.3.1":
+  version: 2.3.1
+  resolution: "classnames@npm:2.3.1"
+  checksum: 14db8889d56c267a591f08b0834989fe542d47fac659af5a539e110cc4266694e8de86e4e3bbd271157dbd831361310a8293e0167141e80b0f03a0f175c80960
   languageName: node
   linkType: hard
 
@@ -9481,6 +9573,7 @@ __metadata:
     "@buncho/tsconfig": ^2.0.0
     "@neetly/palette": ^4.0.0
     "@neetly/router": ^1.3.0
+    "@neetly/ui": ^0.2.2
     "@prettier/plugin-xml": ^2.1.0
     "@types/react": ^18.0.6
     "@types/react-dom": ^18.0.2

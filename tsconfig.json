@@ -15,6 +15,7 @@
     // Make typescript-plugin-css-modules happy
     "baseUrl": ".",
     "paths": {
+      "@neetly/ui": ["./node_modules/@neetly/ui/lib/index.scss"],
       "@neetly/palette": ["./node_modules/@neetly/palette/lib/index.scss"]
     }
   }

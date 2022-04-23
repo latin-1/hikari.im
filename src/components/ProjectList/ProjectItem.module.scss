@@ -1,6 +1,4 @@
-@use "sass:color";
-
-@use "@neetly/palette";
+@use "@neetly/ui";
 
 .link {
   all: unset;
@@ -12,7 +10,7 @@
 .item {
   padding: 1.5rem 2rem;
   border-radius: 1.75rem;
-  background-color: color.change(palette.$primary--600, $alpha: 0.05);
+  background-color: ui.$color-primary-surface;
   transition: background-color 150ms;
 
   @media (max-width: 40rem) {
@@ -23,17 +21,17 @@
 
   @media (hover: hover) {
     .link:hover & {
-      background-color: color.change(palette.$primary--600, $alpha: 0.1);
+      background-color: ui.$color-primary-surface-accent;
     }
   }
 
   .link:active & {
-    background-color: color.change(palette.$primary--600, $alpha: 0.1);
+    background-color: ui.$color-primary-surface-accent;
   }
 
   .link:focus-visible & {
-    outline: 2px solid palette.$primary--600;
-    background-color: color.change(palette.$primary--600, $alpha: 0.1);
+    outline: 2px solid ui.$color-primary;
+    background-color: ui.$color-primary-surface-accent;
   }
 }
 
@@ -42,11 +40,11 @@
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.2;
-  color: palette.$primary--600;
+  color: ui.$color-primary;
 }
 
 .description {
   margin: 0;
   font-size: 0.875rem;
-  color: palette.$neutral-variant--600;
+  color: ui.$color-neutral-variant;
 }
