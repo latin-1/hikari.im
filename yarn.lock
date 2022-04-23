@@ -2210,9 +2210,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/ui@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@neetly/ui@npm:0.2.2"
+"@neetly/ui@npm:^0.2.3":
+  version: 0.2.3
+  resolution: "@neetly/ui@npm:0.2.3"
   dependencies:
     "@neetly/icons": 0.1.0
     "@neetly/palette": 4.0.0
@@ -2229,7 +2229,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 75612ac37cc90b2a1ba94318a9b99a6d2f256479ff373d3e41b4e1122c58a2f943592f814da72735c975e58abcab6618696cc65feedd17f80a28853e17d01ec1
+  checksum: a850cfa983c835972a38b8ef2fca9964bcd016ccd9307dd918fc9aa13a14d38e399ff63db0a5f1c23622d1b23506c7d2148f1177678fae631d22208b34e8db36
   languageName: node
   linkType: hard
 
@@ -9573,7 +9573,7 @@ __metadata:
     "@buncho/tsconfig": ^2.0.0
     "@neetly/palette": ^4.0.0
     "@neetly/router": ^1.3.0
-    "@neetly/ui": ^0.2.2
+    "@neetly/ui": ^0.2.3
     "@prettier/plugin-xml": ^2.1.0
     "@types/react": ^18.0.6
     "@types/react-dom": ^18.0.2
