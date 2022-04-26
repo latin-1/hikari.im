@@ -1,6 +1,7 @@
 @use "@neetly/ui";
 
 .typography {
+  font-family: ui.$font-body;
   font-size: 1.125rem;
 
   p {
