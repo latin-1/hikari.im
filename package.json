@@ -11,7 +11,7 @@
   "dependencies": {
     "@neetly/palette": "^4.0.0",
     "@neetly/router": "^1.3.0",
-    "@neetly/ui": "^0.3.0",
+    "@neetly/ui": "^0.4.0",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.3",
     "react": "^18.1.0",
