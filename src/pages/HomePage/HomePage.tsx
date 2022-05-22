@@ -89,7 +89,7 @@ const HomePage = () => {
               <span className={styles.separator}>&nbsp;/ </span>
               <span>🎨&nbsp;Figma</span>
             </dd>
-            <dt>GPG Key</dt>
+            <dt>PGP Key</dt>
             <dd>
               🔑&nbsp;
               <a
