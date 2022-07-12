@@ -8,15 +8,6 @@
     "outDir": "./lib",
 
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
-    "types": ["@buncho/builder"],
-
-    "plugins": [{ "name": "typescript-plugin-css-modules" }],
-
-    // Make typescript-plugin-css-modules happy
-    "baseUrl": ".",
-    "paths": {
-      "@neetly/ui": ["./node_modules/@neetly/ui/lib/index.scss"],
-      "@neetly/palette": ["./node_modules/@neetly/palette/lib/index.scss"]
-    }
+    "types": ["@buncho/builder"]
   }
 }

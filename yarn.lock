@@ -2050,25 +2050,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/router@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "@neetly/router@npm:1.3.0"
-  dependencies:
-    react-router-dom: "npm:^6.3.0"
-  peerDependencies:
-    "@types/react": "*"
-    "@types/react-dom": "*"
-    react: "*"
-    react-dom: "*"
-  peerDependenciesMeta:
-    "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-  checksum: 7c2985b675cbd610e68bd6682ffdf2caae3679f27b5620a6630f5cc3668969a4c8c61b20982a959318ee44091ac72b3508299f5cda96e00aa1c9927a4cdefe95
-  languageName: node
-  linkType: hard
-
 "@neetly/ui@npm:^0.7.0":
   version: 0.7.0
   resolution: "@neetly/ui@npm:0.7.0"
@@ -2198,6 +2179,13 @@ __metadata:
     "@xml-tools/parser": "npm:^1.0.11"
     prettier: "npm:>=2.4.0"
   checksum: a8c63004dbc02d1aa98134a716940a0895a0acb0ae017daf33038043f1b0aed390fc705058baa1e6040945f8f0707361c21ba5a2687dc69266e28bd5923fcef4
+  languageName: node
+  linkType: hard
+
+"@remix-run/router@npm:0.2.0-pre.3":
+  version: 0.2.0-pre.3
+  resolution: "@remix-run/router@npm:0.2.0-pre.3"
+  checksum: 4f91fc9db91600264f01641997b13eeeebd00f4464c458a56fbf1c32e4e8cfe5d55db04e927624083257d10bd80348415616986f7a3d6b4c7a2514413272929e
   languageName: node
   linkType: hard
 
@@ -9347,7 +9335,6 @@ __metadata:
     "@buncho/eslint-config": "npm:^6.0.0"
     "@buncho/tsconfig": "npm:^2.0.0"
     "@neetly/palette": "npm:^5.0.0"
-    "@neetly/router": "npm:^1.3.0"
     "@neetly/ui": "npm:^0.7.0"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@types/react": "npm:^18.0.15"
@@ -9358,19 +9345,11 @@ __metadata:
     prettier: "npm:^2.7.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:6.4.0-pre.8"
     typescript: "npm:^4.7.4"
     typescript-plugin-css-modules: "npm:^3.4.0"
   languageName: unknown
   linkType: soft
-
-"history@npm:^5.2.0":
-  version: 5.2.0
-  resolution: "history@npm:5.2.0"
-  dependencies:
-    "@babel/runtime": "npm:^7.7.6"
-  checksum: b8a1b6cede6b829063e7ed20ff263e691492275362ed28ae2a6e70085972e96440524fa74cb4e53cecf28e4eae8bef937be309fb7c4a93be00f6cc3e2e9daa0d
-  languageName: node
-  linkType: hard
 
 "hmac-drbg@npm:^1.0.1":
   version: 1.0.1
@@ -13704,27 +13683,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.3.0":
-  version: 6.3.0
-  resolution: "react-router-dom@npm:6.3.0"
+"react-router-dom@npm:6.4.0-pre.8":
+  version: 6.4.0-pre.8
+  resolution: "react-router-dom@npm:6.4.0-pre.8"
   dependencies:
-    history: "npm:^5.2.0"
-    react-router: "npm:6.3.0"
+    react-router: "npm:6.4.0-pre.8"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: 78051169fdc7642103479e7194f616cd1d316af8474503d5d3ea8125ed1d3ded2776e2653e8184509220349d3713ceca572cce3297266e2b7ab3dd0067db8605
+  checksum: 5984e63f579ad5d8574a3e9f4e87c2e453924f58725ea7f4c3ca740a58a7bb5ca2b4331ac5ec599a24201af612b19a175ff71a5e5b718b3a7575bbb41b53a627
   languageName: node
   linkType: hard
 
-"react-router@npm:6.3.0":
-  version: 6.3.0
-  resolution: "react-router@npm:6.3.0"
+"react-router@npm:6.4.0-pre.8":
+  version: 6.4.0-pre.8
+  resolution: "react-router@npm:6.4.0-pre.8"
   dependencies:
-    history: "npm:^5.2.0"
+    "@remix-run/router": "npm:0.2.0-pre.3"
   peerDependencies:
     react: ">=16.8"
-  checksum: e18db7761282cb28dda7a4f81c4df696f0484c7f998dc339b4939cb9bb9e8d968e33b627a9616adfed141b588ca1885be6be602c12ff52e81b4bab4bf3e629f8
+  checksum: ab64dc482ef407e32e3230db3ac65e67f48cf31f7aad1df5cdadf4bbb4f3831c4268eea4db093b39b6f992a7409a6401f0a6475d561ddebde1e82d91bef0e21d
   languageName: node
   linkType: hard
 
