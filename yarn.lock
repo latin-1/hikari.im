@@ -2043,7 +2043,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/palette@npm:5.1.0, @neetly/palette@npm:^5.0.0":
+"@neetly/palette@npm:5.1.0, @neetly/palette@npm:^5.1.0":
   version: 5.1.0
   resolution: "@neetly/palette@npm:5.1.0"
   checksum: f40e08a80589154566581297cc6ac8dc9bd2dc55def5f27559eef59e6fe94147cfadaa066bf3125969a53074195802041b617fca5d57af33a8d1b43dbc1126c3
@@ -9241,7 +9241,7 @@ __metadata:
     "@buncho/builder": "npm:^5.5.0"
     "@buncho/eslint-config": "npm:^6.0.0"
     "@buncho/tsconfig": "npm:^2.0.0"
-    "@neetly/palette": "npm:^5.0.0"
+    "@neetly/palette": "npm:^5.1.0"
     "@neetly/ui": "npm:^0.8.0"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@types/react": "npm:^18.0.15"
