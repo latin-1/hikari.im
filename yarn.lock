@@ -2043,20 +2043,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@neetly/palette@npm:5.0.0, @neetly/palette@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "@neetly/palette@npm:5.0.0"
-  checksum: 9c7ab28a69dc3a8dfeffeb3cc62fe439d3dd30a75ba864bd08ad2af47785d40d8824081ef92efb35be8a934555b1ed384048c20171bad7c6b1d8bd9ef236e3e7
+"@neetly/palette@npm:5.1.0, @neetly/palette@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "@neetly/palette@npm:5.1.0"
+  checksum: f40e08a80589154566581297cc6ac8dc9bd2dc55def5f27559eef59e6fe94147cfadaa066bf3125969a53074195802041b617fca5d57af33a8d1b43dbc1126c3
   languageName: node
   linkType: hard
 
-"@neetly/ui@npm:^0.7.0":
-  version: 0.7.0
-  resolution: "@neetly/ui@npm:0.7.0"
+"@neetly/ui@npm:^0.8.0":
+  version: 0.8.0
+  resolution: "@neetly/ui@npm:0.8.0"
   dependencies:
     "@neetly/icons": "npm:0.4.0"
-    "@neetly/palette": "npm:5.0.0"
-    ariakit: "npm:2.0.0-next.32"
+    "@neetly/palette": "npm:5.1.0"
+    ariakit: "npm:2.0.0-next.34"
     classnames: "npm:^2.3.1"
   peerDependencies:
     "@types/react": "*"
@@ -2068,7 +2068,7 @@ __metadata:
       optional: true
     "@types/react-dom":
       optional: true
-  checksum: 99ba9a5c41304a539ceb75774001b7b543ef6b7719d671bc32dafa3f75bd4a50d34d06109cf0502b7917adb13ceeff6d2948cf403a7bbd4e0aa1a0bd59b57ade
+  checksum: 6c5d7447d87bd834e607fb7a22c49ed7ce8a991c4f9544c4656b9b2cca3fe0034d313faa03296104b7c1295928e60b98c9c8be3a6a3ab8084110a9a60a6c2e38
   languageName: node
   linkType: hard
 
@@ -5074,25 +5074,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ariakit-utils@npm:0.17.0-next.22":
-  version: 0.17.0-next.22
-  resolution: "ariakit-utils@npm:0.17.0-next.22"
+"ariakit-utils@npm:0.17.0-next.23":
+  version: 0.17.0-next.23
+  resolution: "ariakit-utils@npm:0.17.0-next.23"
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
-  checksum: ff7a2a52ae834ea134522cc84a10eb9a134dce5aef77274fcd7b75fd0ada2453d5ef971051a04c54aed0943321d7336473143ef0f0859a9d806d449ce738dc76
+  checksum: ce0e994e0bbc89295203d3a6d7a288667ccde34ce2de849bb5161a93c80ef8e99d77137ed99b489e30d55e34896ced230f26279b49fc8453cde8cb6284bcf5c2
   languageName: node
   linkType: hard
 
-"ariakit@npm:2.0.0-next.32":
-  version: 2.0.0-next.32
-  resolution: "ariakit@npm:2.0.0-next.32"
+"ariakit@npm:2.0.0-next.34":
+  version: 2.0.0-next.34
+  resolution: "ariakit@npm:2.0.0-next.34"
   dependencies:
     "@floating-ui/dom": "npm:0.5.4"
-    ariakit-utils: "npm:0.17.0-next.22"
+    ariakit-utils: "npm:0.17.0-next.23"
   peerDependencies:
     react: ^17.0.0 || ^18.0.0
     react-dom: ^17.0.0 || ^18.0.0
-  checksum: 2f4539ec2956e88258f5066293165681cccfcdfbe30346f16bedfc312b150ad900e1263d1582ba99bb6dd60373becb9a12526309f481bcd2bf5f3d8666551d22
+  checksum: 291ef76740c5099c665c7aa392730aba44550ab20b1f80288bc79e32fd3c7230b2014b3aff1b1eceb675d884ac81fefbe1ff6ab58ec57b81af3c6d60580e3d1b
   languageName: node
   linkType: hard
 
@@ -9242,7 +9242,7 @@ __metadata:
     "@buncho/eslint-config": "npm:^6.0.0"
     "@buncho/tsconfig": "npm:^2.0.0"
     "@neetly/palette": "npm:^5.0.0"
-    "@neetly/ui": "npm:^0.7.0"
+    "@neetly/ui": "npm:^0.8.0"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@types/react": "npm:^18.0.15"
     "@types/react-dom": "npm:^18.0.6"
