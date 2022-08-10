@@ -2189,10 +2189,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@remix-run/router@npm:0.2.0-pre.6":
-  version: 0.2.0-pre.6
-  resolution: "@remix-run/router@npm:0.2.0-pre.6"
-  checksum: 4f373a627a32680efa406761da1a3326bebca4228278f3d7a645285127e6f809fc3e4335fd6878ac0a5f610af5b1ffb10c2e0925be66dba4a60afd8a7392cfbc
+"@remix-run/router@npm:0.2.0-pre.7":
+  version: 0.2.0-pre.7
+  resolution: "@remix-run/router@npm:0.2.0-pre.7"
+  checksum: ce0e50917fe18d4266bc8203a087d0611ae5f16d49d452ca6bc33fd1d7ee9b4699b71ee9ac5260d7c8def29585cc530ec9fc80d7cd428c990df5e8e17b5c7abe
   languageName: node
   linkType: hard
 
@@ -9270,7 +9270,7 @@ __metadata:
     prettier: "npm:^2.7.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
-    react-router-dom: "npm:6.4.0-pre.11"
+    react-router-dom: "npm:6.4.0-pre.12"
     typescript: "npm:^4.7.4"
   languageName: unknown
   linkType: soft
@@ -13433,26 +13433,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:6.4.0-pre.11":
-  version: 6.4.0-pre.11
-  resolution: "react-router-dom@npm:6.4.0-pre.11"
+"react-router-dom@npm:6.4.0-pre.12":
+  version: 6.4.0-pre.12
+  resolution: "react-router-dom@npm:6.4.0-pre.12"
   dependencies:
-    react-router: "npm:6.4.0-pre.11"
+    react-router: "npm:6.4.0-pre.12"
   peerDependencies:
     react: ">=16.8"
     react-dom: ">=16.8"
-  checksum: d274e36c9cdde1f66f739fbef243ef038c8e8369437a2ace2bd3c20ea6bc75d06ee6142e395356755ec176f58e40324de7481f89dcaef62073a16604023d7331
+  checksum: 9dd5a95cdc724051e0e8dde90afc946e0f652cb6fc27646f3caa2caca64c93fd6b7ecf87ee1d14a7ca740e9acd01ed7ad1a568b14ed65bb4dae3609937f6363e
   languageName: node
   linkType: hard
 
-"react-router@npm:6.4.0-pre.11":
-  version: 6.4.0-pre.11
-  resolution: "react-router@npm:6.4.0-pre.11"
+"react-router@npm:6.4.0-pre.12":
+  version: 6.4.0-pre.12
+  resolution: "react-router@npm:6.4.0-pre.12"
   dependencies:
-    "@remix-run/router": "npm:0.2.0-pre.6"
+    "@remix-run/router": "npm:0.2.0-pre.7"
   peerDependencies:
     react: ">=16.8"
-  checksum: 9febc0d9a78fc575d1f49315f92c51ab16d2449a42a86ae3af96ad5c0cb31f2c032547a489515d12c65b52b948bce33a53fe40066503867a53dc2787f50c510e
+  checksum: b27e9c771a30b9c7714a91fd568495913798767d524fe7a0396b00edab82e865389fe1a2c26e578bb2a1351a4270ca72e064367e1418e3f4ec4ec83d6e196d2f
   languageName: node
   linkType: hard
 
