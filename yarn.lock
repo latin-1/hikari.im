@@ -3998,14 +3998,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:^18.0.22":
-  version: 18.0.22
-  resolution: "@types/react@npm:18.0.22"
+"@types/react@npm:*, @types/react@npm:^18.0.23":
+  version: 18.0.23
+  resolution: "@types/react@npm:18.0.23"
   dependencies:
     "@types/prop-types": "npm:*"
     "@types/scheduler": "npm:*"
     csstype: "npm:^3.0.2"
-  checksum: d3036ebb77afe9547e854064c360a93d1286746490c682506e168f0641782dd98c895f358fc74d0ac79acff802c24a45bd30d6200433cccb9f204b3207b7c14c
+  checksum: 46367c34a7ae3531eb23b30e1878e24bbf477e9f8fa71d38d18310a37ac57fc2b04977eff76ce22edd5db1ce2b407b63161eb2edd730104270563835de06d3b8
   languageName: node
   linkType: hard
 
@@ -9264,7 +9264,7 @@ __metadata:
     "@neetly/palette": "npm:^5.1.0"
     "@neetly/ui": "npm:^0.9.1"
     "@prettier/plugin-xml": "npm:^2.2.0"
-    "@types/react": "npm:^18.0.22"
+    "@types/react": "npm:^18.0.23"
     "@types/react-dom": "npm:^18.0.7"
     "@typescript-eslint/eslint-plugin": "npm:^5.41.0"
     "@typescript-eslint/parser": "npm:^5.41.0"
