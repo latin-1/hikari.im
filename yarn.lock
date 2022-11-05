@@ -3980,12 +3980,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:^18.0.7":
-  version: 18.0.7
-  resolution: "@types/react-dom@npm:18.0.7"
+"@types/react-dom@npm:^18.0.8":
+  version: 18.0.8
+  resolution: "@types/react-dom@npm:18.0.8"
   dependencies:
     "@types/react": "npm:*"
-  checksum: d42a0d895fcf0a0eb649428a313543a73765013280dd1999fe97e236652bdd1ee778b1d57247ae6661397db70e9c7289b72147741fe2ce5ab9db3e82060e45d9
+  checksum: c599b8493cd04d4fa6e138657f0f6a73d6022c1cc159e732ea6d29d41f1b20edfb39980804806b397e15bdeb779ab60535521472838cea177f4b9b24b3bf0520
   languageName: node
   linkType: hard
 
@@ -9266,7 +9266,7 @@ __metadata:
     "@neetly/ui": "npm:^0.9.1"
     "@prettier/plugin-xml": "npm:^2.2.0"
     "@types/react": "npm:^18.0.25"
-    "@types/react-dom": "npm:^18.0.7"
+    "@types/react-dom": "npm:^18.0.8"
     "@typescript-eslint/eslint-plugin": "npm:^5.42.0"
     "@typescript-eslint/parser": "npm:^5.42.0"
     eslint: "npm:^8.26.0"
