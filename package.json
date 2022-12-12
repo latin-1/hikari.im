@@ -1,0 +1,28 @@
+{
+  "name": "hikari.im",
+  "private": true,
+  "scripts": {
+    "start": "buncho start",
+    "build": "buncho build",
+    "clean": "buncho clean",
+    "lint": "eslint --max-warnings 0 . && prettier --check .",
+    "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
+  },
+  "dependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.5"
+  },
+  "devDependencies": {
+    "@neetly/eslint-config": "^0.3.2",
+    "@neetly/tsconfig": "^0.2.0",
+    "@prettier/plugin-xml": "^2.2.0",
+    "buncho": "^6.0.4",
+    "eslint": "^8.29.0",
+    "prettier": "^2.8.1",
+    "typescript": "^4.9.4"
+  },
+  "packageManager": "yarn@4.0.0-rc.33"
+}
