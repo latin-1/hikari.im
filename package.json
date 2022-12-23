@@ -15,7 +15,7 @@
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "6.4.0-pre.14"
+    "react-router-dom": "6.6.1"
   },
   "devDependencies": {
     "@buncho/builder": "^5.5.0",
