@@ -68,6 +68,11 @@ const HomePage = () => {
             link="https://github.com/TundraWork"
           />
           <FriendItem
+            name="Makito"
+            avatarUrl="https://avatars.githubusercontent.com/u/5277268?s=80"
+            link="https://keep.moe/"
+          />
+          <FriendItem
             name="Mingye Wang"
             avatarUrl="https://avatars.githubusercontent.com/u/6459309?s=80"
             link="https://twitter.com/Artoria2e5"
