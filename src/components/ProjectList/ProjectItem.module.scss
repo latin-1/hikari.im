@@ -10,10 +10,8 @@
 }
 
 .item {
-  display: flex;
-  align-items: center;
-  padding: 0.25rem;
-  border-radius: 0.5rem;
+  padding: 1.5rem;
+  border-radius: 0.75rem;
   background-color: color.change(palette.$primary--500, $alpha: 0.05);
   transition: background-color 100ms, box-shadow 100ms;
 
@@ -35,15 +33,15 @@
   }
 }
 
-.avatar {
-  width: 2.5rem;
-  height: 2.5rem;
-  border-radius: 0.25rem;
-}
-
 .name {
-  padding: 0 0.75rem;
-  font-size: 1.125rem;
+  margin: 0;
+  font-size: 1.25rem;
   font-weight: 600;
   color: palette.$primary--500;
+}
+
+.description {
+  margin: 0;
+  font-size: 0.875rem;
+  color: palette.$primary--800;
 }

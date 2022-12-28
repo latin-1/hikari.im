@@ -1,11 +1,12 @@
 import { FriendItem, FriendList } from "../../components/FriendList";
+import { ProjectItem, ProjectList } from "../../components/ProjectList";
 import { SocialItem, SocialList } from "../../components/SocialList";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {
   return (
     <main>
-      <section>
+      <section className={styles.section}>
         <SocialList>
           <SocialItem
             name="Twitter"
@@ -33,10 +34,27 @@ const HomePage = () => {
           />
         </SocialList>
       </section>
-      <section>
+      <section className={styles.section}>
         <h1 className={styles.title}>Projects</h1>
+        <ProjectList>
+          <ProjectItem
+            name="Figma Agent for Linux"
+            description="(a.k.a. Font Helper)"
+            link="https://github.com/neetly/figma-agent-linux"
+          />
+          <ProjectItem
+            name="Buncho"
+            description="Opinionated React App Build System"
+            link="https://github.com/neetly/buncho"
+          />
+          <ProjectItem
+            name="React Pixi Renderer"
+            description="Concurrent-safe React Renderer for PixiJS"
+            link="https://github.com/neetly/react-pixi-renderer"
+          />
+        </ProjectList>
       </section>
-      <section>
+      <section className={styles.section}>
         <h1 className={styles.title}>Friends</h1>
         <FriendList>
           <FriendItem
