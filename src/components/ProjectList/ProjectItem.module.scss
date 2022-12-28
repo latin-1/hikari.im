@@ -37,11 +37,12 @@
   margin: 0;
   font-size: 1.25rem;
   font-weight: 600;
+  line-height: 1.2;
   color: palette.$primary--500;
 }
 
 .description {
-  margin: 0;
+  margin: 0.125rem 0 0;
   font-size: 0.875rem;
   color: palette.$primary--800;
 }
