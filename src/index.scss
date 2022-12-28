@@ -1,6 +1,10 @@
+@use "./palette";
+
 html {
   font-family: sans-serif;
   overflow-wrap: break-word;
+  color: palette.$neutral--900;
+  background-color: palette.$neutral--10;
 }
 
 body {

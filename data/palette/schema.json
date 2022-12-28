@@ -1,0 +1,21 @@
+{
+  "roles": [
+    { "id": "primary", "hue": 20, "chroma": 50 },
+    { "id": "secondary", "hue": 160, "chroma": 50 },
+    { "id": "neutral", "hue": 20, "chroma": 5 },
+    { "id": "neutral-variant", "hue": 20, "chroma": 10 }
+  ],
+  "tones": [
+    { "id": "10", "lightness": 99 },
+    { "id": "50", "lightness": 95 },
+    { "id": "100", "lightness": 90 },
+    { "id": "200", "lightness": 80 },
+    { "id": "300", "lightness": 70 },
+    { "id": "400", "lightness": 60 },
+    { "id": "500", "lightness": 50 },
+    { "id": "600", "lightness": 40 },
+    { "id": "700", "lightness": 30 },
+    { "id": "800", "lightness": 20 },
+    { "id": "900", "lightness": 10 }
+  ]
+}
