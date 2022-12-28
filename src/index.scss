@@ -8,6 +8,7 @@ html {
   overflow-wrap: break-word;
   color: palette.$neutral--900;
   background-color: palette.$neutral--10;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
