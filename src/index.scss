@@ -1,7 +1,7 @@
 @use "./palette";
 
 html {
-  font-family: sans-serif;
+  font-family: "Source Sans 3", "Source Han Sans", sans-serif;
   overflow-wrap: break-word;
   color: palette.$neutral--900;
   background-color: palette.$neutral--10;
