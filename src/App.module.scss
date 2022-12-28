@@ -1,5 +1,40 @@
+@use "./palette";
+
 .app {
+  display: flex;
+  flex-direction: column;
   max-width: 60rem;
-  margin: 1.5rem auto;
+  min-height: 100vh;
+  margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+.header {
+  margin: 1.5rem 0;
+}
+
+.name {
+  width: fit-content;
+  margin: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: palette.$neutral-variant--10;
+  background-color: palette.$neutral-variant--800;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  margin: 0.75rem 0;
+}
+
+.copyright {
+  margin: 0;
+  font-weight: 500;
 }

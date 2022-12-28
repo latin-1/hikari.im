@@ -5,8 +5,15 @@ import styles from "./App.module.scss";
 const App = () => {
   return (
     <div className={styles.app}>
-      <h1>Hikari Hayashi</h1>
-      <Outlet />
+      <header className={styles.header}>
+        <h1 className={styles.name}>Hikari Hayashi</h1>
+      </header>
+      <div className={styles.content}>
+        <Outlet />
+      </div>
+      <footer className={styles.footer}>
+        <p className={styles.copyright}>Copyright &copy; Hikari Hayashi.</p>
+      </footer>
       <ScrollRestoration />
     </div>
   );
