@@ -6,7 +6,7 @@
   max-width: 60rem;
   min-height: 100vh;
   margin: 0 auto;
-  padding: 0 1.5rem;
+  padding: 0 0.75rem;
 }
 
 .header {
@@ -41,7 +41,7 @@
   &::after {
     content: "";
     position: absolute;
-    right: -1.5rem;
+    right: -0.75rem;
     bottom: -1.5rem;
     width: 12rem;
     height: 15rem;
