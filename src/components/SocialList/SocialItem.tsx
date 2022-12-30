@@ -12,7 +12,7 @@ const SocialItem = ({ name, iconUrl, link }: SocialItemProps) => {
   return (
     <a className={styles.link} href={link} target="_blank" rel="noreferrer">
       <span className={styles.item}>
-        <img className={styles.icon} src={iconUrl} aria-hidden />
+        <img className={styles.icon} src={iconUrl} alt="" />
         <span className={styles.name}>{name}</span>
       </span>
     </a>

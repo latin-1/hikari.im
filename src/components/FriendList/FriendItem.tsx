@@ -12,7 +12,7 @@ const FriendItem = ({ name, avatarUrl, link }: FriendItemProps) => {
   return (
     <a className={styles.link} href={link} target="_blank" rel="noreferrer">
       <span className={styles.item}>
-        <img className={styles.avatar} src={avatarUrl} aria-hidden />
+        <img className={styles.avatar} src={avatarUrl} alt="" />
         <span className={styles.name}>{name}</span>
       </span>
     </a>
