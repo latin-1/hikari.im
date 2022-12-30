@@ -1,6 +1,6 @@
 @use "sass:color";
 
-@use "./palette";
+@use "./styles/palette.scss";
 
 html {
   font-family: "Source Sans 3", "Source Han Sans", sans-serif;

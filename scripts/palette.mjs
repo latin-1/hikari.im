@@ -23,14 +23,6 @@ for (const role of schema.roles) {
 await writeFile("./data/palette/palette.json", JSON.stringify({ colors }));
 
 await writeFile(
-  "./src/palette/index.js",
-  "const palette = {\n" +
-    colors.map(({ id, color }) => `  "${id}": "${color}",\n`).join("") +
-    "};\n\n" +
-    "export { palette };\n",
-);
-
-await writeFile(
-  "./src/palette/index.scss",
+  "./src/styles/palette.scss",
   colors.map(({ id, color }) => `$${id}: ${color};\n`).join(""),
 );
