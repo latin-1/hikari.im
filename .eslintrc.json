@@ -1,4 +1,11 @@
 {
   "root": true,
-  "extends": "@neetly/eslint-config/react"
+  "extends": "@neetly/eslint-config/react",
+
+  "overrides": [
+    {
+      "files": ["./scripts/**"],
+      "extends": "@neetly/eslint-config/node"
+    }
+  ]
 }
