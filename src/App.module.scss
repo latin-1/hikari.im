@@ -10,11 +10,11 @@
 }
 
 .header {
+  display: flex;
   margin: 1.5rem 0;
 }
 
 .name {
-  width: fit-content;
   margin: 0;
   padding: 0.75rem 1.5rem;
   border-radius: 0.75rem;
