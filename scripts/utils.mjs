@@ -4,7 +4,7 @@ import path from "node:path";
 import prettier from "prettier";
 
 const readFile = async (fileName) => {
-  return (await fs.readFile(fileName)).toString();
+  return fs.readFile(fileName, "utf-8");
 };
 
 const writeFile = async (fileName, content) => {
