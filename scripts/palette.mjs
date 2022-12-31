@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+/* eslint-env node */
+
 import { Color } from "koloro";
 
 import { readFile, writeFile } from "./utils.mjs";
