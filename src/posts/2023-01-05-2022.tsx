@@ -21,7 +21,7 @@ const Post = () => {
       }}
     >
       <Typography>
-        <h2>Key Points</h2>
+        <h2>Events</h2>
         <ul style={{ "--list-marker": `"+"` }}>
           <li>Got a new job</li>
           <li>Started learning Rust</li>
