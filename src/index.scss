@@ -3,6 +3,7 @@
 @use "./styles/palette.scss";
 
 html {
+  overflow-x: hidden;
   font-family: "Source Sans 3", "Source Han Sans", sans-serif;
   line-height: 1.5;
   overflow-wrap: break-word;

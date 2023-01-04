@@ -1,4 +1,5 @@
 import { FriendItem, FriendList } from "../../components/FriendList";
+import { PostItem, PostList } from "../../components/PostList";
 import { ProjectItem, ProjectList } from "../../components/ProjectList";
 import { SocialItem, SocialList } from "../../components/SocialList";
 import styles from "./HomePage.module.scss";
@@ -33,6 +34,12 @@ const HomePage = () => {
             link="https://github.com/latin-1"
           />
         </SocialList>
+      </section>
+      <section className={styles.section}>
+        <h1 className={styles.title}>Posts</h1>
+        <PostList>
+          <PostItem title="2022" date="Jan 5, 2023" to="/posts/2022" />
+        </PostList>
       </section>
       <section className={styles.section}>
         <h1 className={styles.title}>Projects</h1>

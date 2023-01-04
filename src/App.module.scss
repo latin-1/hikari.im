@@ -1,3 +1,5 @@
+@use "sass:color";
+
 @use "./styles/palette.scss";
 
 .app {
@@ -10,8 +12,17 @@
 }
 
 .header {
+  position: relative;
+  z-index: 100;
   display: flex;
   margin: 1.5rem 0;
+}
+
+.homeLink {
+  all: unset;
+  display: block;
+  user-select: none;
+  cursor: pointer;
 }
 
 .name {
@@ -24,6 +35,12 @@
   letter-spacing: -0.02em;
   color: palette.$neutral--10;
   background-color: palette.$primary--800;
+  box-shadow: 0 0 0 4px color.change(palette.$neutral--10, $alpha: 0.5);
+
+  .homeLink:focus-visible & {
+    outline: 2px solid palette.$primary--500;
+    outline-offset: 2px;
+  }
 }
 
 .content {

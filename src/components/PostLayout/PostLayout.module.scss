@@ -1,0 +1,27 @@
+@use "../../styles/palette.scss";
+
+.header {
+  margin-bottom: 1rem;
+}
+
+.coverImage {
+  height: 15rem;
+  margin: -7rem -3rem 2rem -3rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  background-image: var(--cover-image);
+  background-position: var(--cover-position, center);
+  background-size: var(--cover-size, cover);
+}
+
+.title {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.date {
+  margin: 0.25rem 0 0;
+  font-weight: 500;
+  color: palette.$neutral--600;
+}

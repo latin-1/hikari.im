@@ -1,0 +1,48 @@
+@use "sass:color";
+
+@use "../../styles/palette.scss";
+
+.link {
+  all: unset;
+  display: block;
+  user-select: none;
+  cursor: pointer;
+}
+
+.item {
+  padding: 1.5rem;
+  border-radius: 0.75rem;
+  background-color: color.change(palette.$primary--500, $alpha: 0.05);
+  transition: background-color 100ms, box-shadow 100ms;
+
+  @media (hover: hover) {
+    .link:hover & {
+      box-shadow: inset 0 0 0 2px
+        color.change(palette.$primary--500, $alpha: 0.2);
+    }
+  }
+
+  .link:active & {
+    background-color: color.change(palette.$primary--500, $alpha: 0.1);
+    box-shadow: inset 0 0 0 2px color.change(palette.$primary--500, $alpha: 0.2);
+  }
+
+  .link:focus-visible & {
+    outline: 2px solid palette.$primary--500;
+    outline-offset: 2px;
+  }
+}
+
+.title {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: palette.$primary--500;
+}
+
+.date {
+  margin: 0.125rem 0 0;
+  font-size: 0.875rem;
+  color: palette.$primary--800;
+}
