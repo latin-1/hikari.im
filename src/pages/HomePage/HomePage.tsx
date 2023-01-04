@@ -2,9 +2,12 @@ import { FriendItem, FriendList } from "../../components/FriendList";
 import { PostItem, PostList } from "../../components/PostList";
 import { ProjectItem, ProjectList } from "../../components/ProjectList";
 import { SocialItem, SocialList } from "../../components/SocialList";
+import { usePageTitle } from "../../hooks/usePageTitle";
 import styles from "./HomePage.module.scss";
 
 const HomePage = () => {
+  usePageTitle();
+
   return (
     <main>
       <section className={styles.section}>

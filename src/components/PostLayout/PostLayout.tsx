@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 
+import { usePageTitle } from "../../hooks/usePageTitle";
 import styles from "./PostLayout.module.scss";
 
 type PostLayoutProps = {

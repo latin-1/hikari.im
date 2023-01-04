@@ -1,5 +1,6 @@
 import { PostLayout } from "../components/PostLayout";
 import { Typography } from "../components/Typography";
+import { usePageTitle } from "../hooks/usePageTitle";
 
 const coverImageUrl = new URL(
   "../assets/cover.jpg",
@@ -7,6 +8,8 @@ const coverImageUrl = new URL(
 ).toString();
 
 const Post = () => {
+  usePageTitle("2022");
+
   return (
     <PostLayout
       title="2022"
