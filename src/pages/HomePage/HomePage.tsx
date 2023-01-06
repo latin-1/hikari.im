@@ -9,7 +9,7 @@ const HomePage = () => {
   usePageTitle();
 
   return (
-    <main>
+    <main className={styles.page}>
       <section className={styles.section}>
         <SocialList>
           <SocialItem
