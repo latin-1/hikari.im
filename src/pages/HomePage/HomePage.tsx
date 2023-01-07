@@ -2,6 +2,7 @@ import { FriendItem, FriendList } from "../../components/FriendList";
 import { PostItem, PostList } from "../../components/PostList";
 import { ProjectItem, ProjectList } from "../../components/ProjectList";
 import { SocialItem, SocialList } from "../../components/SocialList";
+import { Typography } from "../../components/Typography";
 import { usePageTitle } from "../../hooks/usePageTitle";
 import styles from "./HomePage.module.scss";
 
@@ -37,6 +38,12 @@ const HomePage = () => {
             link="https://github.com/latin-1"
           />
         </SocialList>
+        <Typography>
+          <p>
+            I'm a Web developer and UI/UX designer. I use Arch Linux and GNOME
+            for both work and life.
+          </p>
+        </Typography>
       </section>
       <section className={styles.section}>
         <h1 className={styles.title}>Posts</h1>
