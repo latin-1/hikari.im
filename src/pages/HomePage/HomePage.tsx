@@ -98,6 +98,11 @@ const HomePage = () => {
             link="https://orzfly.com/"
           />
           <FriendItem
+            name={<span lang="zh-Hans">千千</span>}
+            avatarUrl="https://avatars.githubusercontent.com/u/22388300?s=80"
+            link="https://wwyqianqian.github.io/"
+          />
+          <FriendItem
             name={<span lang="zh-Hans">谦谦</span>}
             avatarUrl="https://avatars.githubusercontent.com/u/4645762?s=80"
             link="https://xqq.im/"
