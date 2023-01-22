@@ -76,6 +76,15 @@ const Post = () => {
               GOODBYE WORLD
             </a>
           </li>
+          <li>
+            <a
+              href="https://store.steampowered.com/app/1260520/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Patrick's Parabox
+            </a>
+          </li>
         </ul>
       </Typography>
     </PostLayout>
