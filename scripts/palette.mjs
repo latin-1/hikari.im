@@ -1,8 +1,7 @@
 #!/usr/bin/env node
 
+import { readFile, writeFile } from "@neetly/codegen-utils";
 import { Color } from "koloro";
-
-import { readFile, writeFile } from "./utils.mjs";
 
 const schema = JSON.parse(await readFile("./data/palette/schema.json"));
 
