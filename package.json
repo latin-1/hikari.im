@@ -18,7 +18,7 @@
   "devDependencies": {
     "@neetly/codegen-utils": "^0.1.0",
     "@neetly/eslint-config": "^0.4.0",
-    "@neetly/tsconfig": "^0.2.0",
+    "@neetly/tsconfig": "^0.3.0",
     "@prettier/plugin-xml": "^2.2.0",
     "buncho": "^6.0.5",
     "eslint": "^8.36.0",
