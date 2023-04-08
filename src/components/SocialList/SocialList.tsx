@@ -10,4 +10,4 @@ const SocialList = ({ children }: SocialListProps) => {
   return <div className={styles.list}>{children}</div>;
 };
 
-export { type SocialListProps, SocialList };
+export { SocialList, type SocialListProps };

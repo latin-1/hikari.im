@@ -19,4 +19,4 @@ const FriendItem = ({ name, avatarUrl, link }: FriendItemProps) => {
   );
 };
 
-export { type FriendItemProps, FriendItem };
+export { FriendItem, type FriendItemProps };

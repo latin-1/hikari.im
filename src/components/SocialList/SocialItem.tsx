@@ -19,4 +19,4 @@ const SocialItem = ({ name, iconUrl, link }: SocialItemProps) => {
   );
 };
 
-export { type SocialItemProps, SocialItem };
+export { SocialItem, type SocialItemProps };

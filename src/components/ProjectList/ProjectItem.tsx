@@ -19,4 +19,4 @@ const ProjectItem = ({ name, description, link }: ProjectItemProps) => {
   );
 };
 
-export { type ProjectItemProps, ProjectItem };
+export { ProjectItem, type ProjectItemProps };

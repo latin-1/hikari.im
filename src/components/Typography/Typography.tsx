@@ -10,4 +10,4 @@ const Typography = ({ children }: TypographyProps) => {
   return <div className={styles.typography}>{children}</div>;
 };
 
-export { type TypographyProps, Typography };
+export { Typography, type TypographyProps };

@@ -10,4 +10,4 @@ const ProjectList = ({ children }: ProjectListProps) => {
   return <div className={styles.list}>{children}</div>;
 };
 
-export { type ProjectListProps, ProjectList };
+export { ProjectList, type ProjectListProps };

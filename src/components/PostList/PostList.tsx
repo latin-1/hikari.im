@@ -10,4 +10,4 @@ const PostList = ({ children }: PostListProps) => {
   return <div className={styles.list}>{children}</div>;
 };
 
-export { type PostListProps, PostList };
+export { PostList, type PostListProps };

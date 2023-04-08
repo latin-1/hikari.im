@@ -10,4 +10,4 @@ const FriendList = ({ children }: FriendListProps) => {
   return <div className={styles.list}>{children}</div>;
 };
 
-export { type FriendListProps, FriendList };
+export { FriendList, type FriendListProps };

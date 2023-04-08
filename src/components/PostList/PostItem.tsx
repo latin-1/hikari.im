@@ -20,4 +20,4 @@ const PostItem = ({ title, date, to }: PostItemProps) => {
   );
 };
 
-export { type PostItemProps, PostItem };
+export { PostItem, type PostItemProps };
