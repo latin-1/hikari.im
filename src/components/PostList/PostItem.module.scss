@@ -13,7 +13,9 @@
   padding: 1.5rem;
   border-radius: 0.75rem;
   background-color: color.change(palette.$primary--500, $alpha: 0.05);
-  transition: background-color 100ms, box-shadow 100ms;
+  transition:
+    background-color 100ms,
+    box-shadow 100ms;
 
   @media (hover: hover) {
     .link:hover & {
