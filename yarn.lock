@@ -1818,14 +1818,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@prettier/plugin-xml@npm:^3.1.1":
-  version: 3.1.1
-  resolution: "@prettier/plugin-xml@npm:3.1.1"
+"@prettier/plugin-xml@npm:^3.2.0":
+  version: 3.2.0
+  resolution: "@prettier/plugin-xml@npm:3.2.0"
   dependencies:
     "@xml-tools/parser": "npm:^1.0.11"
   peerDependencies:
     prettier: ^3.0.0
-  checksum: d650148c5e5f1c1293837071e4114660e419d3043065ecee8e0ee3def93bff83b17ee00094dd5681f184718e964259e1eaaee03baabeb094ebf5239769b57994
+  checksum: f1122c6ec37b719016dc542a6d59865e5fe31ac70beb17c7fe973a0368e97a37a2d9a670fbd3939ac9405ef2c3d6cbfec8a7ab6ea39c3c93c228104a360242fd
   languageName: node
   linkType: hard
 
@@ -5094,7 +5094,7 @@ __metadata:
     "@neetly/codegen-utils": "npm:^0.2.0"
     "@neetly/eslint-config": "npm:^0.5.1"
     "@neetly/tsconfig": "npm:^0.3.0"
-    "@prettier/plugin-xml": "npm:^3.1.1"
+    "@prettier/plugin-xml": "npm:^3.2.0"
     "@types/react": "npm:^18.2.17"
     "@types/react-dom": "npm:^18.2.7"
     buncho: "npm:^6.1.0"
