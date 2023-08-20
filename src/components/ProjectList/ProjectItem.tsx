@@ -2,11 +2,11 @@ import type { ReactNode } from "react";
 
 import styles from "./ProjectItem.module.scss";
 
-type ProjectItemProps = {
+interface ProjectItemProps {
   name: ReactNode;
   description: ReactNode;
   link: string;
-};
+}
 
 const ProjectItem = ({ name, description, link }: ProjectItemProps) => {
   return (

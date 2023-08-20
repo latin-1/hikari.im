@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 import styles from "./PostLayout.module.scss";
 
-type PostLayoutProps = {
+interface PostLayoutProps {
   title: ReactNode;
   date: ReactNode;
   coverImage?: {
@@ -11,7 +11,7 @@ type PostLayoutProps = {
     size?: string;
   };
   children?: ReactNode;
-};
+}
 
 const PostLayout = ({ title, date, coverImage, children }: PostLayoutProps) => {
   return (

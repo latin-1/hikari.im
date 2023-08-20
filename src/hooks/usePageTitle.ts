@@ -1,5 +1,5 @@
 const usePageTitle = (title?: string) => {
-  if (title) {
+  if (title !== undefined) {
     document.title = `${title} - Hikari Hayashi`;
   } else {
     document.title = `Hikari Hayashi`;

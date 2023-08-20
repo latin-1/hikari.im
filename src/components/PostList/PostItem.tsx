@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 import styles from "./PostItem.module.scss";
 
-type PostItemProps = {
+interface PostItemProps {
   title: ReactNode;
   date: ReactNode;
   to: string;
-};
+}
 
 const PostItem = ({ title, date, to }: PostItemProps) => {
   return (

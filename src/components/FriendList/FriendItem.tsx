@@ -2,11 +2,11 @@ import type { ReactNode } from "react";
 
 import styles from "./FriendItem.module.scss";
 
-type FriendItemProps = {
+interface FriendItemProps {
   name: ReactNode;
   avatarUrl: string;
   link: string;
-};
+}
 
 const FriendItem = ({ name, avatarUrl, link }: FriendItemProps) => {
   return (

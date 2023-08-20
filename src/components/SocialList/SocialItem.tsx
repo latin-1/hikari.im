@@ -2,11 +2,11 @@ import type { ReactNode } from "react";
 
 import styles from "./SocialItem.module.scss";
 
-type SocialItemProps = {
+interface SocialItemProps {
   name: ReactNode;
   iconUrl: string;
   link: string;
-};
+}
 
 const SocialItem = ({ name, iconUrl, link }: SocialItemProps) => {
   return (

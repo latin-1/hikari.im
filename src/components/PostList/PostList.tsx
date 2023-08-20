@@ -2,9 +2,9 @@ import type { ReactNode } from "react";
 
 import styles from "./PostList.module.scss";
 
-type PostListProps = {
+interface PostListProps {
   children?: ReactNode;
-};
+}
 
 const PostList = ({ children }: PostListProps) => {
   return <div className={styles.list}>{children}</div>;
