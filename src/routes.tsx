@@ -10,7 +10,9 @@ const routes = createRoutesFromElements(
     <Route
       path="/posts/2022"
       loader={async () => await import("./posts/2023-01-05-2022")}
-      element={createElement(lazy(async () => await import("./posts/2023-01-05-2022")))}
+      element={createElement(
+        lazy(async () => await import("./posts/2023-01-05-2022")),
+      )}
     />
   </Route>,
 );
