@@ -21,7 +21,7 @@
     "@neetly/tsconfig": "^0.3.0",
     "@prettier/plugin-xml": "^3.2.1",
     "buncho": "^6.2.0",
-    "eslint": "^8.49.0",
+    "eslint": "^8.51.0",
     "koloro": "^0.4.0",
     "prettier": "^3.0.3",
     "typescript": "^5.2.2"
