@@ -9,7 +9,7 @@
     "lint:fix": "eslint --max-warnings 0 --fix . && prettier --write ."
   },
   "dependencies": {
-    "@types/react": "18.2.57",
+    "@types/react": "18.2.61",
     "@types/react-dom": "18.2.19",
     "react": "18.2.0",
     "react-dom": "18.2.0",
