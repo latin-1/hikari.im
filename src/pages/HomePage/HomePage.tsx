@@ -59,16 +59,6 @@ const HomePage = () => {
             description="(a.k.a. Font Helper)"
             link="https://github.com/neetly/figma-agent-linux"
           />
-          <ProjectItem
-            name="Buncho"
-            description="Opinionated React App Build System"
-            link="https://github.com/neetly/buncho"
-          />
-          <ProjectItem
-            name="React Pixi Renderer"
-            description="Concurrent-safe React Renderer for PixiJS"
-            link="https://github.com/neetly/react-pixi-renderer"
-          />
         </ProjectList>
       </section>
       <section className={styles.section}>
@@ -85,29 +75,14 @@ const HomePage = () => {
             link="https://github.com/TundraWork"
           />
           <FriendItem
-            name="Makito"
-            avatarUrl="https://avatars.githubusercontent.com/u/5277268?s=80"
-            link="https://keep.moe/"
-          />
-          <FriendItem
             name="Mingye Wang"
             avatarUrl="https://avatars.githubusercontent.com/u/6459309?s=80"
             link="https://twitter.com/Artoria2e5"
           />
           <FriendItem
-            name="Tachibana Kiyomi"
-            avatarUrl="https://avatars.githubusercontent.com/u/34709816?s=80"
-            link="https://ioover.net/"
-          />
-          <FriendItem
             name="Yeechan Lu"
             avatarUrl="https://avatars.githubusercontent.com/u/158528?s=80"
             link="https://orzfly.com/"
-          />
-          <FriendItem
-            name={<span lang="zh-Hans">千千</span>}
-            avatarUrl="https://avatars.githubusercontent.com/u/22388300?s=80"
-            link="https://wwyqianqian.github.io/"
           />
           <FriendItem
             name={<span lang="zh-Hans">谦谦</span>}
