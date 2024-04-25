@@ -2156,12 +2156,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.2.24":
-  version: 18.2.24
-  resolution: "@types/react-dom@npm:18.2.24"
+"@types/react-dom@npm:18.3.0":
+  version: 18.3.0
+  resolution: "@types/react-dom@npm:18.3.0"
   dependencies:
     "@types/react": "npm:*"
-  checksum: 10c0/9ec38e5ab4727c56ef17bd8e938ead88748ba19db314b8d9807714a5cae430f5b799514667b221b4f2dc8d9b4ca17dd1c3da8c41c083c2de9eddcc31bec6b8ff
+  checksum: 10c0/6c90d2ed72c5a0e440d2c75d99287e4b5df3e7b011838cdc03ae5cd518ab52164d86990e73246b9d812eaf02ec351d74e3b4f5bd325bf341e13bf980392fd53b
   languageName: node
   linkType: hard
 
@@ -5385,7 +5385,7 @@ __metadata:
     "@neetly/tsconfig": "npm:0.3.0"
     "@prettier/plugin-xml": "npm:3.4.1"
     "@types/react": "npm:18.2.74"
-    "@types/react-dom": "npm:18.2.24"
+    "@types/react-dom": "npm:18.3.0"
     buncho: "npm:6.2.0"
     eslint: "npm:8.57.0"
     koloro: "npm:0.4.0"
