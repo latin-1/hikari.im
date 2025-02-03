@@ -1,0 +1,32 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+
+const { title } = Astro.props;
+---
+
+<style>
+  .container {
+    max-width: 45rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+  }
+
+  .header {
+    margin: 3rem 0;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+  }
+</style>
+
+<BaseLayout title={title}>
+  <div class="container">
+    <header class="header">
+      {title && <h1 class="title">{title}</h1>}
+    </header>
+    <slot />
+  </div>
+</BaseLayout>

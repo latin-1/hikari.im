@@ -1,0 +1,84 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import { colors, schema } from "../../scripts/colors";
+---
+
+<style>
+  .role-list {
+    display: grid;
+    gap: 1.5rem;
+    margin: 0 -3rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    background-color: var(--color-neutral-50);
+  }
+
+  .role {
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .role-name {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  .tone-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 3rem);
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .tone {
+    position: relative;
+  }
+
+  .tone-preview {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    background-color: var(--color);
+    box-shadow: inset 0 0 0 1px rgb(from var(--color-neutral-900) r g b / 0.1);
+  }
+
+  .tone-name {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 0.25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: var(--color-neutral-100);
+    background-color: rgb(from var(--color-neutral-900) r g b / 0.8);
+  }
+</style>
+
+<Layout title="Colors">
+  <div class="role-list">
+    {
+      schema.roles.map((role) => (
+        <section class="role">
+          <h2 class="role-name">{role.name}</h2>
+          <ul class="tone-list">
+            {schema.tones.map((tone) => (
+              <li class="tone">
+                <div
+                  class="tone-preview"
+                  style={{ "--color": colors[role.name][tone.name] }}
+                />
+                <div class="tone-name">{tone.name}</div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Layout>

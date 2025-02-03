@@ -1,5 +1,5 @@
 {
-  "plugins": ["@prettier/plugin-xml"],
-  "proseWrap": "always",
-  "xmlWhitespaceSensitivity": "ignore"
+  "$schema": "https://json.schemastore.org/prettierrc.json",
+
+  "plugins": ["prettier-plugin-astro"]
 }

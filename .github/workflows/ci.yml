@@ -5,13 +5,16 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-      - run: corepack enable
+      - uses: moonrepo/setup-toolchain@v0
+        with:
+          auto-install: true
 
       - run: yarn
+      - run: yarn constraints
       - run: yarn dedupe --check
 
-      - run: yarn lint
+      - run: yarn check
       - run: yarn build

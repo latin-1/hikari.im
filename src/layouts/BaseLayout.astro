@@ -1,0 +1,33 @@
+---
+const { title } = Astro.props;
+---
+
+<style>
+  html {
+    font-family: "Lexend", sans-serif;
+    line-height: 1;
+    overflow-wrap: break-word;
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-10);
+  }
+
+  body {
+    margin: 0;
+  }
+</style>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title ? `${title} - Hikari Hayashi` : `Hikari Hayashi`}</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+    />
+    <link rel="stylesheet" href="/styles/variables.css" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
