@@ -48,7 +48,7 @@ const { title } = Astro.props;
           </a>
         )
       }
-      {title && <h1 class="title">{title}</h1>}
+      <h1 class="title">{title ?? "Hikari Hayashi"}</h1>
     </header>
     <slot />
   </div>
