@@ -1,0 +1,21 @@
+---
+const { title } = Astro.props;
+---
+
+<style>
+  .panel {
+    margin: 3rem -3rem;
+    padding: 3rem;
+    border-radius: 3rem;
+    background-color: var(--color-neutral-50);
+  }
+
+  .title {
+    margin: 0 0 1.5rem;
+  }
+</style>
+
+<section class="panel">
+  {title && <h2 class="title">{title}</h2>}
+  <slot />
+</section>
