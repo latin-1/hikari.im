@@ -24,10 +24,24 @@ const { title } = Astro.props;
     align-items: center;
     gap: 0.25em;
     width: fit-content;
-    margin: -0.25rem;
-    padding: 0.25rem;
+    margin: -0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     text-decoration: none;
     color: var(--color-primary-600);
+    transition:
+      background-color 0.1s,
+      transform 0.1s;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      }
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
   }
 
   .title {
