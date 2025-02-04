@@ -1,11 +1,21 @@
 export const friends = [
   {
+    name: { label: "Aveline Swan", lang: "en" },
+    link: { href: "https://github.com/ym" },
+    avatar: { src: "https://avatars.githubusercontent.com/u/352441?s=64" },
+  },
+  {
     name: { label: "Bingxing Wang", lang: "en" },
     link: { href: "https://imbushuo.net/" },
     avatar: { src: "https://avatars.githubusercontent.com/u/6284353?s=64" },
   },
   {
-    name: { label: "Jiayi Cheng", lang: "en" },
+    name: { label: "Eli Gao", lang: "en" },
+    link: { href: "https://eligao.com/" },
+    avatar: { src: "https://avatars.githubusercontent.com/u/2323992?s=64" },
+  },
+  {
+    name: { label: "Jesse Cheng", lang: "en" },
     link: { href: "https://github.com/TundraWork" },
     avatar: { src: "https://avatars.githubusercontent.com/u/8012410?s=64" },
   },
