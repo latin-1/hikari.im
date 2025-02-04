@@ -1070,9 +1070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.2.4":
-  version: 5.2.4
-  resolution: "astro@npm:5.2.4"
+"astro@npm:5.2.5":
+  version: 5.2.5
+  resolution: "astro@npm:5.2.5"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.3"
     "@astrojs/internal-helpers": "npm:0.5.1"
@@ -1113,10 +1113,10 @@ __metadata:
     neotraverse: "npm:^0.6.18"
     p-limit: "npm:^6.2.0"
     p-queue: "npm:^8.1.0"
-    preferred-pm: "npm:^4.1.0"
+    preferred-pm: "npm:^4.1.1"
     prompts: "npm:^2.4.2"
     rehype: "npm:^13.0.2"
-    semver: "npm:^7.7.0"
+    semver: "npm:^7.7.1"
     sharp: "npm:^0.33.3"
     shiki: "npm:^1.29.2"
     tinyexec: "npm:^0.3.2"
@@ -1127,7 +1127,7 @@ __metadata:
     vfile: "npm:^6.0.3"
     vite: "npm:^6.0.11"
     vitefu: "npm:^1.0.5"
-    which-pm: "npm:^3.0.0"
+    which-pm: "npm:^3.0.1"
     xxhash-wasm: "npm:^1.1.0"
     yargs-parser: "npm:^21.1.1"
     yocto-spinner: "npm:^0.2.0"
@@ -1139,7 +1139,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/53e7b13eb7a983ea07665aac2b7631dde9ebe2ec79fde2cb2bb21598a510e042714eebbe7ef352876769c0855d23b0aab0f09246a8095079371a19cd93262451
+  checksum: 10c0/181b77188c03bdfa62b7a2ced3bb0b6d93ac6794d8b9e02e340bcec2c40d4ad126010268d2614a9f439e644b791d570a264d02bbca325a3648af087452c2f67b
   languageName: node
   linkType: hard
 
@@ -2046,7 +2046,7 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@neetly/biome-config": "npm:1.0.0-alpha.20"
     "@neetly/yarn-constraints": "npm:1.0.0-alpha.20"
-    astro: "npm:5.2.4"
+    astro: "npm:5.2.5"
     colorjs.io: "npm:0.6.0-alpha.1"
     prettier: "npm:3.4.2"
     prettier-plugin-astro: "npm:0.14.1"
@@ -3278,7 +3278,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"preferred-pm@npm:^4.1.0":
+"preferred-pm@npm:^4.1.1":
   version: 4.1.1
   resolution: "preferred-pm@npm:4.1.1"
   dependencies:
@@ -3680,7 +3680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.6.3, semver@npm:^7.7.0":
+"semver@npm:^7.3.5, semver@npm:^7.6.3, semver@npm:^7.7.1":
   version: 7.7.1
   resolution: "semver@npm:7.7.1"
   bin:
@@ -4368,7 +4368,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"which-pm@npm:^3.0.0, which-pm@npm:^3.0.1":
+"which-pm@npm:^3.0.1":
   version: 3.0.1
   resolution: "which-pm@npm:3.0.1"
   dependencies:
