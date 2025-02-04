@@ -1,10 +1,76 @@
 ---
 import Panel from "../components/Panel.astro";
 import Layout from "../layouts/Layout.astro";
+import { friends } from "../scripts/friends";
 ---
+
+<style>
+  .friend-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .friend-link {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    width: fit-content;
+    height: 2rem;
+    margin: -0.25rem;
+    padding: 0.25rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+    color: var(--color-primary-600);
+    transition:
+      background-color 0.1s,
+      transform 0.1s;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      }
+    }
+
+    &:active {
+      transform: scale(0.95);
+    }
+  }
+
+  .friend-avatar {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+  }
+
+  .friend-name {
+    padding-left: 0.5rem;
+    padding-right: 0.75rem;
+  }
+</style>
 
 <Layout>
   <Panel title="Friends">
-    <div>TBD</div>
+    <ul class="friend-list">
+      {
+        friends.map((friend) => (
+          <li class="friend">
+            <a class="friend-link" href={friend.link.href}>
+              <img
+                class="friend-avatar"
+                src={friend.avatar.src.replace("{size}", "64")}
+                aria-hidden="true"
+              />
+              <span class="friend-name" lang={friend.name.lang}>
+                {friend.name.label}
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
   </Panel>
 </Layout>
