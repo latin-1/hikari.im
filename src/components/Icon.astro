@@ -1,0 +1,23 @@
+---
+const { class: className, path, ...props } = Astro.props;
+---
+
+<style>
+  @layer base {
+    .icon {
+      width: 1.5em;
+      height: 1.5em;
+      margin: -0.25em;
+      fill: currentColor;
+    }
+  }
+</style>
+
+<svg
+  class:list={["icon", className]}
+  viewBox="0 0 24 24"
+  aria-hidden="true"
+  {...props}
+>
+  <path d={path}></path>
+</svg>
