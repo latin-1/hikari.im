@@ -69,11 +69,7 @@ import { friends } from "../scripts/friends";
         friends.map((friend) => (
           <li class="friend">
             <a class="friend-link" href={friend.link.href}>
-              <img
-                class="friend-avatar"
-                src={friend.avatar.src}
-                aria-hidden="true"
-              />
+              <img class="friend-avatar" src={friend.avatar.src} alt="" />
               <span class="friend-name" lang={friend.name.lang}>
                 {friend.name.label}
               </span>
