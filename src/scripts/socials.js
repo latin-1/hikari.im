@@ -19,9 +19,4 @@ export const socials = [
     link: { href: "https://github.com/latin-1" },
     icon: { Component: GitHubIcon },
   },
-  {
-    name: { label: "Steam", lang: "en" },
-    link: { href: "https://steamcommunity.com/id/latin-1" },
-    icon: { Component: SteamIcon },
-  },
 ];
