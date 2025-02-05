@@ -1,6 +1,5 @@
 import BlueksyIcon from "../components/social-icons/BlueskyIcon.astro";
 import GitHubIcon from "../components/social-icons/GitHubIcon.astro";
-import SteamIcon from "../components/social-icons/SteamIcon.astro";
 import XIcon from "../components/social-icons/XIcon.astro";
 
 export const socials = [
