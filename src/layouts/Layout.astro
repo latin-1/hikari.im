@@ -26,14 +26,14 @@ const {
   .back-link {
     position: absolute;
     left: 0;
-    bottom: 100%;
+    bottom: calc(100% + 0.75rem);
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     width: fit-content;
     height: 1.5rem;
-    margin: 0 -0.5rem;
-    padding: 0.5rem;
+    margin: -0.5rem -1rem -0.5rem -0.5rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.25rem;
     text-decoration: none;
     color: var(--color-primary-600);
@@ -54,10 +54,6 @@ const {
     }
   }
 
-  .back-label {
-    padding-right: 0.5rem;
-  }
-
   .title {
     margin: 0;
     font-size: 3rem;
@@ -70,9 +66,33 @@ const {
   }
 
   .copyright {
-    margin: 0;
+    margin: 0.5rem 0;
     text-align: center;
     color: var(--color-neutral-600);
+  }
+
+  .copyright-link {
+    margin: -0.25rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    text-decoration: underline;
+    color: currentColor;
+    transition:
+      color 0.1s,
+      background-color 0.1s;
+
+    @media (hover: hover) {
+      &:hover {
+        color: var(--color-primary-600);
+        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      }
+    }
+
+    &:active {
+      color: var(--color-primary-600);
+      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      transition: none;
+    }
   }
 </style>
 
@@ -92,6 +112,17 @@ const {
     <slot />
     <footer class="footer">
       <p class="copyright">Copyright © Hikari Hayashi</p>
+      <p class="copyright">
+        Social icons by
+        <a
+          class="copyright-link"
+          href="https://icons8.com/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Icons8
+        </a>
+      </p>
     </footer>
   </div>
 </BaseLayout>

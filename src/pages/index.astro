@@ -1,15 +1,56 @@
 ---
 import Panel from "../components/Panel.astro";
+import XIcon from "../components/social-icons/XIcon.astro";
 import Layout from "../layouts/Layout.astro";
 import { friends } from "../scripts/friends";
+import { socials } from "../scripts/socials";
 ---
 
 <style>
+  .social-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem 2rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .social-link {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    gap: 0.5rem;
+    width: fit-content;
+    height: 1.5rem;
+    margin: -0.5rem -1rem -0.5rem -0.5rem;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+    color: var(--color-primary-600);
+    transition:
+      background-color 0.1s,
+      transform 0.1s;
+
+    @media (hover: hover) {
+      &:hover {
+        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      }
+    }
+
+    &:active {
+      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+      transform: scale(0.95);
+      transition: transform 0.1s;
+    }
+  }
+
   .friend-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 0.75rem;
+    gap: 0.75rem 1.5rem;
     margin: 0;
     padding: 0;
     list-style: none;
@@ -19,10 +60,11 @@ import { friends } from "../scripts/friends";
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
+    gap: 0.5rem;
     width: fit-content;
     height: 2rem;
-    margin: -0.25rem;
-    padding: 0.25rem;
+    margin: -0.25rem -1rem -0.25rem -0.25rem;
+    padding: 0.25rem 1rem 0.25rem 0.25rem;
     border-radius: 1.25rem;
     text-decoration: none;
     color: var(--color-primary-600);
@@ -49,11 +91,6 @@ import { friends } from "../scripts/friends";
     border-radius: 50%;
   }
 
-  .friend-name {
-    padding-left: 0.5rem;
-    padding-right: 0.75rem;
-  }
-
   .disclaimer {
     margin: 1.5rem 0 0;
     font-size: 0.875rem;
@@ -63,6 +100,26 @@ import { friends } from "../scripts/friends";
 </style>
 
 <Layout>
+  <ul class="social-list">
+    {
+      socials.map((social) => (
+        <li class="social">
+          <a
+            class="social-link"
+            href={social.link.href}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <social.Icon class="social-icon" />
+            <span class="social-name" lang={social.name.lang}>
+              {social.name.label}
+            </span>
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+
   <Panel title="Friends">
     <ul class="friend-list">
       {
