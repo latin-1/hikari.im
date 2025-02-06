@@ -1,128 +1,44 @@
 ---
-import ChevronLeftIcon from "../components/icons/ChevronLeftIcon.astro";
-import BaseLayout from "./BaseLayout.astro";
-
-const {
-  title,
-  backLink = {
-    label: "Home",
-    href: "/",
-  },
-} = Astro.props;
+const { title } = Astro.props;
 ---
 
-<style>
-  .container {
-    max-width: 45rem;
-    margin: 0 auto;
-    padding: 0 3rem;
+<style is:global>
+  html {
+    font-family: "Lexend", "Source Han Sans", sans-serif;
+    line-height: 1;
+    overflow-wrap: break-word;
+    color: var(--color-neutral-800);
+    background-color: var(--color-neutral-10);
+    -webkit-tap-highlight-color: transparent;
   }
 
-  .header {
-    position: relative;
-    margin: 4.5rem 0 3rem;
-  }
-
-  .back-link {
-    position: absolute;
-    left: 0;
-    bottom: calc(100% + 0.75rem);
-    display: grid;
-    grid-template-columns: auto 1fr;
-    align-items: center;
-    width: fit-content;
-    height: 1.5rem;
-    margin: -0.5rem -1rem -0.5rem -0.5rem;
-    padding: 0.5rem 1rem 0.5rem 0.5rem;
-    border-radius: 1.25rem;
-    text-decoration: none;
-    color: var(--color-primary-600);
-    transition:
-      background-color 0.1s,
-      transform 0.1s;
-
-    @media (hover: hover) {
-      &:hover {
-        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      }
-    }
-
-    &:active {
-      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      transform: scale(0.95);
-      transition: transform 0.1s;
-    }
-  }
-
-  .title {
+  body {
     margin: 0;
-    font-size: 3rem;
-    font-weight: 600;
-    text-align: center;
   }
 
-  .footer {
-    margin: 3rem 0;
+  :focus-visible {
+    outline: 2px solid var(--color-primary-600);
   }
 
-  .copyright {
-    margin: 0.5rem 0;
-    text-align: center;
-    color: var(--color-neutral-600);
-  }
-
-  .copyright-link {
-    margin: -0.25rem;
-    padding: 0.25rem;
-    border-radius: 0.25rem;
-    text-decoration: underline;
-    color: currentColor;
-    transition:
-      color 0.1s,
-      background-color 0.1s;
-
-    @media (hover: hover) {
-      &:hover {
-        color: var(--color-primary-600);
-        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      }
-    }
-
-    &:active {
-      color: var(--color-primary-600);
-      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      transition: none;
-    }
+  ::selection {
+    color: var(--color-neutral-10);
+    background-color: var(--color-primary-600);
   }
 </style>
 
-<BaseLayout title={title}>
-  <div class="container">
-    <header class="header">
-      {
-        Astro.url.pathname !== "/" && (
-          <a class="back-link" href={backLink.href}>
-            <ChevronLeftIcon class="back-icon" />
-            <span class="back-label">{backLink.label}</span>
-          </a>
-        )
-      }
-      <h1 class="title">{title ?? "Hikari Hayashi"}</h1>
-    </header>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title ? `${title} - Hikari Hayashi` : `Hikari Hayashi`}</title>
+    <link rel="canonical" href={Astro.url.pathname} />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+    />
+    <link rel="stylesheet" href="/styles/variables.css" />
+  </head>
+  <body>
     <slot />
-    <footer class="footer">
-      <p class="copyright">Copyright © Hikari Hayashi</p>
-      <p class="copyright">
-        Social icons by
-        <a
-          class="copyright-link"
-          href="https://icons8.com/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          Icons8
-        </a>
-      </p>
-    </footer>
-  </div>
-</BaseLayout>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 ---
 import Panel from "../components/Panel.astro";
 import XIcon from "../components/social-icons/XIcon.astro";
-import Layout from "../layouts/Layout.astro";
+import PageLayout from "../layouts/PageLayout.astro";
 import { friends } from "../scripts/friends";
 import { socials } from "../scripts/socials";
 ---
@@ -99,7 +99,7 @@ import { socials } from "../scripts/socials";
   }
 </style>
 
-<Layout>
+<PageLayout>
   <ul class="social-list">
     {
       socials.map((social) => (
@@ -142,4 +142,4 @@ import { socials } from "../scripts/socials";
     </ul>
     <p class="disclaimer">— alphabetical order —</p>
   </Panel>
-</Layout>
+</PageLayout>

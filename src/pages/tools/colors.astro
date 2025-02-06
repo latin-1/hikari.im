@@ -1,6 +1,6 @@
 ---
 import Panel from "../../components/Panel.astro";
-import Layout from "../../layouts/Layout.astro";
+import PageLayout from "../../layouts/PageLayout.astro";
 import { colors, schema } from "../../scripts/colors";
 ---
 
@@ -58,7 +58,7 @@ import { colors, schema } from "../../scripts/colors";
   }
 </style>
 
-<Layout title="Colors">
+<PageLayout title="Colors">
   <Panel>
     <div class="role-list">
       {
@@ -86,4 +86,4 @@ import { colors, schema } from "../../scripts/colors";
       }
     </div>
   </Panel>
-</Layout>
+</PageLayout>
