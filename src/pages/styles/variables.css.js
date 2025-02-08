@@ -1,4 +1,4 @@
-import { baseColors, colors } from "../../scripts/colors.js";
+import { baseColors, colors } from "../../scripts/colors";
 
 const withPrefix = (prefix, variables) => {
   return Object.fromEntries(
