@@ -1,6 +1,5 @@
 ---
 import Panel from "../components/Panel.astro";
-import XIcon from "../components/social-icons/XIcon.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import { friends } from "../scripts/friends";
 import { socials } from "../scripts/socials";
@@ -28,18 +27,18 @@ import { socials } from "../scripts/socials";
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.25rem;
     text-decoration: none;
-    color: var(--color-primary-600);
+    color: var(--color-primary);
     transition:
       background-color 0.1s,
       transform 0.1s;
 
     @media (hover) {
       &:hover {
-        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+        background-color: rgb(from var(--color-primary) r g b / 0.1);
       }
 
       &:active {
-        background-color: rgb(from var(--color-primary-600) r g b / 0.2);
+        background-color: rgb(from var(--color-primary) r g b / 0.2);
         transform: scale(0.95);
 
         @media (prefers-reduced-motion) {
@@ -70,18 +69,18 @@ import { socials } from "../scripts/socials";
     padding: 0.25rem 1rem 0.25rem 0.25rem;
     border-radius: 1.25rem;
     text-decoration: none;
-    color: var(--color-primary-600);
+    color: var(--color-primary);
     transition:
       background-color 0.1s,
       transform 0.1s;
 
     @media (hover) {
       &:hover {
-        background-color: rgb(from var(--color-primary-600) r g b / 0.1);
+        background-color: rgb(from var(--color-primary) r g b / 0.1);
       }
 
       &:active {
-        background-color: rgb(from var(--color-primary-600) r g b / 0.2);
+        background-color: rgb(from var(--color-primary) r g b / 0.2);
         transform: scale(0.95);
 
         @media (prefers-reduced-motion) {
@@ -101,7 +100,7 @@ import { socials } from "../scripts/socials";
     margin: 1.5rem 0 0;
     font-size: 0.875rem;
     text-align: center;
-    color: var(--color-neutral-400);
+    color: var(--color-text-dim);
   }
 </style>
 
