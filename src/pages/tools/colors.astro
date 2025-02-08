@@ -1,7 +1,7 @@
 ---
 import Panel from "../../components/Panel.astro";
 import PageLayout from "../../layouts/PageLayout.astro";
-import { colors, schema } from "../../scripts/colors";
+import { baseColors, schema } from "../../scripts/colors.js";
 ---
 
 <style>
@@ -70,7 +70,9 @@ import { colors, schema } from "../../scripts/colors";
                 <li class="tone">
                   <span
                     class="tone-preview"
-                    style={{ "--color": colors[role.name][tone.name] }}
+                    style={{
+                      "--color": baseColors[`${role.name}-${tone.name}`],
+                    }}
                   />
                   <span
                     class="tone-name"

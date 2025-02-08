@@ -20,19 +20,24 @@ export const schema = {
   ],
 };
 
-export const colors = Object.fromEntries(
-  schema.roles.map((role) => [
-    role.name,
-    Object.fromEntries(
-      schema.tones.map((tone) => [
-        tone.name,
-        new Color({
-          space: "okhsl",
-          coords: [role.hue, role.saturation, tone.lightness],
-        }).toString({
-          format: "hex",
-        }),
-      ]),
-    ),
-  ]),
+export const baseColors = Object.fromEntries(
+  schema.roles.flatMap((role) =>
+    schema.tones.map((tone) => [
+      `${role.name}-${tone.name}`,
+      new Color({
+        space: "okhsl",
+        coords: [role.hue, role.saturation, tone.lightness],
+      }).toString({
+        format: "hex",
+      }),
+    ]),
+  ),
 );
+
+export const colors = {
+  text: { light: "neutral-800", dark: "neutral-100" },
+  "text-dim": { light: "neutral-600", dark: "neutral-300" },
+  background: { light: "neutral-10", dark: "neutral-900" },
+  surface: { light: "neutral-50", dark: "neutral-800" },
+  primary: { light: "primary-600", dark: "primary-300" },
+};

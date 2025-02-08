@@ -1,4 +1,6 @@
 ---
+import { baseColors, colors } from "../scripts/colors.js";
+
 const { title } = Astro.props;
 ---
 
@@ -35,8 +37,11 @@ const { title } = Astro.props;
   }
 
   ::selection {
-    color: light-dark(var(--color-neutral-50), var(--color-neutral-100));
-    background-color: rgb(from var(--color-primary-600) r g b / 0.95);
+    color: light-dark(
+      var(--base-color-neutral-50),
+      var(--base-color-neutral-100)
+    );
+    background-color: rgb(from var(--base-color-primary-600) r g b / 0.95);
   }
 </style>
 
@@ -44,6 +49,16 @@ const { title } = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: light)"
+      content={baseColors[colors.background.light]}
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content={baseColors[colors.background.dark]}
+    />
     <title>{title ? `${title} - Hikari Hayashi` : `Hikari Hayashi`}</title>
     <link rel="canonical" href={Astro.url.pathname} />
     <link

@@ -1,32 +1,32 @@
-import { colors, schema } from "../../scripts/colors";
+import { baseColors, colors } from "../../scripts/colors.js";
+
+const withPrefix = (prefix, variables) => {
+  return Object.fromEntries(
+    Object.entries(variables).map(([name, value]) => [
+      `${prefix}-${name}`,
+      value,
+    ]),
+  );
+};
 
 const variables = {
-  ...Object.fromEntries(
-    schema.roles.flatMap((role) =>
-      schema.tones.map((tone) => [
-        `color-${role.name}-${tone.name}`,
-        colors[role.name][tone.name],
+  ...withPrefix("--base-color", baseColors),
+  ...withPrefix(
+    "--color",
+    Object.fromEntries(
+      Object.entries(colors).map(([name, baseColorNames]) => [
+        name,
+        `light-dark(var(--base-color-${baseColorNames.light}), var(--base-color-${baseColorNames.dark}))`,
       ]),
     ),
   ),
-
-  "color-text":
-    "light-dark(var(--color-neutral-800), var(--color-neutral-100))",
-  "color-text-dim":
-    "light-dark(var(--color-neutral-600), var(--color-neutral-300))",
-  "color-background":
-    "light-dark(var(--color-neutral-10), var(--color-neutral-900))",
-  "color-surface":
-    "light-dark(var(--color-neutral-50), var(--color-neutral-800))",
-  "color-primary":
-    "light-dark(var(--color-primary-600), var(--color-primary-300))",
 };
 
 export const GET = () => {
   return new Response(
-    `:root{${Object.entries(variables)
-      .map(([name, value]) => `--${name}:${value};`)
-      .join("")}}`,
+    `:root{ ${Object.entries(variables)
+      .map(([name, value]) => `${name}: ${value};`)
+      .join(" ")} }`,
     {
       headers: {
         "Content-Type": "text/css",
