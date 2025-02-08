@@ -7,13 +7,19 @@ const { title } = Astro.props;
     navigation: auto;
   }
 
+  @media (prefers-reduced-motion) {
+    ::view-transition-group(root) {
+      animation: none;
+    }
+  }
+
   html {
     font-family: "Lexend", "Source Han Sans", sans-serif;
     line-height: 1;
     overflow-wrap: break-word;
     color: var(--color-neutral-800);
     background-color: var(--color-neutral-10);
-    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgb(from var(--color-primary-600) r g b / 0.2);
   }
 
   body {

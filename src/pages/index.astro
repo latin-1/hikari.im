@@ -33,16 +33,19 @@ import { socials } from "../scripts/socials";
       background-color 0.1s,
       transform 0.1s;
 
-    @media (hover: hover) {
+    @media (hover) {
       &:hover {
         background-color: rgb(from var(--color-primary-600) r g b / 0.1);
       }
-    }
 
-    &:active {
-      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      transform: scale(0.95);
-      transition: transform 0.1s;
+      &:active {
+        background-color: rgb(from var(--color-primary-600) r g b / 0.2);
+        transform: scale(0.95);
+
+        @media (prefers-reduced-motion) {
+          transform: none;
+        }
+      }
     }
   }
 
@@ -72,16 +75,19 @@ import { socials } from "../scripts/socials";
       background-color 0.1s,
       transform 0.1s;
 
-    @media (hover: hover) {
+    @media (hover) {
       &:hover {
         background-color: rgb(from var(--color-primary-600) r g b / 0.1);
       }
-    }
 
-    &:active {
-      background-color: rgb(from var(--color-primary-600) r g b / 0.1);
-      transform: scale(0.95);
-      transition: transform 0.1s;
+      &:active {
+        background-color: rgb(from var(--color-primary-600) r g b / 0.2);
+        transform: scale(0.95);
+
+        @media (prefers-reduced-motion) {
+          transform: none;
+        }
+      }
     }
   }
 
