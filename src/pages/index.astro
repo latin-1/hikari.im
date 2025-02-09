@@ -1,5 +1,6 @@
 ---
 import Panel from "../components/Panel.astro";
+import Section from "../components/Section.astro";
 import PageLayout from "../layouts/PageLayout.astro";
 import { friends } from "../scripts/friends";
 import { socials } from "../scripts/socials";
@@ -97,7 +98,7 @@ import { socials } from "../scripts/socials";
   }
 
   .disclaimer {
-    margin: 1.5rem 0 0;
+    margin: 1.5rem 0;
     font-size: 0.875rem;
     text-align: center;
     color: var(--color-text-dim);
@@ -125,26 +126,28 @@ import { socials } from "../scripts/socials";
     }
   </ul>
 
-  <Panel title="Friends">
-    <ul class="friend-list">
-      {
-        friends.map((friend) => (
-          <li class="friend">
-            <a
-              class="friend-link"
-              href={friend.link.href}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img class="friend-avatar" src={friend.avatar.src} alt="" />
-              <span class="friend-name" lang={friend.name.lang}>
-                {friend.name.label}
-              </span>
-            </a>
-          </li>
-        ))
-      }
-    </ul>
-    <p class="disclaimer">— alphabetical order —</p>
+  <Panel>
+    <Section title="Friends">
+      <ul class="friend-list">
+        {
+          friends.map((friend) => (
+            <li class="friend">
+              <a
+                class="friend-link"
+                href={friend.link.href}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img class="friend-avatar" src={friend.avatar.src} alt="" />
+                <span class="friend-name" lang={friend.name.lang}>
+                  {friend.name.label}
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+      <p class="disclaimer">— alphabetical order —</p>
+    </Section>
   </Panel>
 </PageLayout>

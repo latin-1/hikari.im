@@ -71,7 +71,14 @@ const { title } = Astro.props;
       media="(prefers-color-scheme: dark)"
       href="/favicon-dark.svg"
     />
-    <link rel="canonical" href={Astro.url.pathname} />
+    {
+      Astro.url.pathname !== "/404.html" && (
+        <link
+          rel="canonical"
+          href={Astro.url.pathname.replace(/\.html$/, "")}
+        />
+      )
+    }
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Lexend:wght@400..600&display=swap"
