@@ -2,8 +2,8 @@ import Color from "colorjs.io";
 
 export const schema = {
   roles: [
-    { name: "primary", hue: 30, saturation: 0.8 },
-    { name: "neutral", hue: 30, saturation: 0.2 },
+    { name: "primary", hue: 0, saturation: 0.8 },
+    { name: "neutral", hue: 0, saturation: 0.2 },
   ],
   tones: [
     { name: "10", lightness: 0.99 },
