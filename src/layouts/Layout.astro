@@ -60,6 +60,16 @@ const { title } = Astro.props;
       content={baseColors[colors.background.dark]}
     />
     <title>{title ? `${title} - Hikari Hayashi` : `Hikari Hayashi`}</title>
+    <link
+      rel="icon"
+      media="(prefers-color-scheme: light)"
+      href="/favicon-light.svg"
+    />
+    <link
+      rel="icon"
+      media="(prefers-color-scheme: dark)"
+      href="/favicon-dark.svg"
+    />
     <link rel="canonical" href={Astro.url.pathname} />
     <link
       rel="stylesheet"

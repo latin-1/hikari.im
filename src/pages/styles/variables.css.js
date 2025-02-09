@@ -22,7 +22,7 @@ const variables = {
   ),
 };
 
-export const GET = () => {
+export const GET = async () => {
   return new Response(
     `:root{ ${Object.entries(variables)
       .map(([name, value]) => `${name}: ${value};`)
