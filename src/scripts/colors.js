@@ -37,5 +37,6 @@ export const colors = {
   "text-dim": { light: "neutral-600", dark: "neutral-300" },
   background: { light: "neutral-10", dark: "neutral-900" },
   surface: { light: "neutral-50", dark: "neutral-800" },
+  border: { light: "neutral-400", dark: "neutral-500" },
   primary: { light: "primary-600", dark: "primary-300" },
 };
