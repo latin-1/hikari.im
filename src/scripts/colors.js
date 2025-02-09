@@ -27,9 +27,7 @@ export const baseColors = Object.fromEntries(
       new Color({
         space: "okhsl",
         coords: [role.hue, role.saturation, tone.lightness],
-      }).toString({
-        format: "hex",
-      }),
+      }).to("oklch"),
     ]),
   ),
 );

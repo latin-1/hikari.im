@@ -52,12 +52,12 @@ const { title } = Astro.props;
     <meta
       name="theme-color"
       media="(prefers-color-scheme: light)"
-      content={baseColors[colors.background.light]}
+      content={baseColors[colors.background.light].toString({ format: "hex" })}
     />
     <meta
       name="theme-color"
       media="(prefers-color-scheme: dark)"
-      content={baseColors[colors.background.dark]}
+      content={baseColors[colors.background.dark].toString({ format: "hex" })}
     />
     <title>{title ? `${title} - Hikari Hayashi` : `Hikari Hayashi`}</title>
     <link

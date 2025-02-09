@@ -71,7 +71,8 @@ import { baseColors, schema } from "../../scripts/colors";
                   <span
                     class="tone-preview"
                     style={{
-                      "--color": baseColors[`${role.name}-${tone.name}`],
+                      "--color":
+                        baseColors[`${role.name}-${tone.name}`].toString(),
                     }}
                   />
                   <span

@@ -1,25 +1,26 @@
 import { baseColors, colors } from "../../scripts/colors";
 
-const withPrefix = (prefix, variables) => {
+const toVariables = ({ prefix, data, mapValue }) => {
   return Object.fromEntries(
-    Object.entries(variables).map(([name, value]) => [
+    Object.entries(data).map(([name, value]) => [
       `${prefix}-${name}`,
-      value,
+      mapValue ? mapValue(value) : value,
     ]),
   );
 };
 
 const variables = {
-  ...withPrefix("--base-color", baseColors),
-  ...withPrefix(
-    "--color",
-    Object.fromEntries(
-      Object.entries(colors).map(([name, baseColorNames]) => [
-        name,
-        `light-dark(var(--base-color-${baseColorNames.light}), var(--base-color-${baseColorNames.dark}))`,
-      ]),
-    ),
-  ),
+  ...toVariables({
+    prefix: "--base-color",
+    data: baseColors,
+    mapValue: (color) => color.toString(),
+  }),
+  ...toVariables({
+    prefix: "--color",
+    data: colors,
+    mapValue: (baseColorNames) =>
+      `light-dark(var(--base-color-${baseColorNames.light}), var(--base-color-${baseColorNames.dark}))`,
+  }),
 };
 
 export const GET = async () => {
