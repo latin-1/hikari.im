@@ -7,22 +7,33 @@ const { as: Component = "button", class: className, ...props } = Astro.props;
     .clickable {
       all: unset;
       cursor: pointer;
-      transition:
-        background-color 0.1s,
-        transform 0.1s;
 
       @media (hover) {
+        transition:
+          color 0.1s,
+          background-color 0.1s,
+          transform 0.1s;
+
         &:hover {
+          color: var(--color-primary);
           background-color: rgb(from var(--color-primary) r g b / 0.1);
         }
 
         &:active {
+          color: var(--color-primary);
           background-color: rgb(from var(--color-primary) r g b / 0.2);
           transform: scale(0.95);
 
           @media (prefers-reduced-motion) {
             transform: none;
           }
+        }
+      }
+
+      @media (hover: none) {
+        &:active {
+          color: var(--color-primary);
+          background-color: rgb(from var(--color-primary) r g b / 0.2);
         }
       }
     }
