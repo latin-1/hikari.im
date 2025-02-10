@@ -1,4 +1,5 @@
 ---
+import ClickableAnchor from "../components/ClickableAnchor.astro";
 import ChevronLeftIcon from "../components/icons/ChevronLeftIcon.astro";
 import Layout from "./Layout.astro";
 
@@ -35,26 +36,7 @@ const {
     margin: -0.5rem -1rem -0.5rem -0.5rem;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.25rem;
-    text-decoration: none;
     color: var(--color-primary);
-    transition:
-      background-color 0.1s,
-      transform 0.1s;
-
-    @media (hover) {
-      &:hover {
-        background-color: rgb(from var(--color-primary) r g b / 0.1);
-      }
-
-      &:active {
-        background-color: rgb(from var(--color-primary) r g b / 0.2);
-        transform: scale(0.95);
-
-        @media (prefers-reduced-motion) {
-          transform: none;
-        }
-      }
-    }
   }
 
   .title {
@@ -79,23 +61,7 @@ const {
     margin: -0.25rem;
     padding: 0.25rem;
     border-radius: 0.25rem;
-    text-decoration: underline;
     color: currentColor;
-    transition:
-      color 0.1s,
-      background-color 0.1s;
-
-    @media (hover) {
-      &:hover {
-        color: var(--color-primary);
-        background-color: rgb(from var(--color-primary) r g b / 0.1);
-      }
-
-      &:active {
-        color: var(--color-primary);
-        background-color: rgb(from var(--color-primary) r g b / 0.2);
-      }
-    }
   }
 </style>
 
@@ -104,10 +70,10 @@ const {
     <header class="header">
       {
         Astro.url.pathname !== "/" && (
-          <a class="back-link" href={backLink.href}>
+          <ClickableAnchor class="back-link" href={backLink.href}>
             <ChevronLeftIcon class="back-icon" />
             <span class="back-label">{backLink.label}</span>
-          </a>
+          </ClickableAnchor>
         )
       }
       <h1 class="title">{title ?? "Hikari Hayashi"}</h1>
@@ -117,14 +83,14 @@ const {
       <p class="copyright">Copyright © Hikari Hayashi</p>
       <p class="copyright">
         Social icons by
-        <a
+        <ClickableAnchor
           class="copyright-link"
           href="https://icons8.com/"
           target="_blank"
           rel="noreferrer"
         >
           Icons8
-        </a>
+        </ClickableAnchor>
       </p>
     </footer>
   </div>

@@ -1,4 +1,5 @@
 ---
+import ClickableAnchor from "../components/ClickableAnchor.astro";
 import Panel from "../components/Panel.astro";
 import Section from "../components/Section.astro";
 import PageLayout from "../layouts/PageLayout.astro";
@@ -27,26 +28,7 @@ import { socials } from "../scripts/socials";
     margin: -0.5rem -1rem -0.5rem -0.5rem;
     padding: 0.5rem 1rem 0.5rem 0.5rem;
     border-radius: 1.25rem;
-    text-decoration: none;
     color: var(--color-primary);
-    transition:
-      background-color 0.1s,
-      transform 0.1s;
-
-    @media (hover) {
-      &:hover {
-        background-color: rgb(from var(--color-primary) r g b / 0.1);
-      }
-
-      &:active {
-        background-color: rgb(from var(--color-primary) r g b / 0.2);
-        transform: scale(0.95);
-
-        @media (prefers-reduced-motion) {
-          transform: none;
-        }
-      }
-    }
   }
 
   .friend-list {
@@ -69,26 +51,7 @@ import { socials } from "../scripts/socials";
     margin: -0.25rem -1rem -0.25rem -0.25rem;
     padding: 0.25rem 1rem 0.25rem 0.25rem;
     border-radius: 1.25rem;
-    text-decoration: none;
     color: var(--color-primary);
-    transition:
-      background-color 0.1s,
-      transform 0.1s;
-
-    @media (hover) {
-      &:hover {
-        background-color: rgb(from var(--color-primary) r g b / 0.1);
-      }
-
-      &:active {
-        background-color: rgb(from var(--color-primary) r g b / 0.2);
-        transform: scale(0.95);
-
-        @media (prefers-reduced-motion) {
-          transform: none;
-        }
-      }
-    }
   }
 
   .friend-avatar {
@@ -110,7 +73,7 @@ import { socials } from "../scripts/socials";
     {
       socials.map((social) => (
         <li class="social">
-          <a
+          <ClickableAnchor
             class="social-link"
             href={social.link.href}
             target="_blank"
@@ -120,7 +83,7 @@ import { socials } from "../scripts/socials";
             <span class="social-name" lang={social.name.lang}>
               {social.name.label}
             </span>
-          </a>
+          </ClickableAnchor>
         </li>
       ))
     }
@@ -132,7 +95,7 @@ import { socials } from "../scripts/socials";
         {
           friends.map((friend) => (
             <li class="friend">
-              <a
+              <ClickableAnchor
                 class="friend-link"
                 href={friend.link.href}
                 target="_blank"
@@ -142,7 +105,7 @@ import { socials } from "../scripts/socials";
                 <span class="friend-name" lang={friend.name.lang}>
                   {friend.name.label}
                 </span>
-              </a>
+              </ClickableAnchor>
             </li>
           ))
         }
