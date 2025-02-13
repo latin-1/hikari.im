@@ -1070,9 +1070,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:5.2.5":
-  version: 5.2.5
-  resolution: "astro@npm:5.2.5"
+"astro@npm:5.3.0":
+  version: 5.3.0
+  resolution: "astro@npm:5.3.0"
   dependencies:
     "@astrojs/compiler": "npm:^2.10.3"
     "@astrojs/internal-helpers": "npm:0.5.1"
@@ -1139,7 +1139,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/181b77188c03bdfa62b7a2ced3bb0b6d93ac6794d8b9e02e340bcec2c40d4ad126010268d2614a9f439e644b791d570a264d02bbca325a3648af087452c2f67b
+  checksum: 10c0/023d44ad8ca90965b5f3e41c00b1de26b1a424139bbf0a96551363a416e784547b29998998584c09cb0234e5cf1ba51c3dfbded20f37df2a8888f4cc0088b1e8
   languageName: node
   linkType: hard
 
@@ -2046,7 +2046,7 @@ __metadata:
     "@biomejs/biome": "npm:1.9.4"
     "@neetly/biome-config": "npm:1.0.0-alpha.20"
     "@neetly/yarn-constraints": "npm:1.0.0-alpha.20"
-    astro: "npm:5.2.5"
+    astro: "npm:5.3.0"
     colorjs.io: "npm:0.6.0-alpha.1"
     prettier: "npm:3.4.2"
     prettier-plugin-astro: "npm:0.14.1"
