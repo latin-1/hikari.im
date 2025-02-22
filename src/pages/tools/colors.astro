@@ -1,7 +1,22 @@
 ---
+import Color from "colorjs.io";
 import Panel from "../../components/Panel.astro";
 import PageLayout from "../../layouts/PageLayout.astro";
 import { baseColors, schema } from "../../scripts/colors";
+
+const labelColors = [new Color("#fff"), new Color("#000")];
+const getLabelColor = (color) => {
+  let maxContrast = -1;
+  let maxContrastColor = null;
+  for (const labelColor of labelColors) {
+    const contrast = Math.abs(color.contrast(labelColor, "APCA"));
+    if (contrast > maxContrast) {
+      maxContrast = contrast;
+      maxContrastColor = labelColor;
+    }
+  }
+  return maxContrastColor;
+};
 ---
 
 <style>
@@ -16,7 +31,7 @@ import { baseColors, schema } from "../../scripts/colors";
   .role-name {
     margin: 0.75rem 0;
     font-size: 1.25rem;
-    font-weight: 600;
+    font-weight: 700;
     text-align: center;
     text-transform: capitalize;
   }
@@ -50,14 +65,7 @@ import { baseColors, schema } from "../../scripts/colors";
     grid-area: 1 / 1;
     font-size: 0.75rem;
     font-weight: 500;
-
-    &[data-color-type="light"] {
-      color: rgb(from #000 r g b / 0.95);
-    }
-
-    &[data-color-type="dark"] {
-      color: rgb(from #fff r g b / 0.95);
-    }
+    color: var(--label-color);
   }
 </style>
 
@@ -80,7 +88,11 @@ import { baseColors, schema } from "../../scripts/colors";
                   />
                   <span
                     class="tone-name"
-                    data-color-type={tone.lightness > 0.5 ? "light" : "dark"}
+                    style={{
+                      "--label-color": getLabelColor(
+                        baseColors[`${role.name}-${tone.name}`],
+                      ).toString(),
+                    }}
                   >
                     {tone.name}
                   </span>
