@@ -42,11 +42,10 @@ const { title } = Astro.props;
   }
 
   ::selection {
-    color: light-dark(
-      var(--base-color-neutral-50),
-      var(--base-color-neutral-100)
+    background-color: light-dark(
+      var(--base-color-primary-200),
+      var(--base-color-primary-700)
     );
-    background-color: rgb(from var(--base-color-primary-600) r g b / 0.95);
   }
 </style>
 
