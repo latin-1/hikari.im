@@ -25,7 +25,11 @@ const { title } = Astro.props;
     overflow-wrap: break-word;
     color: var(--color-text);
     background-color: var(--color-background);
-    scrollbar-color: var(--color-primary) var(--color-background);
+    scrollbar-color: light-dark(
+        var(--base-color-neutral-600),
+        var(--base-color-neutral-300)
+      )
+      var(--color-background);
     -webkit-tap-highlight-color: transparent;
   }
 
