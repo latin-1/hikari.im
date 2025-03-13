@@ -15,7 +15,7 @@
     "@biomejs/biome": "1.9.4",
     "@neetly/biome-config": "1.0.0-alpha.20",
     "@neetly/yarn-constraints": "1.0.0-alpha.20",
-    "astro": "5.4.2",
+    "astro": "5.5.2",
     "prettier": "3.5.3",
     "prettier-plugin-astro": "0.14.1"
   },
