@@ -14,15 +14,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-      - uses: moonrepo/setup-toolchain@v0
+      - uses: actions/checkout@v4.4.0
+      - uses: moonrepo/setup-toolchain@v0.6.4
         with:
           auto-install: true
 
       - run: yarn
       - run: yarn build
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v3.0.1
         with:
           path: ./build
 
@@ -41,4 +41,4 @@ jobs:
 
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v4.0.5
