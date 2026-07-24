@@ -1314,10 +1314,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"colorjs.io@npm:0.6.0-alpha.1":
-  version: 0.6.0-alpha.1
-  resolution: "colorjs.io@npm:0.6.0-alpha.1"
-  checksum: 10c0/0bc58a65927d77fceade43fcdcaa512befadaa5fb38a4afb3ab632b38eea5d42d656c2bb32c3c604010eeb6e210f3801b0dc480d6b3ae26de6da8c3c55e09f11
+"colorjs.io@npm:0.7.1":
+  version: 0.7.1
+  resolution: "colorjs.io@npm:0.7.1"
+  checksum: 10c0/a1237a1aedf168ede908a818ba3fc35097895dd48868ed0534c32ade5ee49db364ae889910f5cacd3e48057f7a16d00408935ca99e5246f2011f956833c9b10b
   languageName: node
   linkType: hard
 
@@ -1977,7 +1977,7 @@ __metadata:
     "@neetly/biome-config": "npm:1.0.0-alpha.20"
     "@neetly/yarn-constraints": "npm:1.0.0-alpha.20"
     astro: "npm:5.4.2"
-    colorjs.io: "npm:0.6.0-alpha.1"
+    colorjs.io: "npm:0.7.1"
     prettier: "npm:3.5.3"
     prettier-plugin-astro: "npm:0.14.1"
   languageName: unknown
