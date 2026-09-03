@@ -12,7 +12,7 @@
     "colorjs.io": "0.6.0-alpha.1"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
+    "@biomejs/biome": "2.5.12",
     "@neetly/biome-config": "1.0.0-alpha.20",
     "@neetly/yarn-constraints": "1.0.0-alpha.20",
     "astro": "5.4.2",
