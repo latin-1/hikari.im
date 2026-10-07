@@ -1,0 +1,42 @@
+{
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "formatter": {
+    "useEditorconfig": true
+  },
+  "linter": {
+    "rules": {
+      "nursery": {
+        "useTailwindSortedClasses": "error",
+        "useTailwindShorthandClasses": "error"
+      }
+    }
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "useSortedProperties": "on",
+        "useSortedPackageJson": "on"
+      }
+    }
+  },
+  "css": {
+    "parser": {
+      "tailwindDirectives": true
+    }
+  },
+  "html": {
+    "experimentalFullSupportEnabled": true,
+    "formatter": {
+      "enabled": true,
+      "whitespaceSensitivity": "ignore"
+    }
+  },
+  "tailwind": {
+    "stylesheet": "./src/styles/index.css"
+  }
+}

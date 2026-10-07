@@ -1,0 +1,19 @@
+---
+import Nav from "../components/Nav.astro";
+import NavItem from "../components/NavItem.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+  <header class="my-8 flex flex-col gap-2">
+    <h1 class="font-display text-5xl font-semibold text-rose-700">
+      Hikari Hayashi
+    </h1>
+    <Nav>
+      <NavItem href="/posts/">Posts</NavItem>
+      <NavItem href="/projects/">Projects</NavItem>
+      <NavItem href="/friends/">Friends</NavItem>
+      <NavItem href="/about/">About</NavItem>
+    </Nav>
+  </header>
+</Layout>

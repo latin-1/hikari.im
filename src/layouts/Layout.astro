@@ -1,0 +1,27 @@
+---
+import "../styles/index.css";
+
+import { Font } from "astro:assets";
+import { ClientRouter } from "astro:transitions";
+
+interface Props {
+  title?: string | undefined;
+}
+
+const { title } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>{title ? `${title} · Hikari Hayashi` : "Hikari Hayashi"}</title>
+    <Font cssVariable="--font-fredoka" />
+    <Font cssVariable="--font-figtree" />
+    <Font cssVariable="--font-iosevka" />
+    <ClientRouter />
+  </head>
+  <body class="m-8">
+    <slot />
+  </body>
+</html>

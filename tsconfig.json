@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "noEmit": true,
+
+    "module": "esnext",
+    // Astro's language server defaults to Node10 resolution when this is omitted.
+    "moduleResolution": "bundler",
+    "verbatimModuleSyntax": true,
+
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+
+    "lib": ["esnext", "dom"],
+    "skipLibCheck": true
+  }
+}

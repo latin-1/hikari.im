@@ -1,0 +1,34 @@
+---
+import { Image } from "astro:assets";
+import friends from "../data/friends.json" with { type: "json" };
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout title="Friends">
+  <div
+    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-4"
+  >
+    {friends.map((friend) => (
+      <a
+        class="flex rounded-2xl bg-white p-2 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 transition hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+        href={friend.link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Image
+          class="size-16 rounded-lg"
+          src={friend.avatarUrl.replaceAll("{size}", "128")}
+          alt=""
+          width={64}
+          height={64}
+        />
+        <div class="mx-4 my-2 flex min-w-0 flex-1 flex-col justify-center">
+          <h3 class="truncate text-lg font-semibold">{friend.name}</h3>
+          <p class="truncate text-sm font-medium text-mauve-500">
+            {new URL(friend.link).hostname}
+          </p>
+        </div>
+      </a>
+    ))}
+  </div>
+</PageLayout>

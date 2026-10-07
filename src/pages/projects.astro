@@ -1,0 +1,22 @@
+---
+import projects from "../data/projects.json" with { type: "json" };
+import PageLayout from "../layouts/PageLayout.astro";
+---
+
+<PageLayout title="Projects">
+  <div
+    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(80),1fr))] gap-4"
+  >
+    {projects.map((project) => (
+      <a
+        class="flex flex-col gap-2 rounded-2xl bg-white p-6 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 transition hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+        href={project.link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        <h3 class="truncate text-lg font-semibold">{project.name}</h3>
+        <p class="text-sm font-medium text-mauve-500">{project.summary}</p>
+      </a>
+    ))}
+  </div>
+</PageLayout>

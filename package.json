@@ -1,0 +1,35 @@
+{
+  "name": "hikari.im",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "astro build",
+    "check": "biome check",
+    "dev": "astro dev",
+    "typecheck": "astro check"
+  },
+  "dependencies": {
+    "@lucide/astro": "1.58.0",
+    "astro": "7.4.0",
+    "ts-dedent": "2.3.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@astrojs/sitemap": "3.7.4",
+    "@biomejs/biome": "https://pkg.pr.new/biomejs/biome/@biomejs/biome@f447e087be6dabc6fac94435e2024513da9b4771",
+    "@tailwindcss/vite": "4.3.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "6.0.3",
+    "vite": "8.3.4"
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "26.12.0"
+    },
+    "packageManager": {
+      "name": "yarn",
+      "version": "6.0.0-rc.23"
+    }
+  }
+}

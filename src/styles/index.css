@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+/* biome-ignore assist/source/useSortedProperties: https://github.com/biomejs/biome/issues/12410 */
+@theme {
+  --font-*: initial;
+
+  --font-display: var(--font-fredoka), "Source Han Sans", sans-serif;
+  --font-text: var(--font-figtree), "Source Han Sans", sans-serif;
+  --font-code: var(--font-iosevka), "Source Han Sans", monospace;
+
+  --default-font-family: var(--font-text);
+  --default-mono-font-family: var(--font-code);
+}
+
+@utility focus-ring {
+  outline: 2px solid var(--color-sky-600);
+  outline-offset: 2px;
+}
+
+@layer base {
+  @view-transition {
+    navigation: auto;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes page-enter {
+      from {
+        opacity: 0%;
+        translate: 0 --spacing(1);
+      }
+    }
+
+    @keyframes page-leave {
+      to {
+        opacity: 0%;
+      }
+    }
+
+    ::view-transition-old(root) {
+      animation: page-leave 200ms ease-in both;
+    }
+
+    ::view-transition-new(root) {
+      animation: page-enter 200ms ease-out both;
+    }
+  }
+
+  html {
+    scrollbar-gutter: stable;
+    background-color: var(--color-mauve-50);
+  }
+
+  ::selection {
+    background-color: --alpha(var(--color-rose-600) / 20%);
+  }
+}
