@@ -1,6 +1,5 @@
 ---
-import Nav from "../components/Nav.astro";
-import NavItem from "../components/NavItem.astro";
+import nav from "../data/nav.json" with { type: "json" };
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -9,11 +8,20 @@ import Layout from "../layouts/Layout.astro";
     <h1 class="font-display text-5xl font-semibold text-rose-700">
       Hikari Hayashi
     </h1>
-    <Nav>
-      <NavItem href="/posts/">Posts</NavItem>
-      <NavItem href="/projects/">Projects</NavItem>
-      <NavItem href="/friends/">Friends</NavItem>
-      <NavItem href="/about/">About</NavItem>
-    </Nav>
+
+    <nav>
+      <ul class="flex items-center gap-4">
+        {nav.items.map((item) => (
+          <li>
+            <a
+              class="block rounded-xs text-lg font-semibold text-sky-700 hover:underline focus-visible:focus-ring"
+              href={item.href}
+            >
+              {item.name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
   </header>
 </Layout>

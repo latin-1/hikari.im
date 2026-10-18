@@ -1,0 +1,32 @@
+[
+  {
+    "kind": "laptop",
+    "name": "Yoga Slim 7 Ultra",
+    "summary": "Seashell, Core Ultra X7 358H, 32GB + 1TB"
+  },
+  {
+    "kind": "phone",
+    "name": "Pixel 10 Pro XL",
+    "summary": "Porcelain, Tensor G5, 16GB + 256GB"
+  },
+  {
+    "kind": "tablet",
+    "name": "iPad mini 7",
+    "summary": "Starlight, A17 Pro, 8GB + 256GB"
+  },
+  {
+    "kind": "tablet",
+    "name": "Xiaomi Pad 7 Pro",
+    "summary": "Green, Snapdragon 8s Gen 3, 8GB + 128GB"
+  },
+  {
+    "kind": "game-console",
+    "name": "Nintendo Switch 2",
+    "summary": "Black, Tegra T239, 12GB + 256GB"
+  },
+  {
+    "kind": "game-console",
+    "name": "Nintendo Switch Lite",
+    "summary": "Coral, Tegra X1, 4GB + 32GB"
+  }
+]

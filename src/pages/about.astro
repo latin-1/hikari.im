@@ -1,5 +1,53 @@
 ---
+import {
+  Gamepad as GamepadIcon,
+  Laptop as LaptopIcon,
+  Smartphone as SmartphoneIcon,
+  Tablet as TabletIcon,
+} from "@lucide/astro";
+import devices from "../data/devices.json" with { type: "json" };
+import socials from "../data/socials.json" with { type: "json" };
 import PageLayout from "../layouts/PageLayout.astro";
+
+type DeviceKind = "laptop" | "phone" | "tablet" | "game-console";
+
+const deviceIcons = {
+  laptop: LaptopIcon,
+  phone: SmartphoneIcon,
+  tablet: TabletIcon,
+  "game-console": GamepadIcon,
+} satisfies Record<DeviceKind, unknown>;
 ---
 
-<PageLayout title="About"></PageLayout>
+<PageLayout title="About">
+  <div class="flex flex-wrap items-center gap-3">
+    {socials.map((social) => (
+      <a
+        class="rounded-full bg-sky-50 px-6 py-2 font-semibold text-sky-700 shadow-xs inset-ring inset-ring-sky-200 transition hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+        href={social.link}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {social.name}
+      </a>
+    ))}
+  </div>
+
+  <h2 class="mt-8 mb-4 text-2xl font-bold text-mauve-900">My devices</h2>
+  <div
+    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(80),1fr))] gap-4"
+  >
+    {devices.map((device) => {
+      const Icon = deviceIcons[device.kind as DeviceKind];
+      return (
+        <div class="flex flex-col gap-2 rounded-2xl bg-white p-6 shadow-xs inset-ring inset-ring-mauve-200">
+          <h3 class="flex items-center gap-2 text-lg font-semibold text-mauve-900">
+            <Icon class="size-6 shrink-0" nonScalingStroke />
+            <span class="truncate">{device.name}</span>
+          </h3>
+          <p class="text-sm font-medium text-mauve-500">{device.summary}</p>
+        </div>
+      );
+    })}
+  </div>
+</PageLayout>

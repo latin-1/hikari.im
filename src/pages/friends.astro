@@ -6,7 +6,7 @@ import PageLayout from "../layouts/PageLayout.astro";
 
 <PageLayout title="Friends">
   <div
-    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-4"
+    class="grid grid-cols-[repeat(auto-fill,minmax(--spacing(60),1fr))] gap-3"
   >
     {friends.map((friend) => (
       <a
@@ -22,7 +22,7 @@ import PageLayout from "../layouts/PageLayout.astro";
           width={64}
           height={64}
         />
-        <div class="mx-4 my-2 flex min-w-0 flex-1 flex-col justify-center">
+        <div class="flex min-w-0 flex-1 flex-col justify-center px-4 py-2">
           <h3 class="truncate text-lg font-semibold">{friend.name}</h3>
           <p class="truncate text-sm font-medium text-mauve-500">
             {new URL(friend.link).hostname}

@@ -1,5 +1,5 @@
 ---
-import { ArrowLeft } from "@lucide/astro";
+import { ArrowLeft as ArrowLeftIcon } from "@lucide/astro";
 import Layout from "../layouts/Layout.astro";
 
 interface Props {
@@ -18,17 +18,20 @@ const { title, backLink = "/" } = Astro.props;
           class="flex w-fit items-center gap-1 rounded-xs text-lg font-semibold text-sky-700 hover:underline focus-visible:focus-ring"
           href={backLink}
         >
-          <ArrowLeft class="size-5" nonScalingStroke />
-          Back
+          <ArrowLeftIcon class="size-5" nonScalingStroke />
+          <span>Back</span>
         </a>
       </nav>
+
       <h1 class="font-display text-5xl font-semibold text-mauve-900">
         {title}
       </h1>
     </header>
+
     <main class="my-8 min-h-80">
       <slot />
     </main>
+
     <footer class="mt-12 mb-8">
       <p class="font-medium text-mauve-500">Copyright &copy; Hikari Hayashi</p>
     </footer>

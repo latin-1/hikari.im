@@ -1,0 +1,8 @@
+{
+  "items": [
+    { "name": "Posts", "href": "/posts/" },
+    { "name": "Projects", "href": "/projects/" },
+    { "name": "Friends", "href": "/friends/" },
+    { "name": "About", "href": "/about/" }
+  ]
+}
