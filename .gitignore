@@ -1,9 +1,0 @@
-# Yarn
-**/node_modules/
-/.yarn/
-
-# Artifacts
-**/*.tsbuildinfo
-/lib/
-/build/
-/.astro/
