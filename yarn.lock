@@ -1435,11 +1435,11 @@
         }
       }
     },
-    "@lucide/astro@npm:1.58.0": {
-      "checksum": "76160054e110b8d9a81e840994d2985e6166e6bcebbb5acc4dea77dd25dbac1b62bdf2816a030581a7ef2119f4a3db062380c05f597c5b4a22c5b489418c82ae",
+    "@lucide/astro@npm:1.59.0": {
+      "checksum": "e029f37a0872d082b854aa34b996b6d379027166b03c5889d993a10356e001cec9d02d199e81dba5607794890b70b0f2c6f235c71462447e70e3bd6153e5831d",
       "resolution": {
-        "resolution": "@lucide/astro@npm:1.58.0",
-        "version": "1.58.0",
+        "resolution": "@lucide/astro@npm:1.59.0",
+        "version": "1.59.0",
         "peerDependencies": {
           "astro": "^4 || ^5 || ^6 || ^7"
         }
@@ -3030,7 +3030,7 @@
           "@astrojs/check": "0.9.10",
           "@astrojs/sitemap": "3.7.4",
           "@biomejs/biome": "https://pkg.pr.new/biomejs/biome/@biomejs/biome@f447e087be6dabc6fac94435e2024513da9b4771",
-          "@lucide/astro": "1.58.0",
+          "@lucide/astro": "1.59.0",
           "@tailwindcss/vite": "4.3.3",
           "astro": "7.4.0",
           "tailwindcss": "4.3.3",
