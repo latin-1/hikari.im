@@ -10,7 +10,7 @@ import PageLayout from "../layouts/PageLayout.astro";
   >
     {friends.map((friend) => (
       <a
-        class="flex rounded-2xl bg-white p-2 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
+        class="flex rounded-2xl bg-white p-2 text-sky-700 shadow-xs inset-ring inset-ring-mauve-200 outline-sky-600 transition hover:-translate-y-0.5 hover:shadow-md hover:inset-ring-2 hover:inset-ring-sky-600 focus-visible:focus-ring"
         href={friend.link}
         target="_blank"
         rel="noreferrer"
