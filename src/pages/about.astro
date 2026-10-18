@@ -1,9 +1,9 @@
 ---
 import {
-  Gamepad as GamepadIcon,
-  Laptop as LaptopIcon,
-  Smartphone as SmartphoneIcon,
-  Tablet as TabletIcon,
+  Gamepad2Icon,
+  LaptopIcon,
+  SmartphoneIcon,
+  TabletIcon,
 } from "@lucide/astro";
 import devices from "../data/devices.json" with { type: "json" };
 import socials from "../data/socials.json" with { type: "json" };
@@ -15,7 +15,7 @@ const deviceIcons = {
   laptop: LaptopIcon,
   phone: SmartphoneIcon,
   tablet: TabletIcon,
-  "game-console": GamepadIcon,
+  "game-console": Gamepad2Icon,
 } satisfies Record<DeviceKind, unknown>;
 ---
 
