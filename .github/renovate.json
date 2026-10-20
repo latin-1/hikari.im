@@ -1,7 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>neetly/renovate-config"],
-  "env": {
-    "YARNSW_COREPACK_COMPAT": "1"
-  }
+
+  "extends": ["github>neetly/renovate-config"]
 }
